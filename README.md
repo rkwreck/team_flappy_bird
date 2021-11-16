@@ -2,9 +2,9 @@ Shoutout to the GitHub Support Team for detatching our fork
 
 ## Week 0 Timebox (Meet the Scrum Team) 
 
-## Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
+### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 
-## Contributors: [Link](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+### Contributors: [Link](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 | Name | Role | Profile | Tasks/Issues | Commits | Journal | 
 | :--: | :--: | :-----: | :----------: | :-----: | :-----: | 
