@@ -8,3 +8,4 @@ Shoutout to the GitHub Support Team for detatching our fork
 | Adi | Technical Officer | [adhithi!](https://github.com/adhithin) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/adhithin) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=adhithin) | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Prisha | Primary Designer | [PrishaMaiti](https://github.com/PrishaMaiti) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/PrishaMaiti)| [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=PrishaMaiti) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |  
     
+[Team Insight Graphs for Contributors](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
