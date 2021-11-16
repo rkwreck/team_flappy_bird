@@ -1,5 +1,7 @@
 # Deployment Guide
 
+###Shoutout to the GitHub Support Team for detatching our fork
+
 ## Setting up Java runtime and development
 Java is two pieces, we will need both if you want to run and build 
 ```
