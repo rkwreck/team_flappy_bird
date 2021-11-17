@@ -3,6 +3,7 @@ package com.nighthawk.csa;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.IOException;
 import java.net.URI;
@@ -18,4 +19,12 @@ public class MainController {
     public String adi(Model model) {
         return "adi";
     }
+
+    @GetMapping("/greetChenxin")
+    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        model.addAttribute("name", name);
+        return "greetChenxin";
+    }
+
+
 }
