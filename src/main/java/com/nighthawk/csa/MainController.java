@@ -29,6 +29,10 @@ public class MainController {
         model.addAttribute("name", name);
         return "greetChenxin";
     }
+    @GetMapping("/prisha")
+    public String prisha(Model model) {
+        return "prisha";
+    }
 
 
 }
