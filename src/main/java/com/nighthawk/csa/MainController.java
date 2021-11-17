@@ -1,11 +1,8 @@
 package com.nighthawk.csa;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nighthawk.csa.model.starters.AsciiImage;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.IOException;
 import java.net.URI;
