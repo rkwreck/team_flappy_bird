@@ -19,9 +19,9 @@ public class MainController {
     public String index(Model model) {
         return "index";
     }
-    @GetMapping("/adi")
+    @GetMapping("/greetAdi")
     public String adi(Model model) {
-        return "adi";
+        return "greetAdi";
     }
 
     @GetMapping("/greetChenxin")

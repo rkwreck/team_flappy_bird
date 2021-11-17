@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+  <!-- Start of head content specific to page /
+  <title>GreetAdi</title>
+  -->
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    body{
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <!- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+  <!-- Start of body content specific to page -->
+  <div class="contact">
+    <div class="row justify-content-center">
+      <form action="/greetAdi" method="GET" id="greetForm">
+        <div>
+          <h1 class="pageTitle">About Us</h1>
+          <!--- <h1 style="text-align: center;">ABOUT US</h1> --->
+          <p th:text="'Greetings! My name is Adi.'"></p>
+          <label for="greetField">What's your name?</label>
+          <input name="name" id="greetField">
+          <button class='start-btn'>Greetings!</button>
+          <p th:text="'Hello, ' + ${name} + '!'"></p>
+          <p th:text="'I thrive in computer science by eating dark chocolate raspberry squares and drinking starbucks :)'"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End of body content specific to page -->
+</div></body>
+
+</html>
+
+<!--test-->
