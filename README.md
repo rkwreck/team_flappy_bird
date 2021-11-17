@@ -1,5 +1,7 @@
 Shoutout to the GitHub Support Team for detatching our fork
 
+### Our Purpose: 
+
 ## Week 0 Timebox (Meet the Scrum Team) 
 
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
