@@ -20,7 +20,7 @@ public class MainController {
         return "index";
     }
     @GetMapping("/greetAdi")
-    public String adi(Model model) {
+    public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         return "greetAdi";
     }
 
