@@ -15,6 +15,10 @@ import java.util.HashMap;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
 
+    @GetMapping("/")
+    public String index(Model model) {
+        return "index";
+    }
     @GetMapping("/adi")
     public String adi(Model model) {
         return "adi";
