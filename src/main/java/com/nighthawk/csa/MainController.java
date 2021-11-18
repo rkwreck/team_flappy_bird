@@ -19,6 +19,7 @@ public class MainController {
     public String index(Model model) {
         return "index";
     }
+
     @GetMapping("/greetAdi")
     public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         return "greetAdi";
@@ -29,10 +30,16 @@ public class MainController {
         model.addAttribute("name", name);
         return "greetChenxin";
     }
+
     @GetMapping("/prisha")
     public String prisha(Model model) {
         return "prisha";
     }
 
+
+    @GetMapping("/greetRini")
+    public String greetRini(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        return "greetRini";
+    }
 
 }
