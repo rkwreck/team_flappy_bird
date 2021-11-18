@@ -1,4 +1,4 @@
-package com.nighthawk.csa.data.SQL;
+package com.nighthawk.csa;
 
 
 import com.nighthawk.csa.data.SQL.*;
@@ -25,11 +25,11 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     @Autowired
     private PersonSqlRepository repository;
 
-    @GetMapping("/data/person")
+    @GetMapping("/person")
     public String person(Model model) {
         List<Person> list = repository.listAll();
         model.addAttribute("list", list);
-        return "data/person";
+        return "person";
     }
 
     /*  The HTML template Forms and PersonForm attributes are bound
@@ -45,38 +45,38 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     @param - Person object with @Valid
     @param - BindingResult object
      */
-    @PostMapping("/data/personcreate")
+    @PostMapping("/createPerson")
     public String personSave(@Valid Person person, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
-            return "data/personcreate";
+            return "createPerson";
         }
         repository.save(person);
         // Redirect to next step
-        return "redirect:/data/person";
+        return "redirect:/person";
     }
 
-    @GetMapping("/data/personupdate/{id}")
-    public String personUpdate(@PathVariable("id") int id, Model model) {
+    @GetMapping("updatePerson/{id}")
+    public String updatePerson(@PathVariable("id") int id, Model model) {
         model.addAttribute("person", repository.get(id));
-        return "data/personupdate";
+        return "updatePerson";
     }
 
-    @PostMapping("/data/personupdate")
-    public String personUpdateSave(@Valid Person person, BindingResult bindingResult) {
+    @PostMapping("personupdate")
+    public String saveUpdatePerson(@Valid Person person, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
-            return "data/personupdate";
+            return "updatePerson";
         }
         repository.save(person);
         // Redirect to next step
-        return "redirect:/data/person";
+        return "redirect:/person";
     }
 
-    @GetMapping("/data/persondelete/{id}")
+    @GetMapping("/deletePerson/{id}")
     public String personDelete(@PathVariable("id") long id) {
         repository.delete(id);
-        return "redirect:/data/person";
+        return "redirect:/person";
     }
 
     /*
@@ -95,7 +95,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     GET individual Person using ID
      */
-    @RequestMapping(value = "/api/person/get/{id}")
+    @RequestMapping(value = "/person/get/{id}")
     public ResponseEntity<Person> getPerson(@PathVariable long id) {
         return new ResponseEntity<>( repository.get(id), HttpStatus.OK);
     }
@@ -103,7 +103,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     DELETE individual Person using ID
      */
-    @RequestMapping(value = "/api/person/delete/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/person/delete/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Object> deletePerson(@PathVariable long id) {
         repository.delete(id);
         return new ResponseEntity<>( ""+ id +" deleted", HttpStatus.OK);

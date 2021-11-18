@@ -7,7 +7,7 @@
 
 <!-- <head> -->
 <div layout:fragment="head" th:remove="tag">
-    <title>Person Form</title>
+    <title>Person Update</title>
 </div>
 
 <!-- <body> -->
@@ -16,21 +16,20 @@
     <div class="container">
 
         <div class="row justify-content-md-center">
-            <h2>Welcome, Enter the new Persons details</h2>
+            <h2>Welcome, Update The Persons Details</h2>
         </div>
 
         <div class="row justify-content-md-center">
             <div class="col8">
                 <div class="jumbotron">
-                    <h3>Create Person</h3>
+                    <h3>Update Person</h3>
                     <!-- ThymeLeaf allows person abject of the Class Person to be acted upon by the form
                          This is known as a “bean-backed form” or "form-backing bean".
                             th:object - the backend form object (bean object)
-                         There are fields in the Person bean
+                         There are two fields in the Person bean,
                             th:field="*{name}"
-                            th:field="*{age}"
-                            th:field="*{dob}"
-                         Each field has supporting line to show errors in validation
+                            th:field="*{age}".
+                         Each field has supporting line for to show errors in validation
                             th:errors - form input errors added when validation errors occur
                          Reference for CRUD
                             https://www.baeldung.com/spring-boot-crud-thymeleaf
@@ -39,28 +38,31 @@
                          Reference Bootstrap Form
                             https://getbootstrap.com/docs/4.0/components/forms/#readonly-plain-text
                      -->
-                    <form class="form-inline" action="#" th:action="@{/createPerson}" th:object="${person}" method="POST">
+                    <form class="form-inline" action="#" th:action="@{/data/personupdate}" th:object="${person}" method="POST">
+                        <div class="form-group mb-2 mr-sm-2">
+                            <label for="id">ID:</label>
+                            <input type="text" th:field="*{id}" id="id" readonly class="form-control-plaintext" >
+                        </div>
                         <div class="form-group mb-2 mr-sm-2">
                             <label for="email">Email:</label>
-                            <input type="email" th:field="*{email}" id="email">
+                            <input type="email" th:field="*{email}" id="email" >
                             <small th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</small>
                         </div>
-                        <div class="input-group mb-2 mr-sm-2">
+                        <div class="form-group mb-2 mr-sm-2">
                             <label for="name">Name:</label>
                             <input type="text" th:field="*{name}" id="name">
                             <small th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</small>
                         </div>
-                        <div class="input-group mb-2 mr-sm-2">
+                        <div class="form-group mb-2 mr-sm-2">
                             <label for="dob">Birth Date:</label>
                             <input type="date" th:field="*{dob}" id="dob">
                             <small th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">Birth Date Error</small>
                         </div>
-                        <button type="submit" class="btn btn-primary">Add</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
                     </form>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
