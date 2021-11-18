@@ -6,12 +6,12 @@
       layout:decorate="~{layout}" lang="en">
 
 <!-- <head> -->
-<div layout:fragment="head" th:remove="tag">
+<div layout:fragment="metadata" th:remove="tag">
     <title>Person Form</title>
 </div>
 
 <!-- <body> -->
-<div layout:fragment="body" th:remove="tag">
+<div layout:fragment="content" th:remove="tag">
     <!-- Page specific body additions -->
     <div class="container">
 
@@ -42,18 +42,14 @@
                     <form class="form-inline" action="#" th:action="@{/createPerson}" th:object="${person}" method="POST">
                         <div class="form-group mb-2 mr-sm-2">
                             <label for="email">Email:</label>
-                            <input type="email" th:field="*{email}" id="email">
-                            <small th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</small>
-                        </div>
+                           </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="name">Name:</label>
-                            <input type="text" th:field="*{name}" id="name">
-                            <small th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</small>
-                        </div>
+                           </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="dob">Birth Date:</label>
-                            <input type="date" th:field="*{dob}" id="dob">
-                            <small th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">Birth Date Error</small>
+                            <input> hi </input>
+        
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
