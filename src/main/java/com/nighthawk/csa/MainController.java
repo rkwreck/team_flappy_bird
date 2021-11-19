@@ -5,13 +5,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.util.HashMap;
-
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
 
@@ -31,9 +24,9 @@ public class MainController {
         return "greetChenxin";
     }
 
-    @GetMapping("/prisha")
-    public String prisha(Model model) {
-        return "prisha";
+    @GetMapping("/greetPrisha")
+    public String greetPrisha(Model model) {
+        return "greetPrisha";
     }
 
 
