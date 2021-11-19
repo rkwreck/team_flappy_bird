@@ -25,7 +25,8 @@ public class MainController {
     }
 
     @GetMapping("/greetPrisha")
-    public String greetPrisha(Model model) {
+    public String greetingPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        model.addAttribute("name", name);
         return "greetPrisha";
     }
 
