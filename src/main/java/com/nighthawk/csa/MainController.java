@@ -21,7 +21,7 @@ public class MainController {
     }
 
     @GetMapping("/greetAdi")
-    public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+    public String greetAdi(Model model) {
         return "greetAdi";
     }
 

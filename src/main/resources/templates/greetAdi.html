@@ -30,9 +30,9 @@
 
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
-  <div class="contact">
+  <div class="contact w3-teal">
     <div class="row justify-content-center w3-teal">
-      <form action="/greetAdi" method="GET" id="greetForm">
+     
         <div>
           <h1 class="pageTitle w3-teal">About Adi</h1>
           <!--- <h1 style="text-align: center;">ABOUT US</h1> --->
@@ -44,7 +44,7 @@
         </div>
 
         <!-- database of people who have said hi -->
-      </form>
+      
 
       <div class="w3-teal">
         <!-- Page specific body additions -->
@@ -53,6 +53,7 @@
             <div class="row justify-content-md-center">
                 <h1>Adi's Friend List</h1>
             </div>
+
             <div class="row justify-content-md-center">
                 <a th:href="@{/createPerson/}"> Add your name to the friend list! </a>
             </div>

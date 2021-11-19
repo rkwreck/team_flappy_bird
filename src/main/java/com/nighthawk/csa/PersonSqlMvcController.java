@@ -53,7 +53,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         }
         repository.save(person);
         // Redirect to next step
-        return "redirect:/person";
+        return "redirect:/greetAdi";
     }
 
     @GetMapping("updatePerson/{id}")
@@ -62,7 +62,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         return "updatePerson";
     }
 
-    @PostMapping("personupdate")
+    @PostMapping("updatePerson")
     public String saveUpdatePerson(@Valid Person person, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
@@ -70,13 +70,13 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         }
         repository.save(person);
         // Redirect to next step
-        return "redirect:/person";
+        return "redirect:/greetAdi";
     }
 
     @GetMapping("/deletePerson/{id}")
     public String personDelete(@PathVariable("id") long id) {
         repository.delete(id);
-        return "redirect:/person";
+        return "redirect:/greetAdi";
     }
 
     /*
