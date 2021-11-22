@@ -23,6 +23,11 @@ public class MainController {
         return "ourPurpose";
     }
 
+    @GetMapping("/aboutus")
+    public String aboutus(Model model) {
+        return "aboutus";
+    }
+
     @GetMapping("/games")
     public String games(Model model) {
         return "games";

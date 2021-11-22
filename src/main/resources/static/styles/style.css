@@ -73,3 +73,29 @@ body {
     opacity: 0.7;
 }
 
+.thumbnail-grid ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumbnail-grid li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.thumbnail-grid .description {
+    position: relative;
+}
+
+.thumbnail-grid .overlay {
+    transition: 1s all;
+}
+
+.thumbnail-grid img {
+    display: block; /* Get rid of tiny space below images */
+    margin-bottom: .3em;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
