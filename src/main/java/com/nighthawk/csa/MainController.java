@@ -13,6 +13,26 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping("/home")
+    public String home(Model model) {
+        return "home";
+    }
+
+    @GetMapping("/ourPurpose")
+    public String ourPurpose(Model model) {
+        return "ourPurpose";
+    }
+
+    @GetMapping("/games")
+    public String games(Model model) {
+        return "games";
+    }
+
+    @GetMapping("/game1")
+    public String game1(Model model) {
+        return "game1";
+    }
+
     @GetMapping("/greetAdi")
     public String greetAdi(Model model) {
         return "greetAdi";

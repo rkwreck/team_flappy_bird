@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="commonhead">
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link th:href="@{/styles/style.css}" rel="stylesheet" />
+  <link th:href="@{/styles/menu.css}" rel="stylesheet" />
+</head>
+
+<script>
+  function closeOverlayMenu() {
+    let chkBtn = document.getElementById('OverlayMenuClickBtn');
+    if(chkBtn.checked == true) {
+      chkBtn.checked = false;
+    }
+  }
+</script>
+
+<body>
+
+<div th:fragment="overlaymenu">
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler" id="OverlayMenuClickBtn">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <!-- <li><button onclick="document.getElementById('OverlayMenuClickBtn').checked = false;">Home</button></li> -->
+            <li><a href="/" onclick="closeOverlayMenu();">Home</a></li>
+            <li><a href="games">Games</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="ourPurpose" onclick="closeOverlayMenu();">Our Purpose</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div th:fragment="header">
+  <h1>Thymeleaf Fragments sample</h1>
+</div>
+<p>Go to the next page to see fragments in action</p>
+<aside>
+  <div>This is a sidebar</div>
+</aside>
+<div class="another">This is another sidebar</div>
+
+<footer th:fragment="footer">
+  <a th:href="@{/fragments}">Fragments Index</a> |
+  <a th:href="@{/markup}">Markup inclusion</a> |
+  <a th:href="@{/params}">Fragment params</a> |
+  <a th:href="@{/other}">Other</a>
+</footer>
+
+</body>
+
+</html>
