@@ -38,6 +38,16 @@ public class MainController {
         return "game1";
     }
 
+    @GetMapping("/game2")
+    public String game2(Model model) {
+        return "game2";
+    }
+
+    @GetMapping("/game3")
+    public String game3(Model model) {
+        return "game3";
+    }
+
     @GetMapping("/greetAdi")
     public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
