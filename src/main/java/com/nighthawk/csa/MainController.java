@@ -13,8 +13,44 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping("/home")
+    public String home(Model model) {
+        return "home";
+    }
+
+    @GetMapping("/ourPurpose")
+    public String ourPurpose(Model model) {
+        return "ourPurpose";
+    }
+
+    @GetMapping("/aboutus")
+    public String aboutus(Model model) {
+        return "aboutus";
+    }
+
+    @GetMapping("/games")
+    public String games(Model model) {
+        return "games";
+    }
+
+    @GetMapping("/game1")
+    public String game1(Model model) {
+        return "game1";
+    }
+
+    @GetMapping("/game2")
+    public String game2(Model model) {
+        return "game2";
+    }
+
+    @GetMapping("/game3")
+    public String game3(Model model) {
+        return "game3";
+    }
+
     @GetMapping("/greetAdi")
-    public String greetAdi(Model model) {
+    public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        model.addAttribute("name", name);
         return "greetAdi";
     }
 
@@ -25,7 +61,7 @@ public class MainController {
     }
 
     @GetMapping("/greetPrisha")
-    public String greetingPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+    public String greetPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
         return "greetPrisha";
     }
@@ -33,6 +69,7 @@ public class MainController {
 
     @GetMapping("/greetRini")
     public String greetRini(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        model.addAttribute("name", name);
         return "greetRini";
     }
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+    <title>Games</title>
+</head>
+<body>
+
+<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+
+<style>
+    .wrapper {
+
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 160px;
+        grid-gap: 10px;
+        color: steelblue;
+    }
+    .box {
+        background-color: lightskyblue;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 100%;
+        max-height: 160px;
+    }
+    img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .description {
+        padding: 10px;
+    }
+</style>
+
+<header class="showcase">
+    <div class="container showcase-inner">
+        <h1>Games</h1>
+        <p>We have 3 games here.</p>
+        <p>Click to play!</p>
+
+        <div class="wrapper">
+
+            <div class="box">
+                <img src="/images/java_logo.png"/>
+                <a href="game1" class="btn">Game 1</a>
+            </div>
+
+            <div class="box">
+                <img src="/images/java_logo.png"/>
+                <a href="game2" class="btn">Game 2</a>
+            </div>
+
+            <div class="box">
+                <img src="/images/java_logo.png"/>
+                <a href="game3" class="btn">Game 3</a>
+            </div>
+
+        </div>
+
+    </div>
+</header>

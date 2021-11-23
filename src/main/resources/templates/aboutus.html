@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+    <link th:href="@{/styles/reset.css}" rel="stylesheet" />
+    <title>About Us</title>
+</head>
+<body>
+
+<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+
+<style>
+    .wrapper {
+
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 160px;
+        grid-gap: 10px;
+        color: steelblue;
+    }
+    .box {
+        background-color: lightskyblue;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 100%;
+        max-height: 160px;
+    }
+    img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .description {
+        padding: 10px;
+    }
+</style>
+
+
+<header class="showcase">
+    <div class="container showcase-inner">
+        <h1>About Us</h1>
+        <div class="wrapper">
+
+            <div class="box">
+                <img src="/images/prisha_profile.jpg"/>
+                <a href="/greetPrisha">
+                    <p style="color: dodgerblue">Prisha Maiti</p>
+                </a>
+            </div>
+            <div class="box">
+                <img src="/images/bulb_off.png"/>
+                <a href="/greetRini">
+                    <p style="color: dodgerblue">Rini Khandelwal</p>
+                </a>
+            </div>
+            <div class="box">
+                <img src="/images/bulb_off.png"/>
+                <a href="/greetChenxin">
+                    <p style="color: dodgerblue">Chenxin Ni</p>
+                </a>
+            </div>
+            <div class="box">
+                <img src="/images/bulb_off.png"/>
+                <a href="/greetAdi">
+                    <p style="color: dodgerblue">Adi</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
