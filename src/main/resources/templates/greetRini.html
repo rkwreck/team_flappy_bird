@@ -1,98 +1,24 @@
-<!DOCTYPE HTML>
-
-<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
-
-<head><div layout:fragment="metadata" th:remove="tag">
-    <!-- Start of head content specific to page /
-    <title>GreetRini</title>
-    -->
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        body{
-            text-align: center;
-            align-items: center;
-            align-content: center;
-        }
-        html, body {
-            width: 100%;
-            height: 100%;
-        }
-
-    </style>
-    <!- End of head content specific to page -->
-</div></head>
-
-<body><div layout:fragment="content" th:remove="tag">
-    <!-- Start of body content specific to page -->
-    <div class="contact">
-        <div class="row justify-content-center w3-teal">
-            <form action="/greetRini" method="GET" id="greetForm">
-                <div>
-                    <h1 class="pageTitle w3-teal">About Rini</h1>
-                    <!--- <h1 style="text-align: center;">ABOUT US</h1> --->
-
-                    <h3 th:text="'I love ice cream and my favorite subject is science!! :D'"></h3>
-
-
-                    <!---<a href="https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6"> View my journal for AP Computer Science Resources! </a>
-                </div> --->
-
-                <!-- database of people who have said hi -->
-            </form>
-
-            <div class="w3-teal">
-                <!-- Page specific body additions -->
-                <div class="container">
-
-                    <div class="row justify-content-md-center">
-                        <h1>Rini's Friend List</h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <a th:href="@{/createPerson/}"> Add your name to the friend list! </a>
-                    </div>
-
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Email</th>
-                            <th>Friend</th>
-                            <th>Age</th>
-                            <th>Action</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr th:each="person : ${list}">
-                            <td th:text="${person.id}">Person ID</td>
-                            <td th:text="${person.email}">Birth Date</td>
-                            <td th:text="${person.name}">Name</td>
-                            <td th:if="${person.getAge() != -1}" th:text="${person.getAge()}">Age</td>
-                            <td th:unless="${person.getAge() != -1}" th:text="Unknown">Unknown Age</td>
-                            <td>
-                                <a th:href="@{updatePerson/{id}(id = ${person.id})}">Update</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End of body content specific to page -->
-</div></body>
-
-</html>
-
-<!--test--></title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+    <title>Games</title>
 </head>
 <body>
 
-</body>
-</html>
+<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+
+<header class="showcase">
+    <div class="container showcase-inner">
+        <h1>Rini's Individual Home Page</h1>
+        <p th:text="'Greetings! My name is Rini.'"></p>
+        <form action="/greetRini" method="GET" id="greetForm">
+            <label for="greetField">What's your name?</label>
+            <input name="name" id="greetField">
+            <button class='start-btn'>Greetings!</button>
+            <p th:text="'Hello, ' + ${name} + '!'"></p>
+            <p th:text="'I love ice cream and my favorite subject is science!! :D'"></p>
+        </form>
+    </div>
+</header>

@@ -39,7 +39,8 @@ public class MainController {
     }
 
     @GetMapping("/greetAdi")
-    public String greetAdi(Model model) {
+    public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        model.addAttribute("name", name);
         return "greetAdi";
     }
 
@@ -58,6 +59,7 @@ public class MainController {
 
     @GetMapping("/greetRini")
     public String greetRini(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+        model.addAttribute("name", name);
         return "greetRini";
     }
 
