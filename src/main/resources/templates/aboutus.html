@@ -10,59 +10,54 @@
 
 <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
+<style>
+    .wrapper {
+
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 160px;
+        grid-gap: 10px;
+        color: steelblue;
+    }
+    .box {
+        background-color: lightskyblue;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 100%;
+        max-height: 160px;
+    }
+    img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .description {
+        padding: 10px;
+    }
+</style>
+
+<script>
+    function showPagePrisha() {
+        let desc_div = document.getElementById('description');
+        desc_div.html('<object data="greetPrisha.html"/>');
+    }
+</script>
+
 <header class="showcase">
     <div class="container showcase-inner">
         <h1>About Us</h1>
-        <section class="thumbnail-grid">
-            <ul>
-                <li>
-                    <a href="#" title="Click to see more">
-                        <figure>
-                            <div class="thumbnail">
-                                <span class="overlay">View</span>
-                                <img src="bulb_off.jpg" alt="Student" />
-                                <figcaption>
-                                    <p class="description">Prisha Maiti
-                                        <span class="price">Grade 11</span>
-                                    </p>
-                                </figcaption>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
+        <div class="wrapper">
 
-                <li>
-                    <a href="#" title="Click to see more">
-                        <figure>
-                            <div class="thumbnail">
-                                <span class="overlay">View</span>
-                                <img src="bulb_off.jpg" alt="Student" />
-                                <figcaption>
-                                    <p class="description">Prisha Maiti
-                                        <span class="price">Grade 11</span>
-                                    </p>
-                                </figcaption>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
+            <div class="box">
+                <img src="/images/prisha_profile.jpg"/>
+                <a href="/greetPrisha">
+                    <p style="color: dodgerblue">Prisha Maiti</p>
+                </a>
+            </div>
 
-                <li>
-                    <a href="#" title="Click to see more">
-                        <figure>
-                            <div class="thumbnail">
-                                <span class="overlay">View</span>
-                                <img src="bulb_off.jpg" alt="Student" />
-                                <figcaption>
-                                    <p class="description">Prisha Maiti
-                                        <span class="price">Grade 11</span>
-                                    </p>
-                                </figcaption>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-            </ul>
-        </section>
+            <div class="box">B</div>
+            <div class="box">C</div>
+            <div class="box">D</div>
+        </div>
     </div>
 </header>

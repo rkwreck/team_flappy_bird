@@ -50,7 +50,7 @@ public class MainController {
     }
 
     @GetMapping("/greetPrisha")
-    public String greetingPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+    public String greetPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
         return "greetPrisha";
     }
