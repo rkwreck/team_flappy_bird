@@ -1,6 +1,6 @@
 Shoutout to the GitHub Support Team for detatching our fork
 
-### Our Purpose: Developing minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science
+### Our Purpose: Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science
 
 ## Week 0 Timebox (Meet the Scrum Team) 
 
