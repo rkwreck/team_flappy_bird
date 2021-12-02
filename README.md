@@ -8,7 +8,7 @@ Shoutout to the GitHub Support Team for detatching our fork
 | :--: | :-------------: | :-------: |
 | Rini | Github and Scrum Board | [Github BOF](https://github.com/rkwreck/team_flappy_bird/wiki/BOF-Github-Policy-Document-(Tech-Talk-0.3)) and [Scrum BOF](https://github.com/rkwreck/team_flappy_bird/wiki/BOF-Scrum-Masters-(Tech-Talk-0.2)) |
 | Chenxin | Deployment Guide | [Deployment BOF](https://github.com/rkwreck/team_flappy_bird/wiki/Deployment-Guide-(Tech-Talk-0.4)) |
-| Adi | Technical Key Ideas | [Technical BOF]() |
+| Adi | Technical Key Ideas | [Technical BOF](https://github.com/rkwreck/team_flappy_bird/wiki/Wireframes#technical-key-ideas) |
 | Prisha | Wireframe and Brain Write | [Wireframe BOF](https://github.com/rkwreck/team_flappy_bird/wiki/Wireframes) |
 
 ## Week 0 Timebox (Meet the Scrum Team) 
