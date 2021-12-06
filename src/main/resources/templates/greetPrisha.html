@@ -12,12 +12,12 @@
 <header class="showcase">
     <div class="container showcase-inner">
         <h1>Prisha's Individual Home Page</h1>
-        <p th:text="'Greetings! My name is Prisha.'"></p>
         <form action="/greetPrisha" method="GET" id="greetForm">
-            <label for="greetField">What's your name?</label>
+            <p><label for="greetField">What's your name?</label></p>
             <input name="name" id="greetField">
             <button class='start-btn'>Greetings!</button>
-            <p th:text="'Hello, ' + ${name} + '!'"></p>
+            <p th:text="'Hello, ' + ${name} + '! My name is Prisha.'"></p>
+            <br>
             <p>I am a junior taking AP Computer Science A. I want to make the most out of my life and have fun coding!</p>
             <p>Age: 16</p>
             <p>Role in Team: Primary Designer</p>
