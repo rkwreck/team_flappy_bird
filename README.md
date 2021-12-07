@@ -2,6 +2,14 @@ Shoutout to the GitHub Support Team for detatching our fork
 
 ### Our Purpose: Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science
 
+## Week 2 Timebox (Home Pages) 
+| Name | Home Page |  Journal |
+| :--: | :-------: | :------: |
+| Rini | Home Page Link | journal |
+| Chenxin | Home Page Link | journal |
+| Adi | Home Page Link | journal |
+| Prisha | Home Page Link | journal |
+
 ## Week 1 Timebox (Project Approval)
 
 | Name | Role Assignment (BOF) | Wiki Link | 
