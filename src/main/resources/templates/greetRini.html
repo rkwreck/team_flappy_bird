@@ -5,8 +5,32 @@
     <div th:replace="fragments/overlaymenu :: commonhead">...</div>
     <title>Games</title>
 </head>
-<body>
 
+<!--- change the colors of the links
+<style>
+    a:link {
+        color: aliceblue;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    /*a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }*/
+    a:hover {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    /*a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }*/
+</style> -->
+
+<body>
 <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
 <header class="showcase">
@@ -15,12 +39,14 @@
         <form action="/greetRini" method="GET" id="greetForm">
             <p><label for="greetField">What's your name?</label></p>
             <input name="name" id="greetField">
-            <button class='start-btn'>Greetings!</button>
+            <!--- <button class='start-btn'>Greetings!</button> -->
+            <button class='btn'>Greetings!</button>
             <p th:text="'Hello, ' + ${name} + '! My name is Rini.'"></p>
             <br>
             <p>I am a sophmore taking AP Computer Science A. Some fun facts about me are that I love ice cream, and my favorite subject is science! :D</p>
             <p>Age: 16</p>
             <p>Role in Team: Scrum Master & Github Admin</p>
+            <a href="https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing" class="btn">My Work</a>
         </form>
     </div>
 </header>
