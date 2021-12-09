@@ -73,5 +73,4 @@ public class MainController {
         return "greetRini";
 
     }
-
 }
