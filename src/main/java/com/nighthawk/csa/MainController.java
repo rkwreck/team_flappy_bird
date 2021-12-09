@@ -1,9 +1,19 @@
 package com.nighthawk.csa;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import java.io.IOException;
+
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
@@ -54,11 +64,36 @@ public class MainController {
         return "greetAdi";
     }
 
+    /**
     @GetMapping("/greetChenxin")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
         return "greetChenxin";
     }
+     */
+
+    @GetMapping("/greetChenxin")
+    public String stock(@RequestParam(name="sym", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {
+        String rapidapiurl = "https://free-to-play-games-database.p.rapidapi.com/api/game?id=" + name;
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(rapidapiurl))
+                .header("x-rapidapi-host", "free-to-play-games-database.p.rapidapi.com")
+                .header("x-rapidapi-key", "f8edd9e91fmsh4ba8ab5c12046e4p120635jsn54ceca15e244")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        var map = new ObjectMapper().readValue(response.body(), HashMap.class);
+
+        model.addAttribute("data", map);
+        model.addAttribute("game", map.get("title"));
+        model.addAttribute("explain", map.get("short_description"));
+        model.addAttribute("genre", map.get("genre"));
+        model.addAttribute("publisher", map.get("publisher"));
+        model.addAttribute("date", map.get("release_date"));
+
+        return "greetChenxin";
+    }
+
 
     @GetMapping("/greetPrisha")
     public String greetPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
