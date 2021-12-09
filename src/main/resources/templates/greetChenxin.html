@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+       lang="en">
 <head>
-  <meta charset="UTF-8">
   <div th:replace="fragments/overlaymenu :: commonhead">...</div>
   <title>Games</title>
 </head>
@@ -11,16 +11,32 @@
 
 <header class="showcase">
   <div class="container showcase-inner">
-    <h1>Chenxin's Individual Home Page</h1>
-    <form action="/greetChenxin" method="GET" id="greetForm">
-      <p><label for="greetField">What's your name?</label></p>
+    <h1>Chenxin (Deployment Manager)</h1>
+    <p th:text="'Greetings! My name is Chenxin.'"></p>
+    <p th:text="'I am a junior taking AP Computer Science A. I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
+    <p>Age: 16</p>
+    <p>Role in Team: Deployment Manager</p>
+    <button type="button" class="btn" onclick="window.location.href='https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing';">Individual Journal</button>
+    <!--<form action="/greetChenxin" method="GET" id="greetForm">
+      <label for="greetField">What's your name?</label>
       <input name="name" id="greetField">
-      <button class='start-btn'>Greetings!</button>
-      <p th:text="'Hello, ' + ${name} + '! My name is Chenxin.'"></p>
-      <br>
-      <p th:text="'I am a junior taking AP Computer Science A. I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
-      <p>Age: 16</p>
-      <p>Role in Team: Deployment Manager</p>
+      <button class="btn">Greetings!</button>
+      <p th:text="'Hello, ' + ${name} + '!'"></p>
+    </form> -->
+    <br>
+    <form action="/greetChenxin" method="GET" id="freeapi">
+      <div class="container">
+        <h1 style="text-align: center;">Get Free-to-play game info</h1>
+        <label for="freeapi">Input game ID:</label>
+        <input name="sym" id="sym">
+        <button>Search</button>
+      </div>
     </form>
+    <br>
+    <p>Name: <span th:text="${game}"></span></p>
+    <br>
+    <p>Genre: <span th:text="${genre}"></span></p>
   </div>
 </header>
+</body>
+</html>
