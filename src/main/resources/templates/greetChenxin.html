@@ -11,11 +11,11 @@
 
 <header class="showcase">
   <div class="container showcase-inner">
-    <h1 style="font-family: 'Courier New'">Chenxin (Deployment Manager)</h1>
-    <p style="font-family: 'Courier New'" th:text="'Greetings! My name is Chenxin.'"></p>
-    <p style="font-family: 'Courier New'" th:text="'I am a junior taking AP Computer Science A. I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
-    <p style="font-family: 'Courier New'">Age: 16</p>
-    <p style="font-family: 'Courier New'">Role in Team: Deployment Manager</p>
+    <h1>Chenxin (Deployment Manager)</h1>
+    <p th:text="'Greetings! My name is Chenxin.'"></p>
+    <p th:text="'I am a junior taking AP Computer Science A. I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
+    <p>Age: 16</p>
+    <p>Role in Team: Deployment Manager</p>
     <button type="button" class="btn" onclick="window.location.href='https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing';">Individual Journal</button>
     <!--<form action="/greetChenxin" method="GET" id="greetForm">
       <label for="greetField">What's your name?</label>
@@ -26,16 +26,16 @@
     <br>
     <form action="/greetChenxin" method="GET" id="freeapi">
       <div class="container">
-        <h1 style="font-family: 'Courier New'"> "text-align: center;">Get Free-to-play Game Info!</h1>
-        <label for="freeapi" style="font-family: 'Courier New'">Input game ID:</label>
+        <h1 style="text-align: center;">Get Free-to-play game info</h1>
+        <label for="freeapi">Input game ID:</label>
         <input name="sym" id="sym">
         <button>Search</button>
       </div>
     </form>
     <br>
-    <p style="font-family: 'Courier New'">Name: <span th:text="${game}"></span></p>
+    <p>Name: <span th:text="${game}"></span></p>
     <br>
-    <p style="font-family: 'Courier New'">Genre: <span th:text="${genre}"></span></p>
+    <p>Genre: <span th:text="${genre}"></span></p>
   </div>
 </header>
 </body>
