@@ -21,6 +21,35 @@
             <p th:text="'I am a senior taking AP Computer Science A. I thrive in computer science by eating dark chocolate raspberry squares and drinking starbucks :)'"></p>
             <p>Age: 17</p>
             <p>Role in Team: Technical Officer</p>
+
+            <div class="row justify-content-md-center">
+                <a th:href="@{/createPerson/}">Create Person</a>
+            </div>
+    
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Person</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="person : ${list}">
+                    <td th:text="${person.id}">Person ID</td>
+                    <td th:text="${person.email}">Birth Date</td>
+                    <td th:text="${person.name}">Name</td>
+                    <td th:if="${person.getAge() != -1}" th:text="${person.getAge()}">Age</td>
+                    <td th:unless="${person.getAge() != -1}" th:text="Unknown">Unknown Age</td>
+                    <td>
+                        <a th:href="@{/updatePerson/{id}(id = ${person.id})}">Update</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+    
         </form>
     </div>
 </header>
