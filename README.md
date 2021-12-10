@@ -6,12 +6,12 @@ Shoutout to the GitHub Support Team for detatching our fork
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 2 Timebox (Home Pages) 
-| Name | Home Page |  Journal |
+| Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
-| Rini | Home Page Link | journal |
-| Chenxin | Home Page Link | journal |
-| Adi | Home Page Link | journal |
-| Prisha | Home Page Link | journal |
+| Rini | Home Page Link | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
+| Chenxin | Home Page Link | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) |
+| Adi | Home Page Link | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6 |
+| Prisha | Home Page Link | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
 
 ## Week 1 Timebox (Project Approval)
 
