@@ -78,17 +78,10 @@ public String friend(@RequestParam(name="name", required=false, defaultValue="Ta
     friend friend8 = new friend();
     friend friend9 = new friend();
 
-    friend1.addFriend("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01");
-    friend2.addFriend("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01");
-    friend3.addFriend("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01");
-    friend1.addFriend("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01");
-    friend2.addFriend("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01");
-    friend3.addFriend("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01");
-    friend1.addFriend("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01");
-    friend2.addFriend("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01");
-    friend3.addFriend("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01");
-
-
+    friend1.addFriend("Robert", "soccer player", "dec 21", "19");
+    friend2.addFriend("Kendall", "eats chocolate to survive", "march 4", "17");
+    friend3.addFriend("Elizabeth", "coder and scientist", "june 9", "18");
+   
     ArrayList<friend> list = new ArrayList<>();
     list.add(friend1);
     list.add(friend2);

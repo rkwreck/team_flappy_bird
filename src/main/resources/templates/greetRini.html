@@ -49,7 +49,10 @@
         <p style="font-family: 'Courier New'">Age: 16</p>
         <p style="font-family: 'Courier New'">Role in Team: Scrum Master & Github Admin</p>
         <a href="https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing" class="btn" style="font-family: 'Courier New'">My Work</a>
-        <form action="/greetRini" method="GET" id="songapi">
+        <div class="row justify-content-md-center">
+            <a th:href="@{/friends/}"> Add Friends</a>
+        </div>
+         <form action="/greetRini" method="GET" id="songapi">
             <div class="container">
                 <h1 style="text-align: center; font-family: 'Courier New'">Song info</h1>
                 <label for="songapi">Input artist's last name:</label>
