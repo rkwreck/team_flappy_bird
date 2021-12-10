@@ -101,11 +101,27 @@ public class MainController {
         return "greetPrisha";
     }
 
-
     @GetMapping("/greetRini")
-    public String greetRini(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+    public String greetRini(@RequestParam(name="name", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {
+        /*String rapidapiurl = "https://rapidapi.com/brianiswu/api/genius/" + name;
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://genius.p.rapidapi.com/artists/16775/songs"))
+                .header("x-rapidapi-host", "genius.p.rapidapi.com")
+                .header("x-rapidapi-key", "1921f2f385msh8c6d68cf81b3011p18ec0ejsn3bb209316b36")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        var map = new ObjectMapper().readValue(response.body(), Hashmap.class);
+
+        model.addAttribute("data", map);
+        model.addAttribute("song title", map.get("full_title"));
+        model.addAttribute("artist name", map.get("name"));
+        model.addAttribute("song link", map.get("url"));
+        model.addAttribute("song cover art", map.get("song_art_image_thumbnail_url")); */
+
         model.addAttribute("name", name);
         return "greetRini";
-
     }
 }
+
+
