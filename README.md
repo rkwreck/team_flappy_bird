@@ -6,6 +6,7 @@ Shoutout to the GitHub Support Team for detatching our fork
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 2 Timebox (Home Pages) 
+Image previews of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Images))
 | Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
 | Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetRini.html) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
