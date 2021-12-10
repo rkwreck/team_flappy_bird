@@ -73,7 +73,7 @@ public class MainController {
      */
 
     @GetMapping("/greetChenxin")
-    public String stock(@RequestParam(name="sym", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {
+    public String api(@RequestParam(name="sym", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {
         String rapidapiurl = "https://free-to-play-games-database.p.rapidapi.com/api/game?id=" + name;
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(rapidapiurl))
@@ -96,30 +96,38 @@ public class MainController {
 
 
     @GetMapping("/greetPrisha")
-    public String greetPrisha(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String apiPrisha(@RequestParam(name="sym", required=false, defaultValue="Majora") String name, Model model) throws IOException, InterruptedException{
+        String rapidapiurl = "https://the-legend-of-zelda.p.rapidapi.com/games?name=" + name;
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(rapidapiurl))
+                .header("x-rapidapi-host", "the-legend-of-zelda.p.rapidapi.com")
+                .header("x-rapidapi-key", "f8edd9e91fmsh4ba8ab5c12046e4p120635jsn54ceca15e244")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        var pmap = new ObjectMapper().readValue(response.body(), HashMap.class);
+
+        model.addAttribute("map", pmap);
+        model.addAttribute("stuff", pmap.get("data"));
+
         return "greetPrisha";
     }
 
     @GetMapping("/greetRini")
-    public String greetRini(@RequestParam(name="name", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {
-        /*String rapidapiurl = "https://rapidapi.com/brianiswu/api/genius/" + name;
+    public String apRini(@RequestParam(name="sym", required=false, defaultValue="Swift") String name, Model model) throws IOException, InterruptedException{
+        String rapidapiurl = "https://genius.p.rapidapi.com/search?q=" + name;
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://genius.p.rapidapi.com/artists/16775/songs"))
+                .uri(URI.create(rapidapiurl))
                 .header("x-rapidapi-host", "genius.p.rapidapi.com")
-                .header("x-rapidapi-key", "1921f2f385msh8c6d68cf81b3011p18ec0ejsn3bb209316b36")
+                .header("x-rapidapi-key", "f8edd9e91fmsh4ba8ab5c12046e4p120635jsn54ceca15e244")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-        var map = new ObjectMapper().readValue(response.body(), Hashmap.class);
+        var rmap = new ObjectMapper().readValue(response.body(), HashMap.class);
 
-        model.addAttribute("data", map);
-        model.addAttribute("song title", map.get("full_title"));
-        model.addAttribute("artist name", map.get("name"));
-        model.addAttribute("song link", map.get("url"));
-        model.addAttribute("song cover art", map.get("song_art_image_thumbnail_url")); */
+        model.addAttribute("map", rmap);
+        model.addAttribute("stuff", rmap.get("response"));
 
-        model.addAttribute("name", name);
         return "greetRini";
     }
 }

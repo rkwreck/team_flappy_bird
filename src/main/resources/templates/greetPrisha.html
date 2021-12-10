@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+       lang="en">
 <head>
     <meta charset="UTF-8">
     <div th:replace="fragments/overlaymenu :: commonhead">...</div>
     <title>Games</title>
 </head>
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
 <body>
 
 <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
@@ -12,19 +21,34 @@
 <header class="showcase">
     <div class="container showcase-inner">
         <h1>Prisha</h1>
-        <form action="/greetPrisha" method="GET" id="greetForm">
-            <!--- <p style="font-family: 'Courier New'"><label for="greetField">What's your name?</label></p>
-            <input name="name" id="greetField">
-            <button class='start-btn'>Greetings!</button> -->
-            <p style="font-family: 'Courier New'" th:text="'Hello! My name is Prisha.'"></p>
-            <br>
-            <p style="font-family: 'Courier New'">I am a junior taking AP Computer Science A. I want to make the most out of my life and have fun coding!</p>
-            <p style="font-family: 'Courier New'">Age: 16</p>
-            <p style="font-family: 'Courier New">Role in Team: Primary Designer</p>
-            <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn" style="font-family: 'Courier New'">My Journal</a>
+        <br>
+        <p style="font-family: 'Courier New'">I am a junior taking AP Computer Science A. I want to make the most out of my life and have fun coding!</p>
+        <p style="font-family: 'Courier New'">Age: 16</p>
+        <p style="font-family: 'Courier New'">Role in Team: Primary Designer</p>
+        <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn">My Journal</a>
+        <form action="/greetPrisha" method="GET" id="zeldaapi">
+            <div class="container">
+                <h1 style="text-align: center;">Get Legend of Zelda games info</h1>
+                <label for="zeldaapi">Input game name:</label>
+                <input name="sym" id="sym">
+                <button>Search</button>
+            </div>
         </form>
+        <br>
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Developer</th>
+                <th>Release Date</th>
+            </tr>
+            <tr th:each="game : ${map.data}">
+                <td th:text="${game.name}"></td>
+                <td th:text="${game.developer}"></td>
+                <td th:text="${game.released_date}"></td>
+            </tr>
+        </table>
     </div>
 </header>
-    </body>
+</body>
 </html>
 
