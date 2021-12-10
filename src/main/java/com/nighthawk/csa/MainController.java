@@ -59,8 +59,20 @@ public class MainController {
     }
 
     @GetMapping("/greetAdi")
-    public String greetAdi(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String apiAdi(@RequestParam(name="sym", required=false, defaultValue="stomach") String name, Model model) throws IOException, InterruptedException {
+        String rapidapiurl = "https://healthwise.p.rapidapi.com/body/diseases/" + name;
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(rapidapiurl))
+                .header("x-rapidapi-host", "healthwise.p.rapidapi.com")
+                .header("x-rapidapi-key", "f8edd9e91fmsh4ba8ab5c12046e4p120635jsn54ceca15e244")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        var amap = new ObjectMapper().readValue(response.body(), HashMap.class);
+
+        model.addAttribute("map", amap);
+        model.addAttribute("stuff", amap.get("data"));
+
         return "greetAdi";
     }
 
