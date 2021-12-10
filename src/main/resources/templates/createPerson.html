@@ -1,14 +1,11 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
-<html xmlns:layout="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
-
-<!-- <head> -->
-<div layout:fragment="metadata" th:remove="tag">
-    <title>Person Form</title>
-</div>
+<!DOCTYPE html>
+<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+       lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+    <title>Add Friend</title>
+</head>
 
 <!-- <body> -->
 <div layout:fragment="content" th:remove="tag">
@@ -42,14 +39,14 @@
                     <form class="form-inline" action="#" th:action="@{/createPerson}" th:object="${person}" method="POST">
                         <div class="form-group mb-2 mr-sm-2">
                             <label for="email">Email:</label>
-                           </div>
+                        </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="name">Name:</label>
-                           </div>
+                        </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="dob">Birth Date:</label>
                             <input> hi </input>
-        
+
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
