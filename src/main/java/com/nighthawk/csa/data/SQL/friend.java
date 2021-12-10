@@ -57,10 +57,10 @@ public static void main(String[] args) {
 
 @GetMapping("/friends")
 // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-public String friend(@RequestParam(name="name", required=false, defaultValue="Task title") String title,
-                    @RequestParam(name="bio", required=false, defaultValue="Task description") String description,
-                    @RequestParam(name="bday", required = false, defaultValue = "Task details") String details,
-                    @RequestParam(name="age", required = false, defaultValue = "0000-00-00") String date,
+public String friend(@RequestParam(name="name", required=false, defaultValue="Task title") String name,
+                    @RequestParam(name="bio", required=false, defaultValue="Task description") String bio,
+                    @RequestParam(name="bday", required = false, defaultValue = "Task details") String bday,
+                    @RequestParam(name="age", required = false, defaultValue = "00") String age,
                     Model model) {
     // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
     //model.addAttribute("list", taskslist());
