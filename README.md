@@ -10,7 +10,7 @@ Shoutout to the GitHub Support Team for detatching our fork
 | :--: | :-------: | :------: |
 | Rini | Home Page Link | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
 | Chenxin | Home Page Link | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) |
-| Adi | Home Page Link | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6 |
+| Adi | Home Page Link | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Prisha | Home Page Link | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
 
 ## Week 1 Timebox (Project Approval)
