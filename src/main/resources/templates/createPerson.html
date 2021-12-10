@@ -39,6 +39,7 @@
                     <form class="form-inline" action="#" th:action="@{/createPerson}" th:object="${person}" method="POST">
                         <div class="form-group mb-2 mr-sm-2">
                             <label for="email">Email:</label>
+                            <input type="email" th:field="${email}" id="email">
                         </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="name">Name:</label>
