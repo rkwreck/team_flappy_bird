@@ -1,15 +1,19 @@
 Shoutout to the GitHub Support Team for detatching our fork
 
-### Our Purpose: Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science
+### Website URL: flappybird.cf 
 
-Website URL: flappybird.cf 
+_The deployed website currently does not contain all website updates. Last deployed 1/9/21._
+
+### Our Purpose:
+Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science
+
 
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 2 Timebox (Home Pages) 
-Image previews of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Images))
+Image previews of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Images)). Database work commits [here](https://github.com/rkwreck/team_flappy_bird/commit/06954a0a603903ce33cfd3be1c26aaee91f128b7).
 | Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
 | Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetRini.html) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
