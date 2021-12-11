@@ -13,7 +13,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 2 Timebox (Home Pages) 
-Image previews of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Images)). Database work commits [here](https://github.com/rkwreck/team_flappy_bird/commit/06954a0a603903ce33cfd3be1c26aaee91f128b7).
+Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Images)). Database work commits [here](https://github.com/rkwreck/team_flappy_bird/commit/06954a0a603903ce33cfd3be1c26aaee91f128b7).
 | Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
 | Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetRini.html) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
