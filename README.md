@@ -5,7 +5,7 @@ Shoutout to the GitHub Support Team for detatching our fork
 _The deployed website currently does not contain all website updates. Last deployed 1/9/21._
 
 ### Our Purpose:
-Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science
+Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
 
 
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
