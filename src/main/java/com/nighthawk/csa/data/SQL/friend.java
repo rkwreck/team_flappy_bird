@@ -9,6 +9,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import javax.validation.Valid;
+import java.text.SimpleDateFormat;
+import java.util.*;
+
 @Controller
 public class friend implements Serializable{
     String name;
@@ -65,6 +77,9 @@ public String friend(@RequestParam(name="name", required=false, defaultValue="Ta
     // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
     //model.addAttribute("list", taskslist());
 
+    friend friend9 = new friend();
+    friend9.addFriend(name, bio, bday, age);
+    
     friend friend10 = new friend();
     friend10.addFriend(name, bio, bday, age);
 
@@ -76,7 +91,6 @@ public String friend(@RequestParam(name="name", required=false, defaultValue="Ta
     friend friend6 = new friend();
     friend friend7 = new friend();//creating an object of Student
     friend friend8 = new friend();
-    friend friend9 = new friend();
 
     friend1.addFriend("Robert", "soccer player", "dec 21", "19");
     friend2.addFriend("Kendall", "eats chocolate to survive", "march 4", "17");
@@ -98,4 +112,20 @@ public String friend(@RequestParam(name="name", required=false, defaultValue="Ta
     return "friends"; // returns HTML VIEW (greeting)
 
 }
+/** 
+@RequestMapping(value = "/friends", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+public ResponseEntity<Object> friendSearch(RequestEntity<Object> request) {
+
+    // extract term from RequestEntity
+    JSONObject json = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
+    String term = (String) json.get("term");
+
+    // custom JPA query to filter on term
+    List<friend> list = friend.listLikeNative(term);
+
+    // return resulting list and status, error checking should be added
+    return new ResponseEntity<>(list, HttpStatus.OK);
+}
+*/
+
 }
