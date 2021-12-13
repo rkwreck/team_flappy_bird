@@ -10,6 +10,18 @@
 <body>
 <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
+<script th:inline="javascript">
+
+    function changeImageWatermark()
+    {
+        document.getElementById("rini").src="images/rini_masked.png";
+        document.getElementById("chenxin").src="images/prisha_unmasked.png";
+        document.getElementById("prisha").src="images/prisha_masked.png";
+        document.getElementById("adi").src="images/adi_masked.png";
+    }
+
+</script>
+
 <style>
     .wrapper {
 
@@ -40,12 +52,12 @@
     <div class="container showcase-inner">
         <h1>Meet the Team: About Us</h1>
         <p style="font-family: 'Courier New'">Meet Team Flappy Bird, the creators behind this website.</p>
-
+        <input type="button"  onclick="changeImageWatermark();" value="Masked Images">
         <div class="wrapper">
 
             <!--- prisha's pictures & link to individual home page -->
             <div class="box">
-                <img src="/images/prisha_unmasked.jpg"/>
+                <img id="prisha" src="/images/prisha_unmasked.jpg"/>
                 <a href="/greetPrisha">
                     <p style="color: dodgerblue">Prisha Maiti</p>
                 </a>
@@ -53,7 +65,7 @@
 
             <!--- rini's pictures & link to individual home page -->
             <div class="box">
-                <img src="/images/rini_unmasked.png"/>
+                <img id="rini" src="/images/rini_unmasked.png"/>
                 <a href="/greetRini">
                     <p style="color: dodgerblue">Rini Khandelwal</p>
                 </a>
@@ -61,7 +73,7 @@
 
             <!--- chenxin's pictures & link to individual home page -->
             <div class="box">
-                <img src="/images/chenxin_unmasked.jpg"/>
+                <img id="chenxin" src="/images/chenxin_unmasked.jpg"/>
                 <a href="/greetChenxin">
                     <p style="color: dodgerblue">Chenxin Ni</p>
                 </a>
@@ -69,7 +81,7 @@
 
             <!--- adi's pictures & link to individual home page -->
             <div class="box">
-                <img src="/images/adi_unmasked.png"/>
+                <img id="adi" src="/images/adi_unmasked.png"/>
                 <a href="/greetAdi">
                     <p style="color: dodgerblue">Adi NarayanaMurthy</p>
                 </a>

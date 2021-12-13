@@ -36,16 +36,18 @@
                          Reference Bootstrap Form
                             https://getbootstrap.com/docs/4.0/components/forms/#readonly-plain-text
                      -->
-                    <form class="form-inline" action="#" th:action="@{/person}" th:object="${person}" method="POST">
+                    <form class="form-inline" action="#" th:action="@{/createPerson}" th:object="${person}" method="POST">
                         <div class="form-group mb-2 mr-sm-2">
                             <label for="email">Email:</label>
                             <input type="email" th:field="${email}" id="email">
                         </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="name">Name:</label>
+                            <input type="name" th:field="${name}" id="name">
                         </div>
                         <div class="input-group mb-2 mr-sm-2">
                             <label for="dob">Birth Date:</label>
+                            <input type="dob" th:field="${dob}" id="dob">
                             <input> hi </input>
 
                         </div>
