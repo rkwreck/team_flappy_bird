@@ -87,7 +87,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     GET List of People
      */
-    @RequestMapping(value = "/api/people/get")
+    @RequestMapping(value = "/person/get")
     public ResponseEntity<List<Person>> getPeople() {
         return new ResponseEntity<>( repository.listAll(), HttpStatus.OK);
     }
@@ -113,7 +113,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     POST Aa record by Requesting Parameters from URI
      */
-    @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
+    @RequestMapping(value = "/person", method = RequestMethod.POST)
     public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
                                              @RequestParam("name") String name,
                                              @RequestParam("dob") String dobString) {
