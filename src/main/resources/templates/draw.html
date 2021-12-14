@@ -80,11 +80,11 @@
 
             // draw a square
             ctx.beginPath();
-            ctx.moveTo(x, y);
-            ctx.lineTo(x, y+l);
-            ctx.lineTo(x+l, y+l);
-            ctx.lineTo(x+l, y);
-            ctx.lineTo(x, y);
+            ctx.moveTo(x + 256, y + 96);
+            ctx.lineTo(x + 256, y+l + 96);
+            ctx.lineTo(x+l + 256, y+l + 96);
+            ctx.lineTo(x+l + 256, y + 96);
+            ctx.lineTo(x + 256, y + 96);
             ctx.stroke();
         }
         // three actions
