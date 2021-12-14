@@ -13,6 +13,13 @@ Develop minigames to make coding more accessible for people + educate people on 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 3 Timebox 
+Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
+| Name | Journal (FRQ Work) |
+| :--: | :----------------: |
+| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
+| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
 
 ## Week 2 Timebox (Home Pages) 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
