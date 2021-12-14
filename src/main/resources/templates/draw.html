@@ -34,62 +34,64 @@
         const height = canvas.height;
         const unit = 16;   // unit block size
 
+        var x = window. prompt("Enter x coordinate: ");
+        var y = window. prompt("Enter y coordinate: ");
+        var l = window. prompt("Enter length ");
+
 
         // grid based off of width, height
-        function grid(){
-            // color and pen width
-            ctx.strokeStyle = 'white';
-            ctx.lineWidth = 1;
-            // make graph paper look
-            for (let col = 0; col < width; col += unit) {
-                for (let row = 0; row < height; row += unit) {
-                    ctx.strokeRect(col, row, unit, unit);
-                }
+       
+        // color and pen width
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 1;
+        // make graph paper look
+        for (let col = 0; col < width; col += unit) {
+            for (let row = 0; row < height; row += unit) {
+                ctx.strokeRect(col, row, unit, unit);
             }
         }
+        
 
         // axis lines
-        function axis() {
-            // color and pen width
-            ctx.strokeStyle = 'red';
-            ctx.lineWidth = 3;
+        
+        // color and pen width
+        ctx.strokeStyle = 'red';
+        ctx.lineWidth = 3;
 
-            // x & y zero midpoints of grid
-            const x0 = width*.5;
-            const y0 = height*.5;
-            // x-axis
-            ctx.moveTo(0, y0);
-            ctx.lineTo(width, y0);
-            ctx.stroke();
-            // y-axis
-            ctx.moveTo(x0, 0);
-            ctx.lineTo(x0, height);
-            ctx.stroke();
-        }
+        // x & y zero midpoints of grid
+        const x0 = width*.5;
+        const y0 = height*.5;
+        // x-axis
+        ctx.moveTo(0, y0);
+        ctx.lineTo(width, y0);
+        ctx.stroke();
+        // y-axis
+        ctx.moveTo(x0, 0);
+        ctx.lineTo(x0, height);
+        ctx.stroke();
+        
 
         // square using lines
-        function square() {
-            ctx.strokeStyle = 'black';
-            ctx.lineWidth = 5;
+        
+        ctx.strokeStyle = 'black';
+        ctx.lineWidth = 5;
 
-            // starting coordinates
-            const x = unit;
-            const y = unit;
-            // length of sides is 4 units
-            const l = unit*4;
+        // starting coordinates
+        
 
-            // draw a square
-            ctx.beginPath();
-            ctx.moveTo(x + 256, y + 96);
-            ctx.lineTo(x + 256, y+l + 96);
-            ctx.lineTo(x+l + 256, y+l + 96);
-            ctx.lineTo(x+l + 256, y + 96);
-            ctx.lineTo(x + 256, y + 96);
-            ctx.stroke();
-        }
+        // draw a square
+        ctx.beginPath();
+        ctx.moveTo(x + 256, y + 96);
+        ctx.lineTo(x + 256, y+l + 96);
+        ctx.lineTo(x+l + 256, y+l + 96);
+        ctx.lineTo(x+l + 256, y + 96);
+        ctx.lineTo(x + 256, y + 96);
+        ctx.stroke();
+    
+
         // three actions
-        grid();
-        axis();
+        
+        
         // hack 1: make square according to grid positioning
         square();
         // hack 2: plot line or square on grid from user input according
