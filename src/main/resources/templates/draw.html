@@ -12,6 +12,20 @@
         <canvas id="canvas" width="512" height="384" ></canvas>
     </div>
 
+    <form action="/draw" method="GET" id="drawForm" style="margin-left: 80px">
+        <div>
+            <p class="input-text1">x coordinate</p>
+            <input name="x" id="x">
+            <p class="input-text2">y coordinate</p>
+            <input name="y" id="y">
+            <p class="input-text3">length</p>
+            <input name="length" id="length">
+            <p class="input-text4">Age</p>
+           
+            <button>Draw!</button>
+        </div>
+    </form>
+
     <script>
         // https://www.w3schools.com/graphics/canvas_intro.asp
         const canvas = document.getElementById('canvas');
