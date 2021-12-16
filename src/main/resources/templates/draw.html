@@ -57,11 +57,11 @@
         function square() {
             ctx.strokeStyle = 'black';
             ctx.lineWidth = 5;
-            let userx = prompt('input the x');
-            let usery = prompt('input the y');
+            let x1 = prompt('input the x');
+            let y1 = prompt('input the y');
             // starting coordinates
-            const x = unit * userx;
-            const y = unit * usery;
+            const x = unit * x1;
+            const y = unit * y1;
             // length of sides is 4 units
             const l = unit*4;
 
@@ -87,6 +87,9 @@
     </script>
 
     <h1> Hi Ma'am! Would you like to plot another square? </h1>
+    <a href="/draw">
+        <p style="color: dodgerblue">Yes!</p>
+    </a>
 
 </th:block>
 
