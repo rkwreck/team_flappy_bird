@@ -17,8 +17,8 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 | Name | Journal (FRQ Work) | Commits | 
 | :--: | :----------------: | :-----: |
 | Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link]
-| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | [Commits Link]
-| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Commits Link]
+| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/9bdd746a83d99b652746934756586259b6bde340)
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/5f527d28c11821a5754c55eb15eba29d8ff6a136)
 | Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | [Commits Link]
 
 ## Week 2 Timebox (Home Pages) 
