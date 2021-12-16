@@ -12,6 +12,9 @@
         border: 1px solid black;
         border-collapse: collapse;
     }
+    div {
+        background-image: url('super_mario.jpg');
+    }
 </style>
 
 <body>
@@ -26,11 +29,11 @@
         <p style="font-family: 'Courier New'">I am a junior taking AP Computer Science A. I want to make the most out of my life and have fun coding!</p>
         <p style="font-family: 'Courier New'">Age: 16</p>
         <p style="font-family: 'Courier New'">Role in Team: Primary Designer</p>
-        <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn">My Journal</a>
+        <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn" style="margin-bottom: 10px">My Journal</a>
 
         <!---database button-->
         <div class="row justify-content-md-center">
-            <a th:href="@{/friends/}" class="btn" style="font-family: 'Courier New'">Add Friends</a>
+            <a th:href="@{/friends/}" class="btn" style="margin-bottom: 15 px;""font-family: 'Courier New'">Add Friends</a>
         </div>
 
         <form action="/greetPrisha" method="GET" id="zeldaapi">

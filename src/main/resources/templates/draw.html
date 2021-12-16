@@ -1,14 +1,10 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
-<html xmlns:layout="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.w3.org/1999/xhtml" xmlns=""
-      layout:decorate="~{layout}" lang="en">
-
-<!-- <head> -->
-<th:block layout:fragment="head" th:remove="tag">
-    <title>Draw</title>
-</th:block>
+<!DOCTYPE html>
+<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+       lang="en">
+<head>
+  <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+  <title>Draw Me! CB FRQ 3</title>
+</head>
 
 <th:block layout:fragment="body" th:remove="tag">
     <h1 class="text-center">JavaScript - Draw on Canvas</h1>
@@ -61,29 +57,44 @@
         function square() {
             ctx.strokeStyle = 'black';
             ctx.lineWidth = 5;
-
+            let x1 = prompt('input the x');
+            let y1 = prompt('input the y');
+            let l1 = prompt('input the length');
             // starting coordinates
-            const x = unit;
-            const y = unit;
-            // length of sides is 4 units
-            const l = unit*4;
+            const x = unit * x1; //beginning x coordinate
+            const y = unit * y1; //beginning y coordinate
+            const l = unit * l1; //side length of the square 
 
-            // draw a square
+            // drawing the specificied square 
             ctx.beginPath();
-            ctx.moveTo(x, y);
-            ctx.lineTo(x, y+l);
-            ctx.lineTo(x+l, y+l);
-            ctx.lineTo(x+l, y);
-            ctx.lineTo(x, y);
+            const newx = width/2 + x;
+            const newy = height/2 - (4 * unit) - y;
+            ctx.moveTo(newx, newy);
+            ctx.lineTo(newx, newy+l);
+            ctx.lineTo(newx+l, newy+l);
+            ctx.lineTo(newx+l, newy);
+            ctx.lineTo(newx, newy);
             ctx.stroke();
+
         }
         // three actions
         grid();
         axis();
         // hack 1: make square according to grid positioning
         square();
+        var area = document.getElementById('area');
+        document.write("This is the theoretical area of your square:" + l*l);
         // hack 2: plot line or square on grid from user input according
+
+
     </script>
+    <h1 id="area"> </h1>
+    <h2> Hi Ma'am! Would you like to plot another square? </h2>
+    <!-- allowing the user to input another square, instead of reloading the page-->
+    <a href="/draw"> 
+        <p style="color: dodgerblue">Yes!</p>
+    </a>
+
 </th:block>
 
 </html>
