@@ -1,6 +1,6 @@
 Shoutout to the GitHub Support Team for detatching our fork
 
-### Website URL: flappybird.cf 
+### Website URL: [flappybird.cf](http://flappybird.cf/)
 
 _The deployed website currently does not contain all website updates. Last deployed 1/9/21._
 
