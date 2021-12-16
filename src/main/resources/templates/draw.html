@@ -75,18 +75,21 @@
             ctx.lineTo(newx+l, newy);
             ctx.lineTo(newx, newy);
             ctx.stroke();
+
         }
         // three actions
         grid();
         axis();
         // hack 1: make square according to grid positioning
         square();
+        var area = document.getElementById('area');
+        document.write("This is the theoretical area of your square:" + l*l);
         // hack 2: plot line or square on grid from user input according
 
 
     </script>
-
-    <h1> Hi Ma'am! Would you like to plot another square? </h1>
+    <h1 id="area"> </h1>
+    <h2> Hi Ma'am! Would you like to plot another square? </h2>
     <!-- allowing the user to input another square, instead of reloading the page-->
     <a href="/draw"> 
         <p style="color: dodgerblue">Yes!</p>
