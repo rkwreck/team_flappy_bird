@@ -50,14 +50,14 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     public String personSave(@Valid Person person, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
-            return "createPerson";
+            return "createPerson"; 
         }
         repository.save(person);
         // Redirect to next step
         return "redirect:/greetAdi";
     }
 
-    @GetMapping("updatePerson/{id}")
+    @GetMapping("updatePerson/")
     public String updatePerson(@PathVariable("id") int id, Model model) {
         model.addAttribute("person", repository.get(id));
         return "updatePerson";
@@ -88,7 +88,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     GET List of People
      */
-    @RequestMapping(value = "/person/get")
+    @RequestMapping(value = "/friend/get")
     public ResponseEntity<List<Person>> getPeople() {
         return new ResponseEntity<>( repository.listAll(), HttpStatus.OK);
     }
@@ -96,7 +96,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     GET individual Person using ID
      */
-    @RequestMapping(value = "/person/get/{id}")
+    @RequestMapping(value = "/friend/get/{id}")
     public ResponseEntity<Person> getPerson(@PathVariable long id) {
         return new ResponseEntity<>( repository.get(id), HttpStatus.OK);
     }
@@ -104,7 +104,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     DELETE individual Person using ID
      */
-    @RequestMapping(value = "/person/delete/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/friend/delete/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Object> deletePerson(@PathVariable long id) {
         repository.delete(id);
         return new ResponseEntity<>( ""+ id +" deleted", HttpStatus.OK);
@@ -114,7 +114,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     POST Aa record by Requesting Parameters from URI
      */
-    @RequestMapping(value = "/person", method = RequestMethod.POST)
+    @RequestMapping(value = "/friend", method = RequestMethod.POST)
     public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
                                              @RequestParam("name") String name,
                                              @RequestParam("dob") String dobString) {
