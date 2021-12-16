@@ -13,7 +13,7 @@
         border-collapse: collapse;
     }
     div {
-        background-image: url('super_mario.jpg');
+        background: url('/images/super_mario.jpg');
     }
 </style>
 
@@ -30,11 +30,15 @@
         <p style="font-family: 'Courier New'">Age: 16</p>
         <p style="font-family: 'Courier New'">Role in Team: Primary Designer</p>
         <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn" style="margin-bottom: 10px">My Journal</a>
-        <a href="draw" class="btn" style="font-family: 'Courier New'">FRQ 3</a>
+        <a href="draw" class="btn" style="margin-bottom: 10px">FRQ 3</a>
 
         <!---database button-->
         <div class="row justify-content-md-center">
             <a th:href="@{/friends/}" class="btn" style="margin-bottom: 15 px;""font-family: 'Courier New'">Add Friends</a>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <a th:href="@{/draw/}" class="btn" style="font-family: 'Courier New'">Draw A Square!</a>
         </div>
 
         <form action="/greetPrisha" method="GET" id="zeldaapi">
