@@ -1,14 +1,10 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
-<html xmlns:layout="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.w3.org/1999/xhtml" xmlns=""
-      layout:decorate="~{layout}" lang="en">
-
-<!-- <head> -->
-<th:block layout:fragment="head" th:remove="tag">
-    <title>Draw</title>
-</th:block>
+<!DOCTYPE html>
+<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+       lang="en">
+<head>
+  <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+  <title>Draw Me! CB FRQ 3</title>
+</head>
 
 <th:block layout:fragment="body" th:remove="tag">
     <h1 class="text-center">JavaScript - Draw on Canvas</h1>
@@ -61,20 +57,23 @@
         function square() {
             ctx.strokeStyle = 'black';
             ctx.lineWidth = 5;
-
+            let userx = prompt('input the x');
+            let usery = prompt('input the y');
             // starting coordinates
-            const x = unit;
-            const y = unit;
+            const x = unit * userx;
+            const y = unit * usery;
             // length of sides is 4 units
             const l = unit*4;
 
             // draw a square
             ctx.beginPath();
-            ctx.moveTo(x, y);
-            ctx.lineTo(x, y+l);
-            ctx.lineTo(x+l, y+l);
-            ctx.lineTo(x+l, y);
-            ctx.lineTo(x, y);
+            const newx = width/2 + x;
+            const newy = height/2 - (4 * unit) - y;
+            ctx.moveTo(newx, newy);
+            ctx.lineTo(newx, newy+l);
+            ctx.lineTo(newx+l, newy+l);
+            ctx.lineTo(newx+l, newy);
+            ctx.lineTo(newx, newy);
             ctx.stroke();
         }
         // three actions
@@ -83,7 +82,12 @@
         // hack 1: make square according to grid positioning
         square();
         // hack 2: plot line or square on grid from user input according
+
+
     </script>
+
+    <h1> Hi Ma'am! Would you like to plot another square? </h1>
+
 </th:block>
 
 </html>
