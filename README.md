@@ -13,7 +13,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 3 Timebox (FRQ 3)  
-Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
+Tangibles and further details [here](https://github.com/rkwreck/team_flappy_bird/issues/21).
 NOTE: runtime for FRQ should be on website
 | Name | Journal (Link to FRQ Code java) | Individual Commits | Link to Frontend code |
 | :--: | :----------------: | :-----: | :-----: |
