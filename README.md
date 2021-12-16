@@ -12,14 +12,14 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
-## Week 3 Timebox 
+## Week 3 Timebox (FRQ 3)  
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
-| Name | Journal (FRQ Work) | Commits | 
+| Name | Journal (FRQ Work) | Individual Commits | 
 | :--: | :----------------: | :-----: |
-| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/1684feed6073eb081d28b10e4949d499bbc2c267)
+| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/671e08068af0f10fba1886f061c83368d8b863e1)
 | Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/9bdd746a83d99b652746934756586259b6bde340)
 | Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/5f527d28c11821a5754c55eb15eba29d8ff6a136)
-| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/cdbecd1390ea70159a8308d4d2917206d740ccd1)
+| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/cbc39ace4b7a48cd7037df75f9f620a473fb5c63)
 
 ## Week 2 Timebox (Home Pages) 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
