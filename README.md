@@ -25,7 +25,7 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
 | Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
-| Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetRini.html) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
+| Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/1684feed6073eb081d28b10e4949d499bbc2c267) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
 | Chenxin | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetChenxin.html) | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) |
 | Adi | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetAdi.html) | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Prisha | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetPrisha.html) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
