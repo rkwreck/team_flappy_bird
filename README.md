@@ -14,12 +14,12 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 ## Week 3 Timebox 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
-| Name | Journal (FRQ Work) |
-| :--: | :----------------: |
-| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
-| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) |
-| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
-| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
+| Name | Journal (FRQ Work) | Commits | 
+| :--: | :----------------: | :-----: |
+| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link]
+| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | [Commits Link]
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Commits Link]
+| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | [Commits Link]
 
 ## Week 2 Timebox (Home Pages) 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
