@@ -59,13 +59,13 @@
             ctx.lineWidth = 5;
             let x1 = prompt('input the x');
             let y1 = prompt('input the y');
+            let l1 = prompt('input the length');
             // starting coordinates
-            const x = unit * x1;
-            const y = unit * y1;
-            // length of sides is 4 units
-            const l = unit*4;
+            const x = unit * x1; //beginning x coordinate
+            const y = unit * y1; //beginning y coordinate
+            const l = unit * l1; //side length of the square 
 
-            // draw a square
+            // drawing the specificied square 
             ctx.beginPath();
             const newx = width/2 + x;
             const newy = height/2 - (4 * unit) - y;
@@ -87,7 +87,8 @@
     </script>
 
     <h1> Hi Ma'am! Would you like to plot another square? </h1>
-    <a href="/draw">
+    <!-- allowing the user to input another square, instead of reloading the page-->
+    <a href="/draw"> 
         <p style="color: dodgerblue">Yes!</p>
     </a>
 
