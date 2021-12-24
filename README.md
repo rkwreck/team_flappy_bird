@@ -2,7 +2,7 @@ Shoutout to the GitHub Support Team for detatching our fork
 
 ### Website URL: [flappybird.cf](http://flappybird.cf/)
 
-_The deployed website currently does not contain all website updates. Last deployed 1/9/21._
+_The deployed website currently does not contain all website updates. Last deployed 12/16/21._
 
 ### Our Purpose:
 Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
@@ -13,13 +13,14 @@ Develop minigames to make coding more accessible for people + educate people on 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 3 Timebox (FRQ 3)  
-Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
-| Name | Journal (FRQ Work) | Individual Commits | 
-| :--: | :----------------: | :-----: |
-| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/671e08068af0f10fba1886f061c83368d8b863e1)
-| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/9bdd746a83d99b652746934756586259b6bde340)
-| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/5f527d28c11821a5754c55eb15eba29d8ff6a136)
-| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/cbc39ace4b7a48cd7037df75f9f620a473fb5c63)
+Tangibles and further details [here](https://github.com/rkwreck/team_flappy_bird/issues/21).
+NOTE: runtime for FRQ should be on website
+| Name | Journal (Link to FRQ Code java) | Individual Commits | Link to Frontend code |
+| :--: | :----------------: | :-----: | :-----: |
+| Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/671e08068af0f10fba1886f061c83368d8b863e1) | [Frontend Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/draw.html) |
+| Chenxin | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/9bdd746a83d99b652746934756586259b6bde340)| [Frontend Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/draw.html) |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/5f527d28c11821a5754c55eb15eba29d8ff6a136)| [Frontend Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/draw.html) |
+| Prisha | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/cbc39ace4b7a48cd7037df75f9f620a473fb5c63)| [Frontend Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/draw.html) |
 
 ## Week 2 Timebox (Home Pages) 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).

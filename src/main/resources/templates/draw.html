@@ -82,11 +82,14 @@
         axis();
         // hack 1: make square according to grid positioning
         square();
-        var area = document.getElementById('area');
-        document.write("This is the theoretical area of your square:" + l*l);
+        area();
+        
         // hack 2: plot line or square on grid from user input according
-
-
+        function area(){
+            alert('the area of the square is' + l*l);
+        }
+        
+    
     </script>
     <h1 id="area"> </h1>
     <h2> Hi Ma'am! Would you like to plot another square? </h2>
@@ -94,6 +97,8 @@
     <a href="/draw"> 
         <p style="color: dodgerblue">Yes!</p>
     </a>
+
+    <input type="button"  onclick="area();" value="Get Area!">
 
 </th:block>
 
