@@ -7,8 +7,8 @@ public class Trivia {
     public static void main (String[] args) {
         String q1 = "Under what condition are you allowed to use the 4 main kinematics equations?\n"
                 + "(a)When time is constant\n(b)When position is constant\n(c)When velocity is constant]\n(d)When acceleration is constant\n";
-        String q2 = "Question 2\n"
-                + "(a)Answer1\n(b)Answer2\n(c)Answer3\n(d)Answer4\n";
+        String q2 = "If a projectile is launched at an angle and returns back to the same height when it lands, what type of projectile motion is it?\n"
+                + "(a)Type 1\n(b)Type 2\n(c)Type 3\n";
         Trivia [] questions = {
                 new Trivia(q1, "d"),
                 new Trivia(q2, "c"),
