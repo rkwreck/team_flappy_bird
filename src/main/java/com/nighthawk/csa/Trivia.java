@@ -11,7 +11,7 @@ public class Trivia {
                 + "(a)Type 1\n(b)Type 2\n(c)Type 3\n";
         Trivia [] questions = {
                 new Trivia(q1, "d"),
-                new Trivia(q2, "c"),
+                new Trivia(q2, "b"),
         };
         takeTest(questions);
     }
