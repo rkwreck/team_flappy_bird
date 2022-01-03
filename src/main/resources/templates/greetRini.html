@@ -44,27 +44,27 @@
     <div class="container showcase-inner">
         <!--- name, bio, and journal -->
         <h1>Rini</h1>
-        <p style="font-family: 'Courier New'" th:text="'Hello! My name is Rini.'"></p>
+        <p th:text="'Hello! My name is Rini.'"></p>
         <br>
-        <p style="font-family: 'Courier New'">I am a sophmore taking AP Computer Science A. Some fun facts about me are that I love ice cream, and my favorite subject is science! :D</p>
-        <p style="font-family: 'Courier New'">Age: 16</p>
-        <p style="font-family: 'Courier New'">Role in Team: Scrum Master & Github Admin</p>
-        <a href="https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing" class="btn" style="font-family: 'Courier New'">My Work</a>
-        <a href="draw" class="btn" style="font-family: 'Courier New'">FRQ 3</a>
+        <p>I am a sophmore taking AP Computer Science A. Some fun facts about me are that I love ice cream, and my favorite subject is science! :D</p>
+        <p>Age: 16</p>
+        <p>Role in Team: Scrum Master & Github Admin</p>
+        <a href="https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing" class="btn" >My Work</a>
+        <a href="draw" class="btn">FRQ 3</a>
 
         <!---database button-->
         <div class="row justify-content-md-center">
-            <a th:href="@{/friends/}" class="btn" style="font-family: 'Courier New'">Add Friends</a>
+            <a th:href="@{/friends/}" class="btn">Add Friends</a>
         </div>
 
         <div class="row justify-content-md-center">
-            <a th:href="@{/draw/}" class="btn" style="font-family: 'Courier New'">Draw A Square!</a>
+            <a th:href="@{/draw/}" class="btn">Draw A Square!</a>
         </div>
 
         <!--- song api -->
          <form action="/greetRini" method="GET" id="songapi">
             <div class="container">
-                <h1 style="text-align: center; font-family: 'Courier New'">Song info</h1>
+                <h1 style="text-align: center; ">Song info</h1>
                 <label for="songapi">Input artist's last name:</label>
                 <input name="sym" id="sym">
                 <button>Search</button>
