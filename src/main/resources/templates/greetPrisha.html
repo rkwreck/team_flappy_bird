@@ -12,9 +12,7 @@
         border: 1px solid black;
         border-collapse: collapse;
     }
-    div {
-        background: url('/images/super_mario.jpg');
-    }
+
 </style>
 
 <body>
@@ -34,7 +32,11 @@
 
         <!---database button-->
         <div class="row justify-content-md-center">
-            <a th:href="@{/friends/}" class="btn" style="margin-bottom: 15 px;""font-family: 'Courier New'">Add Friends</a>
+            <a th:href="@{/friends/}" class="btn" style="margin-bottom: 15 px;""font-family: 'Roboto'">Add Friends</a>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <a th:href="@{/draw/}" class="btn" style="font-family: 'Roboto'">Draw A Square!</a>
         </div>
 
         <form action="/greetPrisha" method="GET" id="zeldaapi">
