@@ -12,12 +12,12 @@
 <header class="showcase">
   <div class="container showcase-inner">
     <h1>Chenxin</h1>
-    <p style="font-family: 'Courier New'" th:text="'Greetings! My name is Chenxin.'"></p>
-    <p style="font-family: 'Courier New'" th:text="'I am a junior taking AP Computer Science A. I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
-    <p style="font-family: 'Courier New'">Age: 16</p>
-    <p style="font-family: 'Courier New'">Role: Deployment Manager</p>
+    <p th:text="'Greetings! My name is Chenxin.'"></p>
+    <p th:text="'I am a junior taking AP Computer Science A. I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
+    <p>Age: 16</p>
+    <p>Role: Deployment Manager</p>
     <button type="button" class="btn" onclick="window.location.href='https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing';">My Journal</button>
-    <a href="draw" class="btn" style="font-family: 'Courier New'">FRQ 3</a>
+    <a href="draw" class="btn">FRQ 3</a>
     <br>
 
     <!---database button-->
@@ -31,7 +31,7 @@
   
     <form action="/greetChenxin" method="GET" id="freeapi">
       <div class="container">
-        <h1 style="text-align: center; font-family: 'Courier New'">Free-to-play game info</h1>
+        <h1>Free-to-play game info</h1>
         <label for="freeapi">Input game ID:</label>
         <input name="sym" id="sym">
         <button>Search</button>

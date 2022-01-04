@@ -16,20 +16,20 @@
     <br>
 
     <h1>Adi</h1>
-    <p style="font-family: 'Courier New'" th:text="'Hello! My name is Adi.'"></p>
+    <p th:text="'Hello! My name is Adi.'"></p>
 
-    <p style="font-family: 'Courier New'">I am a senior taking AP Computer Science A. I thrive in computer science by eating dark chocolate raspberry squares and drinking starbucks :)</p>
-    <p style="font-family: 'Courier New'">Age: 17</p>
-    <p style="font-family: 'Courier New'">Role in Team: Technical Officer</p>
-    <a href="https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6" class="btn" style="font-family: 'Courier New'">My Journal</a>
+    <p>I am a senior taking AP Computer Science A. I thrive in computer science by eating dark chocolate raspberry squares and drinking starbucks :)</p>
+    <p>Age: 17</p>
+    <p>Role in Team: Technical Officer</p>
+    <a href="https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6" class="btn">My Journal</a>
 
     <!---database button-->
     <div class="row justify-content-md-center">
-        <a th:href="@{/friends/}" class="btn" style="font-family: 'Courier New'">Add Friends</a>
+        <a th:href="@{/friends/}" class="btn">Add Friends</a>
     </div>
 
     <div class="row justify-content-md-center">
-        <a th:href="@{/draw/}" class="btn" style="font-family: 'Courier New'">Draw A Square!</a>
+        <a th:href="@{/draw/}" class="btn">Draw A Square!</a>
     </div>
 
     <table class="table table-bordered">
@@ -57,7 +57,7 @@
     </table>
     <form action="/greetAdi" method="GET" id="healthapi">
         <div class="container">
-            <h1 style="text-align: center; font-family: 'Courier New'">Diseases of body parts</h1>
+            <h1 style="text-align: center">Diseases of body parts</h1>
             <label for="healthapi">Input body part:</label>
             <input name="sym" id="sym">
             <button>Search</button>

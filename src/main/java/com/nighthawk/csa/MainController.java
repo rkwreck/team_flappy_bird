@@ -63,6 +63,11 @@ public class MainController {
         return "draw";
     }
 
+    @GetMapping("biology-road")
+    public String bioroad(Model model) {
+        return "biologyroad";
+    }
+
     @GetMapping("/greetAdi")
     public String apiAdi(@RequestParam(name="sym", required=false, defaultValue="stomach") String name, Model model) throws IOException, InterruptedException {
         String rapidapiurl = "https://healthwise.p.rapidapi.com/body/diseases/" + name;
