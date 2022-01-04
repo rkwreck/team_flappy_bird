@@ -1,8 +1,8 @@
 package com.nighthawk.csa;
 import java.util.Scanner;
 public class PhysicsTrivia {
-    private boolean prompt;
-    private String answer;
+    boolean prompt;
+    String answer;
 
     public PhysicsTrivia(String q1, String correctAnswer) {
     }
