@@ -14,6 +14,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 ## Week 4 Timebox (FRQ 4)  
 NOTE: runtime for FRQ should be on website
+Tangibles can be found [here](https://github.com/rkwreck/team_flappy_bird/wiki/PBL-Progress-Tangibles:-Making-Games)
 | Name | Journal (Link to FRQ Code java) | Individual Commits | Link to Frontend code |
 | :--: | :----------------: | :-----: | :-----: |
 | Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Games commit1](https://github.com/rkwreck/team_flappy_bird/commit/ea0e9a182d26dbe31fb424c91ebf3a39b890de9d) and [Games commit2](https://github.com/rkwreck/team_flappy_bird/commit/25aa85c5966e0ba91a35cffb290d3e4458732fd6) | [Frontend Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetRini.html) |
