@@ -153,20 +153,7 @@ public class MainController {
         return "greetRini";
     }
     @GetMapping("/physicsTrivia")
-    public String physicsQuiz(@RequestParam(name="sym", required=false, defaultValue="Majora") String name, Model model) throws IOException, InterruptedException{
-        String rapidapiurl = "https://the-legend-of-zelda.p.rapidapi.com/games?name=" + name;
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(rapidapiurl))
-                .header("x-rapidapi-host", "the-legend-of-zelda.p.rapidapi.com")
-                .header("x-rapidapi-key", "f8edd9e91fmsh4ba8ab5c12046e4p120635jsn54ceca15e244")
-                .method("GET", HttpRequest.BodyPublishers.noBody())
-                .build();
-        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-        var pmap = new ObjectMapper().readValue(response.body(), HashMap.class);
-
-        model.addAttribute("map", pmap);
-        model.addAttribute("stuff", pmap.get("data"));
-
+    public String physicsTrivia(Model model) {
         return "physicsTrivia";
     }
 }
