@@ -155,6 +155,10 @@ public class MainController {
 
         return "greetRini";
     }
+    @GetMapping("/physicsTrivia")
+    public String physicsTrivia(Model model) {
+        return "physicsTrivia";
+    }
 }
 
 
