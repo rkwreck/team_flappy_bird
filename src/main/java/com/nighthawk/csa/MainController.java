@@ -152,6 +152,8 @@ public class MainController {
 
         return "greetRini";
     }
+    @GetMapping("/physicsTrivia.html")
+    public String physicsQuiz(@RequestParam(name="sym", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {}
 }
 
 
