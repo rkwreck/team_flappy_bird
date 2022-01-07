@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<!--
-       Crossy Road, my twelth game! This game was fun to make, and I hope its fun to play. I might upgrade some graphics later, but I wanted to have this out ASAP.
-       
-        * Instructions
-     * Use the arrow keys to move.
-     * Avoid the cars, trains, and water (use the logs to cross).
-     * Score 100 points to win.
-       
-       Started: 1/31/20
-       Finished: 2/9/20
-       Released: 2/10/20
- -->
-<html>
-   <head>
+<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+       lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+
       <title>crossy road</title>
+
+      <div>
+        <h1> How to Play</h1>
+    </div>
       <style>
             body {
                 overflow: hidden;
@@ -37,7 +33,7 @@
 				display: block;
 			}
 			</style>
-		</head>	
+	</head>	
    <body>
       <canvas id="mycanvas"></canvas>
    </body>
@@ -602,9 +598,15 @@ keyReleased = function() {
         started = true;
     }
     
+    const bioquest = ["What is the powerhouse of the cell?", "Which organ takes in oxygen and expels carbon dioxide?"]
+    
     if (keyCode === UP) {
         gameY -= 25;
         score++;
+        if (score % 5 == 0){
+            score--;
+            prompt(bioquest[random(0,1)])
+        }
     }
     
     if (keyCode === DOWN) {
@@ -622,4 +624,8 @@ draw = function() {
       var canvas = document.getElementById("mycanvas"); 
       var processingInstance = new Processing(canvas, programCode); 
    </script>
+
+<div>
+    <h1> How to Play</h1>
+</div>
 </html>
