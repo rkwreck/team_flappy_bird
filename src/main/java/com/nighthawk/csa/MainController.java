@@ -61,6 +61,9 @@ public class MainController {
     @GetMapping("/game4")
     public String game4(Model model) {return "game4";}
 
+    @GetMapping("/game5")
+    public String game4(Model model) {return "game5";}
+
     @GetMapping("/draw")
     public String draw(Model model) {
         return "draw";
