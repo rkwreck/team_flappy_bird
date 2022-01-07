@@ -4,7 +4,7 @@ public class PhysicsTrivia {
     boolean prompt;
     String answer;
 
-    public PhysicsTrivia(String q1, String correctAnswer) {
+    public PhysicsTrivia(String question, String correctAnswer) {
     }
 
 
@@ -18,11 +18,27 @@ public class PhysicsTrivia {
                 + "(a)1.25 m/s\n(b)1.25 m/s^2\n(c)1.5 m/s\n(d)1.5 m/s^2";
         String q4 = "Which of these is the appropriate free body diagram for a 2.0 kg block at rest on a frictionless surface?\n"
                 + "(a)AnswerA\n(b)AnswerB]\n(c)AnswerC\n(d)AnswerD";
+        String q5 = "Which of these provides a conservative force then a nonconservative force? (Order matters!)\n" +
+                "(a)Gravitational Force, Spring Force\n(b)Air Resistance, Frictional Force\n(c)Spring Force, Frictional Force\n(d)Air Resistance, Gravitational Force";
+        String q6 = "What is the difference between an elastic and inelastic collision?\n"
+                + "(a)Elastic: Momentum and Kinetic Energy are conserved, Inelastic: Momentum is conserved but Kinetic Energy is lost\n(b)Elastic: Momentum is conserved but Kinetic Energy is lost, Inelastic: Momentum and Kinetic Energy are conserved";
+        String q7 = "What is impulse a change in?\n"
+                + "(a)Energy\n(b)Kinetic Energy\n(c)Potential Energy\n(d)Momentum";
+        String q8 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball is plotted. What is the tennis ball's impulse from 2.0 to 4.0 seconds?"
+                + "(a)5 kg * m/s^2\n(b)10 N*s\n(c)5 N*s\n(d)10 kg*m/s";
+        String q9 = "";
+        String q10 = "";
         PhysicsTrivia [] questions = {
                 new PhysicsTrivia(q1, "d"),
                 new PhysicsTrivia(q2, "b"),
-                new PhysicsTrivia(q3, "b"),
+                new PhysicsTrivia(q3, "a"),
                 new PhysicsTrivia(q4,"b"),
+                new PhysicsTrivia(q5, "c"),
+                new PhysicsTrivia(q6, "a"),
+                new PhysicsTrivia(q7, "d"),
+                new PhysicsTrivia(q8, "c"),
+                new PhysicsTrivia(q9, "a"),
+                new PhysicsTrivia(q10, "b")
         };
         takeTest(questions);
     }
