@@ -76,6 +76,11 @@ public class MainController {
         return "planteater";
     }
 
+    @GetMapping("flappybird")
+    public String flappybird(Model model) {
+        return "flappybird";
+    }
+
     @GetMapping("/greetAdi")
     public String apiAdi(@RequestParam(name="sym", required=false, defaultValue="stomach") String name, Model model) throws IOException, InterruptedException {
         String rapidapiurl = "https://healthwise.p.rapidapi.com/body/diseases/" + name;
