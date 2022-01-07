@@ -89,14 +89,6 @@ public class MainController {
         return "greetAdi";
     }
 
-    /**
-    @GetMapping("/greetChenxin")
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
-        return "greetChenxin";
-    }
-     */
-
     @GetMapping("/greetChenxin")
     public String api(@RequestParam(name="sym", required=false, defaultValue="452") String name, Model model) throws IOException, InterruptedException {
         String rapidapiurl = "https://free-to-play-games-database.p.rapidapi.com/api/game?id=" + name;
@@ -118,7 +110,6 @@ public class MainController {
 
         return "greetChenxin";
     }
-
 
     @GetMapping("/greetPrisha")
     public String apiPrisha(@RequestParam(name="sym", required=false, defaultValue="Majora") String name, Model model) throws IOException, InterruptedException{
@@ -155,9 +146,15 @@ public class MainController {
 
         return "greetRini";
     }
+
     @GetMapping("/physicsTrivia")
     public String physicsTrivia(Model model) {
         return "physicsTrivia";
+    }
+
+    @GetMapping("/medicalTrivia")
+    public String medicalTrivia(Model model) {
+        return "medicalTrivia";
     }
 }
 
