@@ -22,13 +22,16 @@ public class PhysicsTrivia {
                 "(a)Gravitational Force, Spring Force\n(b)Air Resistance, Frictional Force\n(c)Spring Force, Frictional Force\n(d)Air Resistance, Gravitational Force";
         String q6 = "What is the difference between an elastic and inelastic collision?\n"
                 + "(a)Elastic: Momentum and Kinetic Energy are conserved, Inelastic: Momentum is conserved but Kinetic Energy is lost\n(b)Elastic: Momentum is conserved but Kinetic Energy is lost, Inelastic: Momentum and Kinetic Energy are conserved";
+        String q7 = "What is impulse a change in?\n"
+                + "(a)Energy\n(b)Kinetic Energy\n(c)Potential Energy\n(d)Momentum";
         PhysicsTrivia [] questions = {
                 new PhysicsTrivia(q1, "d"),
                 new PhysicsTrivia(q2, "b"),
-                new PhysicsTrivia(q3, "b"),
+                new PhysicsTrivia(q3, "a"),
                 new PhysicsTrivia(q4,"b"),
                 new PhysicsTrivia(q5, "c"),
                 new PhysicsTrivia(q6, "a"),
+                new PhysicsTrivia(q7, "d"),
         };
         takeTest(questions);
     }
