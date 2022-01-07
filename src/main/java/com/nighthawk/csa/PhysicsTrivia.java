@@ -4,7 +4,7 @@ public class PhysicsTrivia {
     boolean prompt;
     String answer;
 
-    public PhysicsTrivia(String q1, String correctAnswer) {
+    public PhysicsTrivia(String question, String correctAnswer) {
     }
 
 
@@ -18,11 +18,14 @@ public class PhysicsTrivia {
                 + "(a)1.25 m/s\n(b)1.25 m/s^2\n(c)1.5 m/s\n(d)1.5 m/s^2";
         String q4 = "Which of these is the appropriate free body diagram for a 2.0 kg block at rest on a frictionless surface?\n"
                 + "(a)AnswerA\n(b)AnswerB]\n(c)AnswerC\n(d)AnswerD";
+        String q5 = "Which of these provides a conservative force then a nonconservative force? (Order matters!)\n" +
+                "(a)Gravitational Force, Spring Force\n(b)Air Resistance, Frictional Force\n(c)Spring Force, Frictional Force\n(d)Air Resistance, Gravitational Force";
         PhysicsTrivia [] questions = {
                 new PhysicsTrivia(q1, "d"),
                 new PhysicsTrivia(q2, "b"),
                 new PhysicsTrivia(q3, "b"),
                 new PhysicsTrivia(q4,"b"),
+                new PhysicsTrivia(q5, "c"),
         };
         takeTest(questions);
     }
