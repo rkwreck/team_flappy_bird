@@ -24,6 +24,10 @@ public class PhysicsTrivia {
                 + "(a)Elastic: Momentum and Kinetic Energy are conserved, Inelastic: Momentum is conserved but Kinetic Energy is lost\n(b)Elastic: Momentum is conserved but Kinetic Energy is lost, Inelastic: Momentum and Kinetic Energy are conserved";
         String q7 = "What is impulse a change in?\n"
                 + "(a)Energy\n(b)Kinetic Energy\n(c)Potential Energy\n(d)Momentum";
+        String q8 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball is plotted. What is the tennis ball's impulse from 2.0 to 4.0 seconds?"
+                + "(a)5 kg * m/s^2\n(b)10 N*s\n(c)5 N*s\n(d)10 kg*m/s";
+        String q9 = "";
+        String q10 = "";
         PhysicsTrivia [] questions = {
                 new PhysicsTrivia(q1, "d"),
                 new PhysicsTrivia(q2, "b"),
@@ -32,6 +36,9 @@ public class PhysicsTrivia {
                 new PhysicsTrivia(q5, "c"),
                 new PhysicsTrivia(q6, "a"),
                 new PhysicsTrivia(q7, "d"),
+                new PhysicsTrivia(q8, "c"),
+                new PhysicsTrivia(q9, "a"),
+                new PhysicsTrivia(q10, "b")
         };
         takeTest(questions);
     }
