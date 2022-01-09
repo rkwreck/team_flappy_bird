@@ -603,11 +603,12 @@ keyReleased = function() {
     if (keyCode === UP) {
         gameY -= 25;
         score++;
-        if (score % 5 == 0){
-            score--;
+        
+    }
+
+    if (score % 5 == 0){
             prompt(bioquest[random(0,1)])
         }
-    }
     
     if (keyCode === DOWN) {
         gameY += 25;
