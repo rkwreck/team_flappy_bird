@@ -62,7 +62,7 @@ public class MainController {
     public String game4(Model model) {return "game4";}
 
     @GetMapping("/game5")
-    public String game4(Model model) {return "game5";}
+    public String game5(Model model) {return "game5";}
 
     @GetMapping("/draw")
     public String draw(Model model) {
