@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <title style="font-family: Impact">Physics Trivia</title>
 </head>
+<style>
+    body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+</style>
+
 <body>
-    <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
     <header class="showcase">
         <div class="container showcase-inner">
@@ -16,5 +29,14 @@
             <input type="text" id="enterAnswer" name="enterAnswer"><br>
         </form>
     </header>
+    <button onclick="toggleSecondTheme()">Dark Mode</button>
+
+    <script>
+        function toggleSecondTheme() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
 </body>
 </html>

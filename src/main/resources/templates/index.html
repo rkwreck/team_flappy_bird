@@ -12,14 +12,34 @@
     <div th:replace="fragments/overlaymenu :: commonhead">...</div>
     <title>DNHS APCSA Project: Team Flappy Bird</title>
   </head>
+  <style>
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+  </style>
 
   <body>
-
-
 
   <!-- Body defaults to ellipses, details are added by ThymeLeaf layout fragment -->
 
   <div th:replace="home">...</div>
+
+  <button onclick="toggleSecondTheme()">Dark Mode</button>
+
+  <script>
+    function toggleSecondTheme() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
 
   </body>
 
