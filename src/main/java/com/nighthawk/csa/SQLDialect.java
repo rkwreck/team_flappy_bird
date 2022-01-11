@@ -1,4 +1,4 @@
-package com.nighthawk.csa.data.SQL;
+package com.nighthawk.csa;
 
 import org.hibernate.dialect.Dialect;
 import org.hibernate.dialect.function.SQLFunctionTemplate;
@@ -8,10 +8,9 @@ import org.hibernate.type.StringType;
 
 import java.sql.Types;
 
-/*
-This Dialect is brought into project to support SQLite
- */
+
 public class SQLDialect extends Dialect {
+
     public SQLDialect() {
         registerColumnType(Types.BIT, "integer");
         registerColumnType(Types.TINYINT, "tinyint");

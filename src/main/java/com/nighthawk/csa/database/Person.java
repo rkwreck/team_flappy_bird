@@ -1,4 +1,4 @@
-package com.nighthawk.csa.data.SQL;
+package com.nighthawk.csa.database;
 
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -10,13 +10,6 @@ import java.time.Period;
 import java.time.ZoneId;
 import java.util.Date;
 
-/*
-Person is a POJO, Plain Old Java Object.
-First set of annotations add functionality to POJO
---- @Setter @Getter @ToString @NoArgsConstructor @RequiredArgsConstructor
-The last annotation connect to database
---- @Entity
- */
 @Setter
 @Getter
 @ToString
@@ -24,6 +17,7 @@ The last annotation connect to database
 @RequiredArgsConstructor
 @Entity
 public class Person {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -44,7 +38,7 @@ public class Person {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dob;
 
-    /* Initializer used when setting data from an API */
+    /* Initializer used when setting database from an API */
     public Person(String email, String name, Date dob) {
         this.email = email;
         this.name = name;

@@ -1,28 +1,24 @@
-package com.nighthawk.csa;
+package com.nighthawk.csa.database;
 
-
-import com.nighthawk.csa.data.SQL.*;
+import com.nighthawk.csa.database.Person;
+import com.nighthawk.csa.database.PersonSqlRepository;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
-// Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
-// or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
 @Controller
-public class PersonSqlMvcController implements WebMvcConfigurer {
+public class PersonController implements WebMvcConfigurer{
 
-    // Autowired enables Control to connect HTML and POJO Object to Database easily for CRUD
     @Autowired
     private PersonSqlRepository repository;
 
@@ -37,47 +33,47 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         @return - template for person form
         @param - Person Class
     */
-    @GetMapping("/createPerson")
-    public String createPerson(Person Person, Model model) {
-        return "createPerson";
+    @GetMapping("/personcreate")
+    public String personAdd(Person person) {
+        return "personcreate";
     }
 
     /* Gathers the attributes filled out in the form, tests for and retrieves validation error
     @param - Person object with @Valid
     @param - BindingResult object
      */
-    @PostMapping("/createPerson")
+    @PostMapping("/personcreate")
     public String personSave(@Valid Person person, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
-            return "createPerson"; 
+            return "personcreate";
         }
         repository.save(person);
         // Redirect to next step
-        return "redirect:/greetAdi";
+        return "redirect:/person";
     }
 
-    @GetMapping("updatePerson/")
-    public String updatePerson(@PathVariable("id") int id, Model model) {
+    @GetMapping("/personupdate/{id}")
+    public String personUpdate(@PathVariable("id") int id, Model model) {
         model.addAttribute("person", repository.get(id));
-        return "updatePerson";
+        return "personupdate";
     }
 
-    @PostMapping("updatePerson")
-    public String saveUpdatePerson(@Valid Person person, BindingResult bindingResult) {
+    @PostMapping("/personupdate")
+    public String personUpdateSave(@Valid Person person, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
-            return "updatePerson";
+            return "personupdate";
         }
         repository.save(person);
         // Redirect to next step
-        return "redirect:/greetAdi";
+        return "redirect:/person";
     }
 
-    @GetMapping("/deletePerson/{id}")
+    @GetMapping("/persondelete/{id}")
     public String personDelete(@PathVariable("id") long id) {
         repository.delete(id);
-        return "redirect:/greetAdi";
+        return "redirect:/person";
     }
 
     /*
@@ -88,7 +84,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     GET List of People
      */
-    @RequestMapping(value = "/friend/get")
+    @RequestMapping(value = "/people/get")
     public ResponseEntity<List<Person>> getPeople() {
         return new ResponseEntity<>( repository.listAll(), HttpStatus.OK);
     }
@@ -96,7 +92,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     GET individual Person using ID
      */
-    @RequestMapping(value = "/friend/get/{id}")
+    @RequestMapping(value = "/person/get/{id}")
     public ResponseEntity<Person> getPerson(@PathVariable long id) {
         return new ResponseEntity<>( repository.get(id), HttpStatus.OK);
     }
@@ -104,7 +100,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     DELETE individual Person using ID
      */
-    @RequestMapping(value = "/friend/delete/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/person/delete/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Object> deletePerson(@PathVariable long id) {
         repository.delete(id);
         return new ResponseEntity<>( ""+ id +" deleted", HttpStatus.OK);
@@ -114,7 +110,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     /*
     POST Aa record by Requesting Parameters from URI
      */
-    @RequestMapping(value = "/friend", method = RequestMethod.POST)
+    @RequestMapping(value = "/person/post", method = RequestMethod.POST)
     public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
                                              @RequestParam("name") String name,
                                              @RequestParam("dob") String dobString) {
@@ -130,4 +126,25 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
     }
 
+    @GetMapping("/person_search")
+    public String person() {
+        return "person_search";
+    }
+
+    /*
+    The personSearch API looks across database for partial match to term (k,v) passed by RequestEntity body
+     */
+    @RequestMapping(value = "/person_search", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> personSearch(RequestEntity<Object> request) throws JSONException {
+
+        // extract term from RequestEntity
+        JSONObject json = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
+        String term = (String) json.get("term");
+
+        // custom JPA query to filter on term
+        List<Person> list = repository.listLikeNative(term);
+
+        // return resulting list and status, error checking should be added
+        return new ResponseEntity<>(list, HttpStatus.OK);
+    }
 }
