@@ -7,10 +7,19 @@ _The deployed website currently does not contain all website updates. Last deplo
 ### Our Purpose:
 Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
 
-
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+
+### Table of Contents 
+| Week | Description | Link | 
+| :--: | :---------: | :--: | 
+| Week 0 | Meet the Team | [Link](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)| 
+| Week 1 | Project Approval | [Link](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval) | 
+| Week 2 | Home Pages | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
+| Week 3 | FRQ 3 | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
+| Week 4 | FRQ 4 + Game Planning | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
+| Week 5 | FRQ 5 + Theme | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
 Runtime for FRQ should be on website.
