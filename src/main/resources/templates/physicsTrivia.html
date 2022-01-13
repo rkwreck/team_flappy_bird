@@ -36,10 +36,9 @@
             var element = document.body;
             element.classList.toggle("dark-mode");
         }
-        function playTrivia() {
-            let user = 1;
-            takeTest(questions);
-        }
+        const quizContainer = document.getElementById('quiz');
+        const resultsContainer = document.getElementById('results');
+        const submitButton = document.getElementById('submit');
     </script>
 
 </body>
