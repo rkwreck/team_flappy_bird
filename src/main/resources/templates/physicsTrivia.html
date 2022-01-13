@@ -12,8 +12,8 @@
         font-size: 25px;
     }
 
-    .dark-mode {
-        background-color: black;
+    .swimmy-bird {
+        background: url('/images/swimmy_bird_background.png') no-repeat center scroll;
         color: white;
     }
 </style>
@@ -29,12 +29,12 @@
             <input type="text" id="enterAnswer" name="enterAnswer"><br>
         </form>
     </header>
-    <a class="btn" >Dark Mode</a>
+    <button onclick="toggleSecondTheme()">Swimmy Bird</button>
 
     <script>
         function toggleSecondTheme() {
             var element = document.body;
-            element.classList.toggle("dark-mode");
+            element.classList.toggle("swimmy-bird");
         }
         const quizContainer = document.getElementById('quiz');
         const resultsContainer = document.getElementById('results');
