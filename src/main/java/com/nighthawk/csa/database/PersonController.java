@@ -2,7 +2,8 @@ package com.nighthawk.csa.database;
 
 import com.nighthawk.csa.database.Person;
 import com.nighthawk.csa.database.PersonSqlRepository;
-import org.json.simple.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
@@ -15,7 +16,7 @@ import javax.validation.Valid;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class PersonController {
+
 
 
     // Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
@@ -144,7 +145,12 @@ public class PersonController {
 
             // extract term from RequestEntity
             JSONObject json = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
-            String term = (String) json.get("term");
+            String term = null;
+            try {
+                term = (String) json.get("term");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
 
             // custom JPA query to filter on term
             List<Person> list = repository.listLikeNative(term);
@@ -155,4 +161,4 @@ public class PersonController {
 
     }
 
-}
+
