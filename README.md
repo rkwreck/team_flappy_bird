@@ -17,8 +17,8 @@ NOTE: runtime for FRQ should be on website.
 Tangibles can be shown here: 
 | Name | Repl (FRQ Work) | Highlighted commmits | 
 | :--: | :-------------: | :---------------------: | 
-| Rini | LINK | Sources Page Commit Link (PBL), Jekyll 
-| Chenxin | LINK | Swimmy Bird (Theme) | 
+| Rini | [Link](https://replit.com/join/rrkvyskgss-rini) | Sources Page Commit Link (PBL), Jekyll |  
+| Chenxin | [Link](https://replit.com/@chenxinNi/FRQ5#Main.java) | Swimmy Bird (Theme) | 
 | Adi | LINK | Async Operation, CRUD Database | 
 | Prisha | LINK | Trivia Game Progress | 
 
