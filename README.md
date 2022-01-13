@@ -14,13 +14,13 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
 NOTE: runtime for FRQ should be on website.
-Tangibles can be shown here: 
-| Name | Repl (FRQ Work) | Highlighted commmits | 
+Tangibles can be found[here](). 
+| Name | Repl (FRQ Work) | Highlighted Commit Links  | 
 | :--: | :-------------: | :---------------------: | 
 | Rini | [Link](https://replit.com/join/rrkvyskgss-rini) | Sources Page Commit Link (PBL), Jekyll |  
-| Chenxin | [Link](https://replit.com/@chenxinNi/FRQ5#Main.java) | Swimmy Bird (Theme) | 
+| Chenxin | [Link](https://replit.com/@chenxinNi/FRQ5#Main.java) | [Swimmy Bird (Theme)](https://github.com/rkwreck/team_flappy_bird/commit/a06ff22784c1c9baeee9787a7e6426ce380528d1)  | 
 | Adi | LINK | Async Operation, CRUD Database | 
-| Prisha | LINK | Trivia Game Progress | 
+| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | Trivia Game Progress | 
 
 
 ## Week 4 Timebox (FRQ 4 + Game Planning)  
