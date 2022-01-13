@@ -17,6 +17,16 @@ body {
   line-height: 1.4;
 }
 
+.dark-mode {
+  background: var(--primary-color);
+  font-family: 'Courier New';
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  line-height: 1.4;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -74,8 +84,7 @@ body {
     opacity: 0.7;
   }
 }
-.thumbnail-grid;
-{
+
 ul {
   display: flex;
   flex-direction: row;
@@ -101,6 +110,4 @@ li:nth-child(4n) {
 
 .overlay:hover {
   opacity: 1;
-}
-
 }
