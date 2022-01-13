@@ -13,18 +13,18 @@ Develop minigames to make coding more accessible for people + educate people on 
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
-NOTE: runtime for FRQ should be on website.
-Tangibles can be found[here](). 
-| Name | Repl (FRQ Work) | Highlighted Commit Links  | 
-| :--: | :-------------: | :---------------------: | 
-| Rini | [Link](https://replit.com/join/rrkvyskgss-rini) | [Sources/Further Readings Page (PBL)](https://github.com/rkwreck/team_flappy_bird/commit/62b4dbbb814f2f443e6bff8b0dd4074523ca250a), Jekyll |  
-| Chenxin | [Link](https://replit.com/@chenxinNi/FRQ5#Main.java) | [Swimmy Bird (Theme)](https://github.com/rkwreck/team_flappy_bird/commit/a06ff22784c1c9baeee9787a7e6426ce380528d1)  | 
-| Adi | [Data Ops](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/DataOpsController.java), [Password.java](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java) | Async Operation, CRUD Database | 
+Runtime for FRQ should be on website.
+Tangibles can be found [here](). 
+| Name | FRQ Work | Highlighted Commit Links  | 
+| :--: | :------: | :---------------------: | 
+| Rini | [Repl.it](https://replit.com/join/rrkvyskgss-rini) | [Sources/Further Readings Page (PBL)](https://github.com/rkwreck/team_flappy_bird/commit/62b4dbbb814f2f443e6bff8b0dd4074523ca250a), Jekyll |  
+| Chenxin | [Repl.it](https://replit.com/@chenxinNi/FRQ5#Main.java) | [Swimmy Bird (Theme)](https://github.com/rkwreck/team_flappy_bird/commit/a06ff22784c1c9baeee9787a7e6426ce380528d1)  | 
+| Adi | [Github Data Ops](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/DataOpsController.java), [Github Password.java](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java) | Async Operation, CRUD Database | 
 | Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | [Physics Trivia Game Backend](https://github.com/rkwreck/team_flappy_bird/commit/4c2251ae9e99378eb93c46e31b93ef428b406aec), [Dark Mode](https://github.com/rkwreck/team_flappy_bird/commit/940fab27013ed472e989952ae18629714aa97da4) | 
 
 
 ## Week 4 Timebox (FRQ 4 + Game Planning)  
-NOTE: runtime for FRQ should be on website.
+Runtime for FRQ should be on website.
 Tangibles can be found [here](https://github.com/rkwreck/team_flappy_bird/wiki/PBL-Progress-Tangibles:-Making-Games).
 | Name | Journal (Link to FRQ Code java) | Individual Commits | Link to Frontend code |
 | :--: | :-----------------------------: | :----------------: | :-------------------: |
@@ -35,7 +35,7 @@ Tangibles can be found [here](https://github.com/rkwreck/team_flappy_bird/wiki/P
 
 ## Week 3 Timebox (FRQ 3)  
 Tangibles and further details [here](https://github.com/rkwreck/team_flappy_bird/issues/21).
-NOTE: runtime for FRQ should be on website
+Runtime for FRQ should be on website.
 | Name | Journal (Link to FRQ Code java) | Individual Commits | Link to Frontend code |
 | :--: | :----------------: | :-----: | :-----: |
 | Rini | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/671e08068af0f10fba1886f061c83368d8b863e1) | [Frontend Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/draw.html) |
@@ -53,7 +53,6 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 | Prisha | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetPrisha.html) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
 
 ## Week 1 Timebox (Project Approval)
-
 | Name | Role Assignment (BOF) | Wiki Link | 
 | :--: | :-------------: | :-------: |
 | Rini | Github and Scrum Board | [Github BOF](https://github.com/rkwreck/team_flappy_bird/wiki/BOF-Github-Policy-Document-(Tech-Talk-0.3)) and [Scrum BOF](https://github.com/rkwreck/team_flappy_bird/wiki/BOF-Scrum-Masters-(Tech-Talk-0.2)) |
@@ -62,8 +61,6 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 | Prisha | Wireframe and Brain Write | [Wireframe BOF](https://github.com/rkwreck/team_flappy_bird/wiki/Wireframes) |
 
 ## Week 0 Timebox (Meet the Scrum Team) 
-
-
 | Name | Role | Profile | Tasks/Issues | Commits | Journal | 
 | :--: | :--: | :-----: | :----------: | :-----: | :-----: | 
 | Rini | Scrum Master & Github Admin | [@rkwreck](https://github.com/rkwreck) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/rkwreck) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=rkwreck) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing)| 
