@@ -20,7 +20,7 @@ Tangibles can be found[here]().
 | Rini | [Link](https://replit.com/join/rrkvyskgss-rini) | Sources Page Commit Link (PBL), Jekyll |  
 | Chenxin | [Link](https://replit.com/@chenxinNi/FRQ5#Main.java) | Swimmy Bird (Theme) | 
 | Adi | LINK | Async Operation, CRUD Database | 
-| Prisha | LINK | Trivia Game Progress | 
+| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | Trivia Game Progress | 
 
 
 ## Week 4 Timebox (FRQ 4 + Game Planning)  
