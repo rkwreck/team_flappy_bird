@@ -15,6 +15,10 @@
       chkBtn.checked = false;
     }
   }
+
+  function darkFunction() {
+    document.body.classList.toggle("dark-mode");
+  }
 </script>
 
 <body>
@@ -32,6 +36,7 @@
             <li><a href="games">Games</a></li>
             <li><a href="aboutus">About Us</a></li>
             <li><a href="ourPurpose" onclick="closeOverlayMenu();">Our Purpose</a></li>
+            <li><button onclick="darkFunction();">Dark Mode</button></li>
           </ul>
         </div>
       </div>
@@ -57,5 +62,6 @@
 </footer>
 
 </body>
+
 
 </html>

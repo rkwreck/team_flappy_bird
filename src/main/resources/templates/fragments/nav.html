@@ -64,22 +64,40 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/greetRini">Rini</a>
             </li>
+            <li class="custom-control custom-switch">
+                <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
+                <label class="custom-control-label" for="darkSwitch">Swimmy Mode</label>
+            </li>
         </ul>
         <!-- Clock display -->
         <div class="px-3">
             <span id="clock"></span>
         </div>
         <!-- Dark mode action -->
-        <div class="custom-control custom-switch">
-            <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
-            <label class="custom-control-label" for="darkSwitch"></label>
-        </div>
         <!-- Navigation bar JavaScript support -->
         <script>
             // Dark Mode Toggle
+            const darkSwitch=document.getElementById("darkSwitch");
+                // establishes the initial state of darkSwitch on page load
+            if(darkSwitch) {
+                    // obtains the value of darkSwitch from localStorage
+                const darkSwitchSelected =
+                    localStorage.getItem("darkSwitch") !== null &&
+                    localStorage.getItem("darkSwitch") === "dark";
+                    // sets the value of darkSwitch.checked to the global darkSwitch
+                darkSwitch.checked=darkSwitchSelected;
+                    // if dark-mode, toggle the switch to dark-mode position
+                if (darkSwitchSelected)
+                        document.body.classList.toggle("dark-mode");
+            }
+                // executes on each "dark mode" UI toggle
             function darkFunction() {
-                let element = document.body;
-                element.classList.toggle("dark-mode");
+                    // toggles between off (standard CSS) and dark-mode (.dark-mode CSS)
+                document.body.classList.toggle("dark-mode");
+                    // localStorage is used to manage darkSwitch status
+                darkSwitch.checked
+                    ? localStorage.setItem("darkSwitch","dark")
+                    : localStorage.removeItem("darkSwitch");
             }
             // Clock controller
             let clockElement = document.getElementById('clock');
