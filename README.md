@@ -17,10 +17,10 @@ NOTE: runtime for FRQ should be on website.
 Tangibles can be found[here](). 
 | Name | Repl (FRQ Work) | Highlighted Commit Links  | 
 | :--: | :-------------: | :---------------------: | 
-| Rini | [Link](https://replit.com/join/rrkvyskgss-rini) | Sources Page Commit Link (PBL), Jekyll |  
+| Rini | [Link](https://replit.com/join/rrkvyskgss-rini) | [Sources/Further Readings Page (PBL)](https://github.com/rkwreck/team_flappy_bird/commit/62b4dbbb814f2f443e6bff8b0dd4074523ca250a), Jekyll |  
 | Chenxin | [Link](https://replit.com/@chenxinNi/FRQ5#Main.java) | [Swimmy Bird (Theme)](https://github.com/rkwreck/team_flappy_bird/commit/a06ff22784c1c9baeee9787a7e6426ce380528d1)  | 
-| Adi | LINK | Async Operation, CRUD Database | 
-| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | Trivia Game Progress | 
+| Adi | [Data Ops](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/DataOpsController.java), [Password.java](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java) | Async Operation, CRUD Database | 
+| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | [Physics Trivia Game Backend](https://github.com/rkwreck/team_flappy_bird/commit/4c2251ae9e99378eb93c46e31b93ef428b406aec), [Dark Mode](https://github.com/rkwreck/team_flappy_bird/commit/940fab27013ed472e989952ae18629714aa97da4) | 
 
 
 ## Week 4 Timebox (FRQ 4 + Game Planning)  
