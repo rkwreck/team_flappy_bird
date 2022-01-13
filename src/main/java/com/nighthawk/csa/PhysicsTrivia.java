@@ -1,15 +1,17 @@
 package com.nighthawk.csa;
 import java.util.Scanner;
+
 public class PhysicsTrivia {
-    boolean prompt;
-    String answer;
+    public class Question {
+        String prompt;
+        String answer;
 
-    public PhysicsTrivia(String question, String correctAnswer) {
+        public Question(String prompt, String answer) {
+            this.prompt = prompt;
+            this.answer = answer;
+        }
     }
-
-
-
-    public static void main (String[] args) {
+    public void doTrivia() {
         String q1 = "Under what condition are you allowed to use the 4 main kinematics equations?\n"
                 + "(a)When time is constant\n(b)When position is constant\n(c)When velocity is constant]\n(d)When acceleration is constant\n";
         String q2 = "If a projectile is launched at an angle and returns back to the same height when it lands, what type of projectile motion is it?\n"
@@ -30,28 +32,34 @@ public class PhysicsTrivia {
                 + "(a)-13.33 cm\n(b)36.67 cm\n(c)-13.33 m\n(d)36.67 m";
         String q10 = "Lambda is for linear mass density, sigma is for surface area density so rho is for ___.\n" +
                 "(a)Momentum Density\n(b)Volume Density\n(c)3D Density\n(d)Impulse Density";
-        PhysicsTrivia [] questions = {
-                new PhysicsTrivia(q1, "d"),
-                new PhysicsTrivia(q2, "b"),
-                new PhysicsTrivia(q3, "a"),
-                new PhysicsTrivia(q4,"b"),
-                new PhysicsTrivia(q5, "c"),
-                new PhysicsTrivia(q6, "a"),
-                new PhysicsTrivia(q7, "d"),
-                new PhysicsTrivia(q8, "c"),
-                new PhysicsTrivia(q9, "a"),
-                new PhysicsTrivia(q10, "b")
+
+        Question [] questions = {
+                new Question(q1, "d"),
+                new Question(q2, "b"),
+                new Question(q3, "a"),
+                new Question(q4,"b"),
+                new Question(q5, "c"),
+                new Question(q6, "a"),
+                new Question(q7, "d"),
+                new Question(q8, "c"),
+                new Question(q9, "a"),
+                new Question(q10, "b")
         };
         takeTest(questions);
     }
 
-    public static void takeTest(PhysicsTrivia[] questions) {
+    public static void main (String[] args) {
+        PhysicsTrivia myTrivia = new PhysicsTrivia();
+        myTrivia.doTrivia();
+    }
+
+    public static void takeTest(Question[] questions) {
         int score = 0;
         Scanner keyboardInput = new Scanner(System.in);
-        for (PhysicsTrivia question : questions) {
-            System.out.println(question.prompt);
+        for (int i = 0; i < questions.length; i++) {
+            System.out.println(questions[i].prompt);
             String answer = keyboardInput.nextLine();
-            if (answer.equals(question.answer)) {
+            if (answer.equals(questions[i].answer)) {
                 score++;
             }
         }
