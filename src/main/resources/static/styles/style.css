@@ -17,6 +17,12 @@ body {
     line-height: 1.4;
 }
 
+.dark-mode {
+    background: url('/images/swimmy_bird_background.png') no-repeat center scroll;
+    font-family: 'Courier New';
+    line-height: 1.4;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
@@ -24,11 +30,6 @@ body {
     padding: 0 3rem;
 }
 
-.dark-mode {
-    background: url('/images/swimmy_bird_background.png') no-repeat center scroll;
-    font-family: 'Courier New';
-    line-height: 1.4;
-}
 
 .showcase {
     background: var(--primary-color);
