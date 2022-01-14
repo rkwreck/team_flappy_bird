@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Read More</title>
+    <link th:href="@{/styles/reset.css}" rel="stylesheet" />
+    <title>Learn & Discover: Sources</title>
 </head>
 <body>
 
@@ -11,13 +12,15 @@
 
 <header class="showcase">
     <div class="container showcase-inner">
-        <p>Our purpose is to educate you on issues around the world. Games were just the start.</p>
-        <p>Here are sources related to the games you've played. Learn more about:</p>
-        <a href="#" class="btn" >Physics</a>
-        <a href="#" class="btn" >Medical Emergencies</a>
-        <a href="#" class="btn" >Plant Biology</a>
-        <a href="#" class="btn" >Plant Medicine</a>
-        <a href="#" class="btn" >Chemistry</a>
+        <h1>Learn More</h1>
+        <p>Our purpose is to educate you on various topics.</p>
+        <p>Games were just the start.</p>
+        <p>Learn more about:</p>
+        <a href="/physics_sources" class="btn" >Physics</a>
+        <a href="/medical_sources" class="btn" >Medical Emergencies</a>
+        <a href="/plant_bio_sources" class="btn" >Plant Biology</a>
+        <a href="/plant_medicine_sources" class="btn" >Plant Medicine</a>
+        <a href="/chemistry_sources" class="btn" >Chemistry</a>
     </div>
 </header>
 
