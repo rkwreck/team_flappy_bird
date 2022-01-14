@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Team Flappy Bird's Tri 2 Timebox
 
-You can use the [editor on GitHub](https://github.com/rkwreck/team_flappy_bird/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rkwreck/team_flappy_bird/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Week | Wiki Pages | FRQ Work | 
+| :--: | :--------: | :------: |
+| 5 | [PBL Layout Progress](https://github.com/rkwreck/team_flappy_bird/wiki/Week-5-PBL-Progress:-Swimmy-Bird,-Source-Pages,-and-Jekyll) | [Rini](https://replit.com/join/rrkvyskgss-rini), [Adi](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java), [Chenxin](https://replit.com/@chenxinNi/FRQ5#Main.java), [Prisha](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) |
+| 4 | [PBL Game Progress](https://github.com/rkwreck/team_flappy_bird/wiki/Jan-6th-%E2%80%93%C2%A0PBL-Progress-Tangibles:-Making-Games) | [Rini](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing), [Adi](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6), [Chenxin](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing), [Prisha](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
+| 3 | [Design Runtime](https://github.com/rkwreck/team_flappy_bird/wiki/Design-Manager-Tangibles-(Week-3)---Runtime) | [Rini](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing), [Adi](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6), [Chenxin](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing), [Prisha](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | 
+| 2 | [About Us Pages](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)) | [Rini](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing), [Adi](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6), [Chenxin](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing), [Prisha](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | 
+| 1 | [Wireframes](https://github.com/rkwreck/team_flappy_bird/wiki/Wireframes) | [Rini](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing), [Adi](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6), [Chenxin](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing), [Prisha](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
