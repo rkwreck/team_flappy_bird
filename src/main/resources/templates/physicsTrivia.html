@@ -7,15 +7,11 @@
 <style>
     body {
         padding: 25px;
-        background-color: white;
+        background: url('../images/flappy');
         color: black;
         font-size: 25px;
     }
 
-    .swimmy-bird {
-        background: url('/images/swimmy_bird_background.png') no-repeat center scroll;
-        color: white;
-    }
 </style>
 
 <body>
@@ -23,19 +19,15 @@
     <header class="showcase">
         <div class="container showcase-inner">
         <h1 style="color: dodgerblue; background-color: yellow; text-align: center">10 Questions. Ready... Set... Go!</h1>
+            <APPLET CODE="PhysicsTrivia.class" WIDTH="800" HEIGHT="500"></APPLET>
         </div>
         <form>
             <label for="enterAnswer" style="font-family: 'Courier New'">Answer by entering any of these options: a, b, c, d</label><br>
             <input type="text" id="enterAnswer" name="enterAnswer"><br>
         </form>
     </header>
-    <button onclick="toggleSecondTheme()">Swimmy Bird</button>
 
     <script>
-        function toggleSecondTheme() {
-            var element = document.body;
-            element.classList.toggle("swimmy-bird");
-        }
         const quizContainer = document.getElementById('quiz');
         const resultsContainer = document.getElementById('results');
         const submitButton = document.getElementById('submit');

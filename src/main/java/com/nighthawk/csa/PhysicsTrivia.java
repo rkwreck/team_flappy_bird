@@ -1,7 +1,9 @@
 package com.nighthawk.csa;
 import java.util.Scanner;
+import java.applet.*;
+import java.awt.*;
 
-public class PhysicsTrivia {
+public class PhysicsTrivia extends Applet{
     public class Question {
         String prompt;
         String answer;
