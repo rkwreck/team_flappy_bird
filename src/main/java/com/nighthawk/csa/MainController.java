@@ -171,7 +171,7 @@ public class MainController {
     }
 
     @GetMapping("/further_readings")
-    public String medicalTrivia(Model model) {
+    public String furtherReadings(Model model) {
         return "further_readings";
     }
 }
