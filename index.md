@@ -1,5 +1,7 @@
 # Team Flappy Bird's Tri 2 Timebox
 
+## Team's [ReadME](https://github.com/rkwreck/team_flappy_bird#readme)
+
 | Week | Wiki Pages | FRQ Work | 
 | :--: | :--------: | :------: |
 | 5 | [PBL Layout Progress](https://github.com/rkwreck/team_flappy_bird/wiki/Week-5-PBL-Progress:-Swimmy-Bird,-Source-Pages,-and-Jekyll) | [Rini](https://replit.com/join/rrkvyskgss-rini), [Adi](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java), [Chenxin](https://replit.com/@chenxinNi/FRQ5#Main.java), [Prisha](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) |
