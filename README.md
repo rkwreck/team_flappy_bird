@@ -26,10 +26,10 @@ Runtime for FRQ should be on website.
 Tangibles can be found [here](). 
 | Name | FRQ Work | Highlighted Commit Links  | 
 | :--: | :------: | :---------------------: | 
-| Rini | [Repl.it](https://replit.com/join/rrkvyskgss-rini) | [Sources/Further Readings Page (PBL)](https://github.com/rkwreck/team_flappy_bird/commit/62b4dbbb814f2f443e6bff8b0dd4074523ca250a), Jekyll |  
-| Chenxin | [Repl.it](https://replit.com/@chenxinNi/FRQ5#Main.java) | [Swimmy Bird (Theme)](https://github.com/rkwreck/team_flappy_bird/commit/a06ff22784c1c9baeee9787a7e6426ce380528d1)  | 
-| Adi | [Github Data Ops](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/DataOpsController.java), [Github Password.java](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java) | Async Operation, CRUD Database | 
-| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | [Physics Trivia Game Backend](https://github.com/rkwreck/team_flappy_bird/commit/4c2251ae9e99378eb93c46e31b93ef428b406aec), [Dark Mode](https://github.com/rkwreck/team_flappy_bird/commit/940fab27013ed472e989952ae18629714aa97da4) | 
+| Rini | [Repl.it](https://replit.com/join/rrkvyskgss-rini) | [Source Directory Page Frontend (PBL)](https://github.com/rkwreck/team_flappy_bird/commit/3928bf4a56c2ae11d7250cc80c88d24d14ed97ed), [Sub Source Pages Skeletons (PBL)](https://github.com/rkwreck/team_flappy_bird/commit/e368b979082c4d81270d50ed3ceb4553364d00d9), [Jekyll](https://github.com/rkwreck/team_flappy_bird/commit/c2beb394f510505d60d9ce0de2b1de069e0e9c36) |  
+| Chenxin | [Repl.it](https://replit.com/@chenxinNi/FRQ5#Main.java) | [Jekyll Connected to Frontend](https://github.com/rkwreck/team_flappy_bird/commit/d9c62d2f0f8b200537414274fbbf3393bbb60791), [Swimmy Bird](https://github.com/rkwreck/team_flappy_bird/commit/a06ff22784c1c9baeee9787a7e6426ce380528d1)  | 
+| Adi | [Github Data Ops](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/DataOpsController.java), [Github Password.java](https://github.com/adhithin/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/mvc/DataOps/genericDataModel/Password.java) | Async Operation, CRUD Database (given extension) | 
+| Prisha | [Repl.it](https://replit.com/@PrishaMaiti/PrishasTests#PasswordGenerator.java) | [Swimmy Bird](https://github.com/rkwreck/team_flappy_bird/commit/8a9ae872031d4f8fd0051105a421242742a17ef6) | 
 
 
 ## Week 4 Timebox (FRQ 4 + Game Planning)  
