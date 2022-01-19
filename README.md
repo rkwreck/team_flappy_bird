@@ -1,7 +1,7 @@
 Shoutout to the GitHub Support Team for detatching our fork
 
 ### Website URL: [flappybird.cf](http://flappybird.cf/)
-### Jekyll URL:[jekyll](https://rkwreck.github.io/team_flappy_bird/). 
+### Jekyll URL: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
 _Last deployed January 14th, 2022._
 
 ### Our Purpose:
