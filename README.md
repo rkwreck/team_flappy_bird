@@ -1,14 +1,13 @@
 Shoutout to the GitHub Support Team for detatching our fork
 
 ### Website URL: [flappybird.cf](http://flappybird.cf/)
-
-_The deployed website currently does not contain all website updates. Last deployed 12/16/21._
+### Jekyll URL:[jekyll](https://rkwreck.github.io/team_flappy_bird/). 
+_Last deployed January 14th, 2022._
 
 ### Our Purpose:
 Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
 
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
-
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ### Table of Contents 
@@ -20,6 +19,14 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Week 3 | FRQ 3 | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
 | Week 4 | FRQ 4 + Game Planning | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
 | Week 5 | FRQ 5 + Theme | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
+
+## Week 6 Timebox (Midterm Ketchup Week)
+| Name | FRQ Commit Link | Repl.it | 
+| :--: | :-------------: | :-----: | 
+| Rini | Link | Link | 
+| Chenxin | Link | Link | 
+| Adi | Link | Link | 
+| Prisha | Link | Link | 
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
 Runtime for FRQ should be on website.
