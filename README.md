@@ -22,6 +22,8 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Week 5 | FRQ 5 + Theme | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
 | Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Week 6 Timebox (Midterm Ketchup Week)
 | Name | FRQ Commit Link | Repl.it | 
 | :--: | :-------------: | :-----: | 
