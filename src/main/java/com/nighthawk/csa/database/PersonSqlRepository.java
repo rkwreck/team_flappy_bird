@@ -47,5 +47,8 @@ public class PersonSqlRepository {
                 : null;
     }
 
+    public void delete(long id) {
 
+        jpa.deleteById(id);
+    }
 }
