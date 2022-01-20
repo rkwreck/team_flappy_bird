@@ -205,26 +205,6 @@ public class MainController {
         return "frq_directory";
     }
 
-    @GetMapping("/frq_adi")
-    public String frqAdi(Model model) {
-        return "frq_adi";
-    }
-
-    @GetMapping("/frq_chenxin")
-    public String frqChenxin(Model model) {
-        return "frq_chenxin";
-    }
-
-    @GetMapping("/frq_prisha")
-    public String frqPrisha(Model model) {
-        return "frq_prisha";
-    }
-
-    @GetMapping("/frq_rini")
-    public String frqRini(Model model) {
-        return "frq_rini";
-    }
-
 }
 
 
