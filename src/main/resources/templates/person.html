@@ -20,7 +20,7 @@
             <h1>SQL Person List</h1>
         </div>
         <div class="row justify-content-md-center">
-            <a th:href="@{/database/personcreate/}">Create Person</a>
+            <a th:href="@{/personcreate/}">Create Person</a>
         </div>
 
         <table class="table table-bordered">
@@ -41,8 +41,8 @@
                 <td th:if="${person.getAge() != -1}" th:text="${person.getAge()}">Age</td>
                 <td th:unless="${person.getAge() != -1}" th:text="Unknown">Unknown Age</td>
                 <td>
-                    <a th:href="@{/database/personupdate/{id}(id = ${person.id})}">Update</a>
-                    <a th:href="@{/database/persondelete/{id}(id = ${person.id})}">Delete</a>
+                    <a th:href="@{/personupdate/{id}(id = ${person.id})}">Update</a>
+                    <a th:href="@{/persondelete/{id}(id = ${person.id})}">Delete</a>
                 </td>
             </tr>
             </tbody>

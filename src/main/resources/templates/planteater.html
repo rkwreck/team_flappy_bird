@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <div th:replace="fragments/overlaymenu :: commonhead">...</div>
     <link th:href="@{/styles/reset.css}" rel="stylesheet" />
-    <title>About Us</title>
+    <title>Plant Eater</title>
 </head>
 <!-- <head> -->
 <div layout:fragment="head" th:remove="tag">
     <!-- Page specific head additions -->
-    <title>Snake Game</title>
+    <title>Plant Eater Game</title>
     <style type="text/css">
 
         ::selection {color:#FFFFFF; background:transparent;}
@@ -160,7 +160,7 @@
 <div layout:fragment="body" th:remove="tag">
     <!-- Page specific body additions -->
     <header class="wrap">
-        <h1>Snake</h1>
+        <h1>Herbivore</h1>
         <p class="score">Score: <span id="score_value">0</span></p>
     </header>
     <canvas class="wrap" id="snake" width="320" height="320" tabindex="1"></canvas>
@@ -199,7 +199,7 @@
 
     <!-- Main Menu Screen -->
     <div id="menu">
-        <h2>Snake</h2>
+        <h2>Herbivore</h2>
 
         <a id="newgame_menu">new game</a>
         <a id="setting_menu">settings</a>
