@@ -11,9 +11,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
