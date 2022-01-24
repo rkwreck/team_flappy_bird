@@ -20,7 +20,8 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Week 3 | FRQ 3 | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
 | Week 4 | FRQ 4 + Game Planning | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
 | Week 5 | FRQ 5 + Theme | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week)
+| Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week) | 
+| Week 7 | FRQ Showing 1 | [Link]() | 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
