@@ -25,6 +25,12 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Week 7 Timebox (FRQ Showing 1) 
+| Name | Highlighted Talk Points + Learnings From FRQs | FRQs (with menu) | FRQ Github Source | 
+| :--: | :-------------------------------------------: | :--------------: | :---------------: | 
+| Rini | Link | Link| Link | 
+| Chenxin | Link | Link| Link | 
+| Adi | Link | Link| Link | 
+| Prisha | Link | Link| Link | 
 
 ## Week 6 Timebox (Midterm Ketchup Week)
 | Name | Vocab Wiki Page | 
