@@ -25,12 +25,10 @@ Develop minigames to make coding more accessible for people + educate people on 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Week 6 Timebox (Midterm Ketchup Week)
-| Name | FRQ Commit Link | Repl.it | 
-| :--: | :-------------: | :-----: | 
-| Rini | Link | Link | 
-| Chenxin | Link | Link | 
-| Adi | Link | Link | 
-| Prisha | Link | Link | 
+| Name | Vocab Wiki Page | 
+| :--: | :-------------: |
+| Rini & Chenxin | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-&-Rini-Week-6-Midterm-(Vocab)) | 
+| Adi & Prisha | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-&-Prisha---Week-6-Midterm) | 
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
 Runtime for FRQ should be on website.
