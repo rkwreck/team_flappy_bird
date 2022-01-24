@@ -24,6 +24,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Week 7 | FRQ Showing 1 | [Link]() | 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Week 7 Timebox (FRQ Showing 1) 
 
 ## Week 6 Timebox (Midterm Ketchup Week)
 | Name | Vocab Wiki Page | 
