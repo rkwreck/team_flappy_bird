@@ -10,7 +10,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Table of Contents 
 | Week | Description | Link | 
 | :--: | :---------: | :--: | 
