@@ -16,7 +16,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 ### Repl.it Links
 | Name | Repl.it | 
 | :--: | :-----: | 
-| Rini | Link | 
+| Rini | [Link](https://replit.com/@Rini/FRQs-CSA) | 
 | Chenxin | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
 | Adi | Link | 
 | Prisha | Link | 
