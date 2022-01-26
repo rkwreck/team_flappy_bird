@@ -1,3 +1,5 @@
+_Last updated January 26th, 2022._
+
 Shoutout to the GitHub Support Team for detatching our fork.
 
 ### Website URL: [flappybird.cf](http://flappybird.cf/)
@@ -10,6 +12,15 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+
+### Repl.it Links
+| Name | Repl.it | 
+| :--: | :-----: | 
+| Rini | Link | 
+| Chenxin | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
+| Adi | Link | 
+| Prisha | Link | 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Table of Contents 
 | Week | Description | Link | 
