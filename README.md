@@ -19,7 +19,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Rini | [Link](https://replit.com/@Rini/FRQs-CSA) | 
 | Chenxin | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
 | Adi | [Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
-| Prisha | Link | 
+| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Table of Contents 
