@@ -48,7 +48,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Name | Highlighted Talk Points + Learnings From FRQs | FRQs (with menu) | 
 | :--: | :-------------------------------------------: | :--------------: | 
 | Rini | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Link](https://replit.com/@Rini/FRQs-CSA) | 
-| Chenxin | Link | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
+| Chenxin | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
 | Adi | Link | [Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
 | Prisha | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
