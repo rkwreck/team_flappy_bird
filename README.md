@@ -50,7 +50,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Rini | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1) | [Link](https://replit.com/@Rini/FRQs-CSA) | 
 | Chenxin | Link | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
 | Adi | Link | [Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
-| Prisha | Link | [Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
+| Prisha | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
 ## Week 6 Timebox (Midterm Ketchup Week)
 | Name | Vocab Wiki Page | 
