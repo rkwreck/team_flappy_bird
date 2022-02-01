@@ -44,8 +44,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 | Adi | Link | Link |
 | Prisha | Link | Link |
 
-Pairings for Week 8: Rini & Adi
-                     Chenxin & Prisha
+Pairings for Week 8: Rini & Adi +  Chenxin & Prisha
 
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name/Pair | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
