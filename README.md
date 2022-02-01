@@ -98,7 +98,7 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 | Prisha | [Commits Link](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/greetPrisha.html) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |
 
 ## Week 1 Timebox (Project Approval)
-| Name | Role Assignment (BOF) | Wiki Link | 
+| Name | Role Assignment (BOF) | Wiki Link (BOF Discussions + Follow-Up Work) | 
 | :--: | :-------------: | :-------: |
 | Rini | Github and Scrum Board | [Github BOF](https://github.com/rkwreck/team_flappy_bird/wiki/BOF-Github-Policy-Document-(Tech-Talk-0.3)) and [Scrum BOF](https://github.com/rkwreck/team_flappy_bird/wiki/BOF-Scrum-Masters-(Tech-Talk-0.2)) |
 | Chenxin | Deployment Guide | [Deployment BOF](https://github.com/rkwreck/team_flappy_bird/wiki/Deployment-Guide-(Tech-Talk-0.4)) |
