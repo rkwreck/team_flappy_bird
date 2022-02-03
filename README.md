@@ -39,7 +39,7 @@ Develop minigames to make coding more accessible for people + educate people on 
 ## Week 8 Timebox (FRQ Showing 2) 
 | Name | Crossover Partners | Individual Review Ticket | Final FRQ Product | PBL Work Commits? | 
 | :--: | :----------------: | :----------------------: | :---------------: | :---------------: | 
-| Rini | @user | Link | Link | Link | 
+| Rini | @ridhimainukurti | Link | Link | Link | 
 | Chenxin | @user | Link | Link | Link | 
 | Adi | @user | Link | Link | Link | 
 | Prisha | @user | Link | Link | Link | 
