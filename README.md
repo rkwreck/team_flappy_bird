@@ -46,10 +46,12 @@ Develop minigames to make coding more accessible for people + educate people on 
 
 
 ## Week 7 Timebox (FRQ Showing 1) 
-| Name/Pair | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
+| Name | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
 | :--: | :-------------------------------------------: | :--------------: | 
-| Rini & Chenxin | [Rini's Talking Points](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) + [Chenxin's Talking Points](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Rini's FRQs](https://replit.com/@Rini/FRQs-CSA) + [Chenxin's FRQs](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
-| Adi & Prisha | [Adi's Talking Points](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) + [Prisha's Talking Points](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7))  | [Adi's FRQs](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) + [Prisha's FRQs](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
+| Rini | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@Rini/FRQs-CSA)| 
+| Chenxin | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
+| Adi | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) | [Repl Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
+| Prisha | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
 ## Week 6 Timebox (Midterm Ketchup Week)
 | Name | Vocab Wiki Page | 
