@@ -1,15 +1,13 @@
-_Last updated January 26th, 2022._
+_Last updated February 4th, 2022._
 
-Shoutout to the GitHub Support Team for detatching our fork.
+### Our Purpose:
+Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
 
 ### Website URL: [flappybird.cf](http://flappybird.cf/)
 ### Jekyll URL: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
 _Last deployed January 14th, 2022._
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Our Purpose:
-Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
-
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
@@ -117,3 +115,5 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 | Prisha | Primary Designer | Organize Thymeleaf enabled templates + ensure usage of Bootstrap (minimize CSS customization per page) + establish plan for overrides on each of the User Pages + polish frontend | [@PrishaMaiti](https://github.com/PrishaMaiti) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/PrishaMaiti)| [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=PrishaMaiti) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |  
    
 ### Chenxin's Shark Puppy (Mascot): [Image](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/static/images/puppy_shark.png)
+
+Shoutout to the GitHub Support Team for detatching our fork. Thank you!
