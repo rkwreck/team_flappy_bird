@@ -11,14 +11,6 @@ _Last deployed January 14th, 2022._
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
-### Repl.it Links
-| Name | Repl.it | 
-| :--: | :-----: | 
-| Rini | [Link](https://replit.com/@Rini/FRQs-CSA) | 
-| Chenxin | [Link](https://replit.com/@chenxinNi/FRQWork#Main.java) | 
-| Adi | [Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
-| Prisha | [Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Table of Contents 
 | Week | Description | Link | 
