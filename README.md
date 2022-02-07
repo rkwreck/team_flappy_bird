@@ -35,7 +35,7 @@ _Last deployed January 14th, 2022._
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Week 8 Timebox (FRQ Showing 2) 
-| Name | Crossover Partners | Individual Review Ticket |
+| Name | Crossover Partners | Individual Review Ticket w/ Scores & Reflection |
 | :--: | :----------------: | :----------------------: | 
 | Rini | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/33) | 
 | Chenxin | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
