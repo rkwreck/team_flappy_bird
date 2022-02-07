@@ -39,7 +39,7 @@ _Last deployed January 14th, 2022._
 | :--: | :----------------: | :----------------------: | 
 | Rini | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/33) | 
 | Chenxin | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
-| Adi | @user | [Link](https://github.com/rkwreck/team_flappy_bird/issues/35) | 
+| Adi | [@risaiwazaki](https://github.com/risaiwazaki) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) and @macddmac | [Link](https://github.com/ridhimainukurti/p1-Valid/issues/39#issuecomment-1031659860) | 
 | Prisha | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
 
 
