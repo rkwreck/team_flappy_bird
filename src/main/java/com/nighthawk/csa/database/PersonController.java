@@ -1,10 +1,12 @@
 package com.nighthawk.csa.database;
 
-import com.nighthawk.csa.database.Person;
-import com.nighthawk.csa.database.PersonSqlRepository;
-import org.json.simple.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.*;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.RequestEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -13,7 +15,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 // Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
 // or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
@@ -137,7 +142,7 @@ public class PersonController implements WebMvcConfigurer {
     The personSearch API looks across database for partial match to term (k,v) passed by RequestEntity body
      */
     @RequestMapping(value = "/api/person_search", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Object> personSearch(RequestEntity<Object> request) {
+    public ResponseEntity<Object> personSearch(RequestEntity<Object> request) throws JSONException {
 
         // extract term from RequestEntity
         JSONObject json = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
