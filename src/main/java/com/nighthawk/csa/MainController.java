@@ -11,9 +11,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
@@ -35,34 +33,34 @@ public class MainController {
 
     @GetMapping("/aboutus")
     public String aboutus(Model model) {
-        return "aboutus";
+        return "aboutus/aboutus";
     }
 
     @GetMapping("/games")
     public String games(Model model) {
-        return "games";
+        return "games/games";
     }
 
     @GetMapping("/game1")
     public String game1(Model model) {
-        return "game1";
+        return "games/game1";
     }
 
     @GetMapping("/game2")
     public String game2(Model model) {
-        return "game2";
+        return "games/game2";
     }
 
     @GetMapping("/game3")
     public String game3(Model model) {
-        return "game3";
+        return "games/game3";
     }
 
     @GetMapping("/game4")
-    public String game4(Model model) {return "game4";}
+    public String game4(Model model) {return "games/game4";}
 
     @GetMapping("/game5")
-    public String game5(Model model) {return "game5";}
+    public String game5(Model model) {return "games/game5";}
 
     @GetMapping("/draw")
     public String draw(Model model) {
@@ -84,6 +82,11 @@ public class MainController {
         return "flappybird";
     }
 
+    @GetMapping("biowordle")
+    public String biowordle(Model model) {
+        return "games/biowordle";
+    }
+
     @GetMapping("/greetAdi")
     public String apiAdi(@RequestParam(name="sym", required=false, defaultValue="stomach") String name, Model model) throws IOException, InterruptedException {
         String rapidapiurl = "https://healthwise.p.rapidapi.com/body/diseases/" + name;
@@ -99,7 +102,7 @@ public class MainController {
         model.addAttribute("map", amap);
         model.addAttribute("stuff", amap.get("data"));
 
-        return "greetAdi";
+        return "aboutus/greetAdi";
     }
 
     @GetMapping("/greetChenxin")
@@ -121,7 +124,7 @@ public class MainController {
         model.addAttribute("publisher", map.get("publisher"));
         model.addAttribute("date", map.get("release_date"));
 
-        return "greetChenxin";
+        return "aboutus/greetChenxin";
     }
 
     @GetMapping("/greetPrisha")
@@ -139,7 +142,7 @@ public class MainController {
         model.addAttribute("map", pmap);
         model.addAttribute("stuff", pmap.get("data"));
 
-        return "greetPrisha";
+        return "aboutus/greetPrisha";
     }
 
     @GetMapping("/greetRini")
@@ -157,7 +160,7 @@ public class MainController {
         model.addAttribute("map", rmap);
         model.addAttribute("stuff", rmap.get("response"));
 
-        return "greetRini";
+        return "aboutus/greetRini";
     }
 
     @GetMapping("/physicsTrivia")
@@ -207,22 +210,22 @@ public class MainController {
 
     @GetMapping("/frq_rini")
     public String frqRini(Model model) {
-        return "frq_rini";
+        return "frqs/frq_rini";
     }
 
     @GetMapping("/frq_adi")
     public String frqAdi(Model model) {
-        return "frq_adi";
+        return "frqs/frq_adi";
     }
 
     @GetMapping("/frq_chenxin")
     public String frqChenxin(Model model) {
-        return "frq_chenxin";
+        return "frqs/frq_chenxin";
     }
 
     @GetMapping("/frq_prisha")
     public String frqPrisha(Model model) {
-        return "frq_prisha";
+        return "frqs/frq_prisha";
     }
 
 }
