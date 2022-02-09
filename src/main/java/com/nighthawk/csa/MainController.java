@@ -82,10 +82,7 @@ public class MainController {
         return "flappybird";
     }
 
-    @GetMapping("biowordle")
-    public String biowordle(Model model) {
-        return "games/biowordle";
-    }
+
 
     @GetMapping("/greetAdi")
     public String apiAdi(@RequestParam(name="sym", required=false, defaultValue="stomach") String name, Model model) throws IOException, InterruptedException {
