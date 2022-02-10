@@ -1,61 +1,91 @@
 package com.nighthawk.csa;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.*;
-import java.text.Normalizer;
-import java.util.ArrayList;
+import lombok.*;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.persistence.*;
+import javax.validation.constraints.*;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.ZoneId;
+import java.util.Date;
 import java.util.ArrayList;
 import java.util.Random;
 
-
-
+@Setter
+@Getter
+@ToString
+@NoArgsConstructor
+@Entity
 public class Wordle {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+   private String char1;
+   private String char2;
+   private String char3;
+   private String char4;
+   private String char5;
 
 
+    /* Initializer used when setting database from an API */
+    public Wordle(String char1, String char2, String char3, String char4, String char5) {
+        this.char1 = char1;
+        this.char2 = char2;
+        this.char3 = char3;
+        this.char4 = char4;
+        this.char5 = char5;
+    }
 
-    private String word;
-
-
-    //constructor
-    public Wordle(String word) {
+    /* A custom getter to return age from dob calculation */
+    public String word() {
 
         ArrayList<String> wordList = new ArrayList<String>();
         wordList.add("biome");
-        wordList.add("codon");
-        wordList.add("fruit");
-        wordList.add("hypha");
-        wordList.add("model");
-        wordList.add("phase");
-        wordList.add("polyp");
-        wordList.add("shell");
+        wordList.add("phyla");
         wordList.add("spore");
-        wordList.add("virus");
-        wordList.add("xylem");
-        wordList.add("codon");
-        wordList.add("fluid");
-        wordList.add("group");
-        wordList.add("joule");
-        wordList.add("solid");
+        wordList.add("plant");
+        wordList.add("berry");
+        wordList.add("birds");
+        wordList.add("genes");
 
-        int x = (int)(Math.random()*22);
+        int x = (int)(Math.random()*8);
+
         String target = wordList.get(x);
 
-        if (word.equals(target)){
+        String word = char1 + char2+ char3+ char4+ char5;
+
+        if (word == target) {
+
+            return word;
 
         }
 
-        //if a char in word is in target
+        for (int i=0; i<5;  i++){
 
-        //if a char in word is in target, and is in same position
+            String ch = word.substring(i,i+1);
+            String ta = target.substring(i,i+1);
 
+            if (ch.equals(ta)){
 
+                return ch;
 
+            }
 
+            if (target.contains(ch)){
 
+                return ta;
+            }
 
+            else {
+
+                return ta;
+            }
+
+        }
+
+        return "";
     }
-
 
 }
