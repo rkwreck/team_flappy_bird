@@ -12,6 +12,9 @@
         <h1 style="color: dodgerblue; background-color: yellow; text-align: center">10 Questions. Ready... Set... Go!</h1>
             <APPLET CODE="PhysicsTrivia.class" WIDTH="800" HEIGHT="500"></APPLET>
         </div>
+        <div id="quiz"></div>
+        <button id="submit">Submit Answers!</button>
+        <div id="results"></div>
         <form>
             <label for="enterAnswer" style="font-family: 'Courier New'">Answer by entering any of these options: a, b, c, d</label><br>
             <input type="text" id="enterAnswer" name="enterAnswer"><br>
@@ -22,6 +25,34 @@
         const quizContainer = document.getElementById('quiz');
         const resultsContainer = document.getElementById('results');
         const submitButton = document.getElementById('submit');
+        function buildQuiz() {
+            const output = [];
+            myQuestions.forEach(
+                (currentQuestion, questionNumber) ==> {
+                    const answers = [];
+                    for(letter in currentQuestion.answers)
+            {
+                answers.push(
+                    `<label>
+                                <input type="radio" name="question${questionNumber}" value="$(letter)">
+                                ${letter} :
+                                ${currentQuestion.answers[letter]}
+                                </label>`
+                );
+            }
+            output.push(
+                `<div class="question">${currentQuestion.question}</div>
+                <div class="answers"> ${answers.join('')} </div>\`
+                );
+            }
+        );
+
+        quizContainer.innerHTML = output.join('');
+        }
+</label>
+            }
+                }
+        }
     </script>
     <style>
         body {
