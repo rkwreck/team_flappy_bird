@@ -172,32 +172,32 @@ public class MainController {
 
     @GetMapping("/further_readings")
     public String furtherReadings(Model model) {
-        return "further_readings";
+        return "sources/further_readings";
     }
 
     @GetMapping("/chemistry_sources")
     public String chemistrySources(Model model) {
-        return "chemistry_sources";
+        return "sources/chemistry_sources";
     }
 
     @GetMapping("/medical_sources")
     public String medicalSources(Model model) {
-        return "medical_sources";
+        return "sources/medical_sources";
     }
 
     @GetMapping("/physics_sources")
     public String physicsSources(Model model) {
-        return "physics_sources";
+        return "sources/physics_sources";
     }
 
     @GetMapping("/plant_bio_sources")
     public String plantBioSources(Model model) {
-        return "plant_bio_sources";
+        return "sources/plant_bio_sources";
     }
 
     @GetMapping("/plant_medicine_sources")
     public String plantMedicineSources(Model model) {
-        return "plant_medicine_sources";
+        return "sources/plant_medicine_sources";
     }
 
     @GetMapping("/frq_directory")
