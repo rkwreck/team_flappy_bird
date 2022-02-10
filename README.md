@@ -30,8 +30,8 @@ _Last deployed January 14th, 2022._
 ## Week 9 Timebox (PBL Part 1) 
 | Name | Game | Wiki Page | 
 | :--: | :--: | :-------: | 
-| Rini | Medical Emergencies Trivia | Link | 
-| Chenxin | Chemistry Sokoban | Link |  
+| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | 
+| Chenxin | Chemistry Sokoban | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) |  
 | Adi | Plant Bio Wordle | Link | 
 | Prisha | Physics Trivia | Link | 
 
