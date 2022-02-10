@@ -24,7 +24,7 @@ _Last deployed January 14th, 2022._
 | Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week) | 
 | Week 7 | FRQ Showing 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1) | 
 | Week 8 | FRQ Showing 2 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2) | 
-| Week 9 | PBL Part 1 | [Link]()
+| Week 9 | PBL Part 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Week 9 Timebox (PBL Part 1) 
