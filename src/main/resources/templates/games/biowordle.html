@@ -112,39 +112,39 @@
 
     <!---first letter -->
     <div>
-        <label for="char1">Type a greeting name?</label>
+        <label for="char1">1st Letter?</label>
         <input name="char1" id="char1" maxlength="1">
-        <p id="char1print" th:text="'Greetings, ' + ${char1} + '!'"></p>
+        <p id="char1print" th:text="${char1}"></p>
     </div>
 
     <!---second letter -->
     <div>
-        <label for="char2">Type a greeting name?</label>
+        <label for="char2">2nd Letter?</label>
         <input name="char2" id="char2" maxlength="1">
-        <p id="char2print" th:text="'Greetings, ' + ${char2} + '!'"></p>
+        <p id="char2print" th:text="${char2}"></p>
     </div>
 
     <!---third letter -->
 
     <div>
-        <label for="char3">Type a greeting name?</label>
+        <label for="char3">3rd Letter?</label>
         <input name="char3" id="char3" maxlength="1">
-        <p id="char3print" th:text="'Greetings, ' + ${char3} + '!'"></p>
+        <p id="char3print" th:text="${char3}"></p>
     </div>
 
-    <!---fourth letter -->
+    <!------fourth letter ---->
 
     <div>
-        <label for="char4">Type a greeting name?</label>
+        <label for="char4">3rd Letter?</label>
         <input name="char4" id="char4" maxlength="1">
-        <p id="char4print" th:text="'Greetings, ' + ${char4} + '!'"></p>
+        <p id="char4print" th:text="${char4}"></p>
     </div>
 
     <!---fifth letter -->
     <div>
-        <label for="char5">Type a greeting name?</label>
+        <label for="char5">5th Letter?</label>
         <input name="char5" id="char5" maxlength="1">
-        <p id="char5print" th:text="'Greetings, ' + ${char5} + '!'"></p>
+        <p id="char5print" th:text=" ${char5}"></p>
     </div>
 
     <button>Greetings!</button>

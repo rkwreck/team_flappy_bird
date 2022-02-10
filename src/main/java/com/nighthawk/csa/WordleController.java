@@ -1,10 +1,13 @@
 package com.nighthawk.csa;
 
-import com.nighthawk.csa.database.Person;
+import com.nighthawk.csa.Wordle;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 // Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
 // or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
@@ -12,6 +15,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WordleController implements WebMvcConfigurer {
 
     // Autowired enables Control to connect HTML and POJO Object to Database easily for CRUD
+
+    public String char1;
+    public String char2;
+    public String char3;
+    public String char4;
+    public String char5;
+
 
 
     @GetMapping("/games/biowordle")
@@ -31,6 +41,7 @@ public class WordleController implements WebMvcConfigurer {
             Wordle wordle = new Wordle(char1, char2, char3, char4, char5);
 
             wordle.word();
+
 
             return "games/biowordle";
         }

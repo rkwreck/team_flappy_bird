@@ -41,49 +41,14 @@ public class Wordle {
     /* A custom getter to return age from dob calculation */
     public String word() {
 
-        ArrayList<String> wordList = new ArrayList<String>();
-        wordList.add("biome");
-        wordList.add("phyla");
-        wordList.add("spore");
-        wordList.add("plant");
-        wordList.add("berry");
-        wordList.add("birds");
-        wordList.add("genes");
 
-        int x = (int)(Math.random()*8);
 
-        String target = wordList.get(x);
 
-        String word = char1 + char2+ char3+ char4+ char5;
 
-        if (word == target) {
 
-            return word;
 
-        }
 
-        for (int i=0; i<5;  i++){
 
-            String ch = word.substring(i,i+1);
-            String ta = target.substring(i,i+1);
-
-            if (ch.equals(ta)){
-
-                return ch;
-
-            }
-
-            if (target.contains(ch)){
-
-                return ta;
-            }
-
-            else {
-
-                return ta;
-            }
-
-        }
 
         return "";
     }
