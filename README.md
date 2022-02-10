@@ -24,8 +24,17 @@ _Last deployed January 14th, 2022._
 | Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week) | 
 | Week 7 | FRQ Showing 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1) | 
 | Week 8 | FRQ Showing 2 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2) | 
+| Week 9 | PBL Part 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Week 9 Timebox (PBL Part 1) 
+| Name | Game | Wiki Page | 
+| :--: | :--: | :-------: | 
+| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | 
+| Chenxin | Chemistry Sokoban | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) |  
+| Adi | Plant Bio Wordle | Link | 
+| Prisha | Physics Trivia | Link | 
+
 ## Week 8 Timebox (FRQ Showing 2) 
 | Name | Crossover Partners | Individual Review Ticket w/ Scores & Reflection |
 | :--: | :----------------: | :----------------------: | 
@@ -33,7 +42,6 @@ _Last deployed January 14th, 2022._
 | Chenxin | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
 | Adi | [@risaiwazaki](https://github.com/risaiwazaki) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) and @macddmac | [Link](https://github.com/ridhimainukurti/p1-Valid/issues/39#issuecomment-1031659860) | 
 | Prisha | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
-
 
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
