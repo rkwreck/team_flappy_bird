@@ -104,21 +104,32 @@
             /* Prevent scrollbar appearing on page transition */
             overflow-y: hidden;
         }
+
+        .hstack {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-self: stretch;
+        }
+
+
     </style>
 </head>
 <body>
 
+<div  class="grid">
+
 <form th:action="@{/games/biowordle}" method="GET" id="wordForm">
 
     <!---first letter -->
-    <div>
+    <div style="max-width: 18rem;">
         <label for="char1">1st Letter?</label>
         <input name="char1" id="char1" maxlength="1">
         <p id="char1print" th:text="${char1}"></p>
     </div>
 
     <!---second letter -->
-    <div>
+    <div style="max-width: 18rem;">
         <label for="char2">2nd Letter?</label>
         <input name="char2" id="char2" maxlength="1">
         <p id="char2print" th:text="${char2}"></p>
@@ -126,7 +137,7 @@
 
     <!---third letter -->
 
-    <div>
+    <div style="max-width: 18rem;">
         <label for="char3">3rd Letter?</label>
         <input name="char3" id="char3" maxlength="1">
         <p id="char3print" th:text="${char3}"></p>
@@ -134,21 +145,24 @@
 
     <!------fourth letter ---->
 
-    <div>
-        <label for="char4">3rd Letter?</label>
+    <div style="max-width: 18rem;">
+        <label for="char4">4th Letter?</label>
         <input name="char4" id="char4" maxlength="1">
         <p id="char4print" th:text="${char4}"></p>
     </div>
 
     <!---fifth letter -->
-    <div>
+    <div style="max-width: 18rem;">
         <label for="char5">5th Letter?</label>
         <input name="char5" id="char5" maxlength="1">
         <p id="char5print" th:text=" ${char5}"></p>
     </div>
 
-    <button>Greetings!</button>
+    <button class="btn btn-secondary"> Wordle me! </button>
 </form>
+
+</div>
+
 
 
 <script> </script>
