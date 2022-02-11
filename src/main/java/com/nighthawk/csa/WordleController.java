@@ -1,54 +1,173 @@
 package com.nighthawk.csa;
 
-import com.nighthawk.csa.Wordle;
+import java.util.Objects;
+
+import org.json.simple.JSONObject;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.RequestEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.ArrayList;
-import java.util.Random;
+import java.util.Map;
 
-// Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
-// or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
-@Controller
-public class WordleController implements WebMvcConfigurer {
+@Controller  // HTTP requests are handled as a controller, using the @Controller annotation
+public class WordleController {
+    // our objects
+    Wordle char1;
+    Wordle char2;
+    Wordle char3;
+    Wordle char4;
+    Wordle char5;
 
-    // Autowired enables Control to connect HTML and POJO Object to Database easily for CRUD
+    // Getter to transform string_ops object to JSON
+    public JSONObject getBody() {
+        JSONObject body = new JSONObject();
+        body.put("char1", char1.toString());
+        body.put("char2", char2.toString());
+        body.put("char3", char3.toString());
+        body.put("char4", char4.toString());
+        body.put("char5", char5.toString());
+        return body;
+    }
 
-    public String char1;
-    public String char2;
-    public String char3;
-    public String char4;
-    public String char5;
+    public void stringEvent(JSONObject jo) {
+        // Get string action
+        String action = (String) jo.get("action");
+
+        // Update string_ops based off of action
+        switch (action) {
+            case "new":  // new sequence
+                String char1 = (String) jo.get("char1"); // here, we're changing our char 2 from type "Wordle" to String
+                String char2 = (String) jo.get("char2");
+                String char3 = (String) jo.get("char3");
+                String char4 = (String) jo.get("char4");
+                String char5 = (String) jo.get("char5");
+
+                //avoid condition of an empty title
+                //if (char1 == null || char1.length() == 0)
+                  //char1 = char1.setchar1();
 
 
+                //create new object
+                this.char1 = new Wordle();
+                this.char1.setchar1(char1);
 
-    @GetMapping("/games/biowordle")
-    public String biowordle(@RequestParam(name = "char1", required = false, defaultValue = "World") String char1,
-                            @RequestParam(name = "char2", required = false, defaultValue = "World") String char2,
-                            @RequestParam(name = "char3", required = false, defaultValue = "World") String char3,
-                            @RequestParam(name = "char4", required = false, defaultValue = "World") String char4,
-                            @RequestParam(name = "char5", required = false, defaultValue = "World") String char5,
-                            Model model ) {
-            // @RequestParam handles required and default values, name and database are class variables, database looking like JSON
-            model.addAttribute("char1", char1);
-            model.addAttribute("char2", char2);
-            model.addAttribute("char3", char3);
-            model.addAttribute("char4", char4);
-            model.addAttribute("char5", char5); // MODEL is passed to html
+                this.char2 = new Wordle();
+                this.char2.setchar2(char2);
 
-            Wordle wordle = new Wordle(char1, char2, char3, char4, char5);
+                this.char3 = new Wordle();
+                this.char3.setchar3(char3);
 
-            wordle.word();
+                this.char4 = new Wordle();
+                this.char4.setchar4(char4);
 
+                this.char5 = new Wordle();
+                this.char5.setchar5(char5);
 
-            return "games/biowordle";
+                break;
+
+            case "ch1":  // init or update string sequence
+                String ch1 = (String) jo.get("char1");
+                this.char1.setchar1(ch1);
+                break;
+
+            case "ch2":  // init or update string sequence
+                String ch2 = (String) jo.get("char2");
+                this.char2.setchar2(ch2);
+                break;
+
+            case "ch3":  // init or update string sequence
+                String ch3 = (String) jo.get("char3");
+                this.char3.setchar3(ch3);
+                break;
+
+            case "ch4":  // init or update string sequence
+                String ch4 = (String) jo.get("char4");
+                this.char4.setchar4(ch4);
+                break;
+
+            case "ch5":  // init or update string sequence
+                String ch5 = (String) jo.get("char5");
+                this.char5.setchar5(ch5);
+                break;
+
+            default:
+                // noop
         }
+    }
+
+    // String initial method
+    @GetMapping("/games/biowordle")
+    public String strings(@RequestParam(name="char1", required=false,  defaultValue="") Wordle char1,
+                          @RequestParam(name="char2", required=false,  defaultValue="") Wordle char2,
+                          @RequestParam(name="char3", required=false,  defaultValue="") Wordle char3,
+                          @RequestParam(name="char4", required=false,  defaultValue="") Wordle char4,
+                          @RequestParam(name="char5", required=false,  defaultValue="") Wordle char5,Model model) {
+        //Set default database randomly
+        char1 = Wordle.wordlemepls();
+        model.addAttribute("char1", char1);
+
+        char2 = Wordle.wordlemepls();
+        model.addAttribute("char2", char2);
+
+        char3 = Wordle.wordlemepls();
+        model.addAttribute("char3", char3);
+
+        char4 = Wordle.wordlemepls();
+        model.addAttribute("char4", char4);
+
+        char5 = Wordle.wordlemepls();
+        model.addAttribute("char5", char5);
+
+        return "games/biowordle"; //HTML render fibonacci results
+    }
+
+    // Starting a new sequence
+    @RequestMapping(value = "/api/mvc/stringops/", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> stringsNew(RequestEntity<Object> request) {
+        // extract json from RequestEntity
+        JSONObject jo = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
+
+        // process string sequence action(s)
+        //stringEvent(jo);
+
+        // create JSON object of string sequence resulting database and metadata
+        JSONObject body = this.getBody();
+
+        // send ResponseEntity body and status message
+        return new ResponseEntity<>(body, HttpStatus.OK);
+    }
+
+    // Inventor List
+    public static Wordle inventorList() {
+        // String initializer test
+        WordleController testWord = new WordleController();
+        JSONObject jo = new JSONObject();
+
+        // new object and set a title
+        jo.put("ch2", "ch1");
+        jo.put("ch1", "StringsController Inventor List");
+        testWord.stringEvent(jo);
+
+        // new test
+        jo.put("action", "ch1");
+        jo.put("new_sequence", "Albert Einstein, Thomas Edison, Marie Curie");
+        testWord.stringEvent(jo);
+
+        // update test
+        jo.put("ch1", "ch4");
+        jo.put("ch5", ", Benjamin Franklin");
+        testWord.stringEvent(jo);
 
 
 
-
-
+        return testWord.char1;
+    }
 
 }
