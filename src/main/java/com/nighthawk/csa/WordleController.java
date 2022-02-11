@@ -111,20 +111,20 @@ public class WordleController {
                           @RequestParam(name="char5", required=false,  defaultValue="") Wordle char5,
                           Model model) {
         //Set default database randomly
-        char1 = Wordle.wordlemepls();
-        model.addAttribute("object", char1);
+        //char1 = Wordle.wordlemepls();
+        //model.addAttribute("object", char1);
 
-        char2 = Wordle.wordlemepls();
-        model.addAttribute("object", char2);
+        //char2 = Wordle.wordlemepls();
+        //model.addAttribute("object", char2);
 
-        char3 = Wordle.wordlemepls();
-        model.addAttribute("object", char3);
+        //char3 = Wordle.wordlemepls();
+        //model.addAttribute("object", char3);
 
-        char4 = Wordle.wordlemepls();
-        model.addAttribute("object", char4);
+        //char4 = Wordle.wordlemepls();
+        //model.addAttribute("object", char4);
 
-        char5 = Wordle.wordlemepls();
-        model.addAttribute("object", char5);
+        //char5 = Wordle.wordlemepls();
+        //model.addAttribute("object", char5);
 
         return "games/biowordle"; //HTML render fibonacci results
     }

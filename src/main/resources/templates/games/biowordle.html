@@ -5,12 +5,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <!-- <head> additions -->
-<th:block layout:fragment="head" th:remove="tag">
+<th:block layout:fragment="head" >
     <title> BioWordle! </title>
 </th:block>
 
 <!-- <body> page specific -->
-<th:block layout:fragment="body" th:remove="tag">
+<th:block layout:fragment="body">
     <div class="container py-4">
         <header class="pb-3 mb-4 border-bottom border-primary">
             <div class="d-flex align-items-center text-dark text-decoration-none">
@@ -21,7 +21,7 @@
         <div class="row mb-4 bg-primary text-dark rounded-3">
 
             <div class="row p-3">
-                <h3 class="text-center" id="title" th:text="${object.getTitle()}"></h3>
+                <h3 class="text-center" id="title" "></h3>
                 <hr class="style1">
             </div>
 
@@ -29,7 +29,7 @@
 
                 <h6><strong>String Sequence</strong></h6>
                 <hr class="style1">
-                <h6 id="sequence" th:text="${object}"></h6>
+                <h6 id="sequence" </h6>
                 <hr class="style1">
 
                 <div class="row p-3">
@@ -108,7 +108,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr><td id="status" th:text="${object.getStatus()}"></td></tr>
+                    <tr><td id="status" ></td></tr>
                     </tbody>
                 </table>
 
@@ -120,7 +120,7 @@
     </div> <!- End Container ->
     <script>
         function sequence(action) {
-            const url = '/api/mvc/stringops/';  // url contains api location for stringops
+            const url = '/api/games/biowordle/';  // url contains api location for stringops
             const body = {  // body contains all data from user input form
                 action: action,
                 title: document.getElementById("new_title").value,
