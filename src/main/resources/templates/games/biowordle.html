@@ -1,171 +1,168 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <head> additions -->
+<th:block layout:fragment="head" th:remove="tag">
+    <title> BioWordle! </title>
+</th:block>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- <body> page specific -->
+<th:block layout:fragment="body" th:remove="tag">
+    <div class="container py-4">
+        <header class="pb-3 mb-4 border-bottom border-primary">
+            <div class="d-flex align-items-center text-dark text-decoration-none">
+                <span class="fs-4">BioWordle</span>
+            </div>
+        </header>
+
+        <div class="row mb-4 bg-primary text-dark rounded-3">
+
+            <div class="row p-3">
+                <h3 class="text-center" id="title" th:text="${object.getTitle()}"></h3>
+                <hr class="style1">
+            </div>
+
+            <div class="col-md-6 p-3">
+
+                <h6><strong>String Sequence</strong></h6>
+                <hr class="style1">
+                <h6 id="sequence" th:text="${object}"></h6>
+                <hr class="style1">
+
+                <div class="row p-3">
+                    <label for="new_title">Title and start New string sequence</label>
+                    <div class="col-10">
+                        <input type="text" class="form-control" id="new_title" placeholder="input title for new sequence">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-primary bg-secondary" onclick="sequence('new');">New!</button>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <label for="new_sequence">Set String Sequence</label>
+                    <div class="col-10">
+                        <input type="text" class="form-control" id="new_sequence" placeholder="input data for the string sequence">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-primary bg-secondary" onclick="sequence('init');">Set!</button>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <label for="append_segment">Append Segment</label>
+                    <div class="col-10">
+                        <input type="text" class="form-control" id="append_segment" placeholder="input segment to append to the string sequence">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-primary bg-secondary" onclick="sequence('append');">Append!</button>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <label for="insert_segment">Insert Segment</label>
+                    <div class="col-6">
+                        <input type="text" class="form-control" id="insert_segment" placeholder="input segment to insert">
+                    </div>
+                    <div class="col-2">
+                        <label for="insert_location">at index</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="number" class="form-control" id="insert_location" value="0" min="0">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-primary bg-secondary" onclick="sequence('insert');">Insert!</button>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <h6>Swap Segment</h6>
+                    <div class="col-1">
+                        <label for="out_segment">out</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="text" class="form-control" id="out_segment" placeholder="input swap out">
+                    </div>
+                    <div class="col-1">
+                        <label for="in_segment">in</label>
+                    </div>
+                    <div class="col-4">
+                        <input type="text" class="form-control" id="in_segment" placeholder="input swap in">
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-primary bg-secondary" onclick="sequence('swap');">Swap!</button>
+                    </div>
+                </div>
+
+            </div> <!- End String Ops column ->
+
+            <div class="col-md-6 p-3"> <!- Start String Sequence column ->
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Last action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr><td id="status" th:text="${object.getStatus()}"></td></tr>
+                    </tbody>
+                </table>
 
 
-    <title>Wordle - A daily word game</title>
+            </div>  <!- End String Sequence column ->
 
-    <style>
-        /* Global Styles & Colors */
-        :root {
-            --green: #6aaa64;
-            --darkendGreen: #538d4e;
-            --yellow: #c9b458;
-            --darkendYellow: #b59f3b;
-            --lightGray: #d8d8d8;
-            --gray: #86888a;
-            --darkGray: #939598;
-            --white: #fff;
-            --black: #212121;
-            /* Colorblind colors */
-            --orange: #f5793a;
-            --blue: #85c0f9;
-            font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
-            font-size: 16px;
-            --header-height: 50px;
-            --keyboard-height: 200px;
-            --game-max-width: 500px;
+        </div> <!- End Row ->
+
+    </div> <!- End Container ->
+    <script>
+        function sequence(action) {
+            const url = '/api/mvc/stringops/';  // url contains api location for stringops
+            const body = {  // body contains all data from user input form
+                action: action,
+                title: document.getElementById("new_title").value,
+                new_sequence: document.getElementById("new_sequence").value,
+                append_segment: document.getElementById("append_segment").value,
+                insert_segment: document.getElementById("insert_segment").value,
+                insert_location: document.getElementById("insert_location").value,
+                out_segment: document.getElementById("out_segment").value,
+                in_segment: document.getElementById("in_segment").value
+            };
+            const request = {  // request sets up payload for api
+                method: "POST",
+                body: JSON.stringify(body),
+                cache: "no-cache",
+                headers: {
+                    "content-type": "application/json"
+                }
+            };
+            // fetch calls API with "request" as action/payload
+            // each .then occurs when a Promise is Fulfilled, meaning the asynchronous operation has completed with a value
+            fetch(url, request)
+                .then(response => response.json())
+                .then(data => {
+                    // build a visual response from JSON data to DOM element IDs
+                    document.getElementById("title").innerHTML = data.title;
+                    document.getElementById("sequence").innerHTML = data.data;
+                    document.getElementById("status").innerHTML = data.status;
+                    // cleanup event history (from previous display)
+                    const bodyContainer = document.getElementById("body");
+                    while (bodyContainer.firstChild) {
+                        bodyContainer.removeChild(bodyContainer.firstChild);
+                    }
+                    // display event history
+                    for (let i = 0; i < data.events.length; i++) {
+                        const event = document.createElement("tr");
+                        event.innerHTML = '<td>' + data.events[i] + '</td>';
+                        bodyContainer.appendChild(event);
+                    }
+                });
         }
-        /* Light theme colors */
-        :root {
-            --color-tone-1: #1a1a1b;
-            --color-tone-2: #787c7e;
-            --color-tone-3: #878a8c;
-            --color-tone-4: #d3d6da;
-            --color-tone-5: #edeff1;
-            --color-tone-6: #f6f7f8;
-            --color-tone-7: #ffffff;
-            --opacity-50: rgba(255, 255, 255, 0.5);
-        }
-        /* Dark Theme Colors */
-        .nightmode {
-            --color-tone-1: #d7dadc;
-            --color-tone-2: #818384;
-            --color-tone-3: #565758;
-            --color-tone-4: #3a3a3c;
-            --color-tone-5: #272729;
-            --color-tone-6: #1a1a1b;
-            --color-tone-7: #121213;
-            --opacity-50: rgba(0, 0, 0, 0.5);
-        }
-        /* Constant colors and colors derived from theme */
-        :root,
-        .nightmode {
-            --color-background: var(--color-tone-7);
-        }
-        :root {
-            --color-present: var(--yellow);
-            --color-correct: var(--green);
-            --color-absent: var(--color-tone-2);
-            --tile-text-color: var(--color-tone-7);
-            --key-text-color: var(--color-tone-1);
-            --key-evaluated-text-color: var(--color-tone-7);
-            --key-bg: var(--color-tone-4);
-            --key-bg-present: var(--color-present);
-            --key-bg-correct: var(--color-correct);
-            --key-bg-absent: var(--color-absent);
-            --modal-content-bg: var(--color-tone-7);
-        }
-        .nightmode {
-            --color-present: var(--darkendYellow);
-            --color-correct: var(--darkendGreen);
-            --color-absent: var(--color-tone-4);
-            --tile-text-color: var(--color-tone-1);
-            --key-text-color: var(--color-tone-1);
-            --key-evaluated-text-color: var(--color-tone-1);
-            --key-bg: var(--color-tone-2);
-            --key-bg-present: var(--color-present);
-            --key-bg-correct: var(--color-correct);
-            --key-bg-absent: var(--color-absent);
-            --modal-content-bg: var(--color-tone-7);
-        }
-        .colorblind {
-            --color-correct: var(--orange);
-            --color-present: var(--blue);
-            --tile-text-color: var(--white);
-            --key-bg-present: var(--color-present);
-            --key-bg-correct: var(--color-correct);
-            --key-bg-absent: var(--color-absent);
-        }
-        html {
-            height: 100%;
-        }
-        body {
-            height: 100%;
-            background-color: var(--color-background);
-            margin: 0;
-            padding: 0;
-            /* Prevent scrollbar appearing on page transition */
-            overflow-y: hidden;
-        }
 
-        .hstack {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            align-self: stretch;
-        }
+    </script>
+</th:block>`
 
-
-    </style>
-</head>
-<body>
-
-<div  class="grid">
-
-<form th:action="@{/games/biowordle}" method="GET" id="wordForm">
-
-    <!---first letter -->
-    <div style="max-width: 18rem;">
-        <label for="char1">1st Letter?</label>
-        <input name="char1" id="char1" maxlength="1">
-            <p id="char1print" th:text="${char1}"></p>
-    </div>
-
-    <!---second letter -->
-    <div style="max-width: 18rem;">
-        <label for="char2">2nd Letter?</label>
-        <input name="char2" id="char2" maxlength="1">
-        <p id="char2print" th:text="${char2}"></p>
-    </div>
-
-    <!---third letter -->
-
-    <div style="max-width: 18rem;">
-        <label for="char3">3rd Letter?</label>
-        <input name="char3" id="char3" maxlength="1">
-        <p id="char3print" th:text="${char3}"></p>
-    </div>
-
-    <!------fourth letter ---->
-
-    <div style="max-width: 18rem;">
-        <label for="char4">4th Letter?</label>
-        <input name="char4" id="char4" maxlength="1">
-        <p id="char4print" th:text="${char4}"></p>
-    </div>
-
-    <!---fifth letter -->
-    <div style="max-width: 18rem;">
-        <label for="char5">5th Letter?</label>
-        <input name="char5" id="char5" maxlength="1">
-        <p id="char5print" th:text=" ${char5}"></p>
-    </div>
-
-    <button class="btn btn-secondary"> Wordle me! </button>
-</form>
-
-</div>
-
-
-
-<script> </script>
-
-</body>
 </html>
