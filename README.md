@@ -33,7 +33,7 @@ _Last deployed January 14th, 2022._
 | Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | 
 | Chenxin | Chemistry Sokoban | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) |  
 | Adi | Plant Bio Wordle | Link | 
-| Prisha | Physics Trivia | Link | 
+| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | 
 
 ## Week 8 Timebox (FRQ Showing 2) 
 | Name | Crossover Partners | Individual Review Ticket w/ Scores & Reflection |
