@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
     <title style="font-family: Impact">Physics Trivia</title>
 </head>
 
@@ -12,23 +13,23 @@
         <h1 style="color: dodgerblue; background-color: yellow; text-align: center">10 Questions. Ready... Set... Go!</h1>
         </div>
         <div id="quiz"></div>
-        <button id="submit">Submit Answers!</button>
         <div id="results"></div>
         <div style="max-width: 18rem;">
-            <label for="answer">1st Letter?</label>
-            <input name="answer" id="answer" maxlength="1">
+            <label for="answer" style="margin-top: 30px; text-align: right">Enter answers here!</label>
+            <input name="answer" id="answer" maxlength="1" style="text-align: right">
             <p id="answerPrint" th:text="${answer}"></p>
         </div>
         <form>
-            <label for="enterAnswer" style="font-family: 'Courier New'">Answer by entering any of these options: a, b, c, d</label><br>
-            <input type="text" id="enterAnswer" name="enterAnswer"><br>
+            <label for="enterAnswer" style="text-align: right">Answer by entering any of these options: a, b, c, d</label><br>
+            <input type="text" id="enterAnswer" name="enterAnswer" style="margin-bottom: 15px; text-align: right"><br>
+            <button id="submit" class="btn" style="text-align: center">Submit Answers!</button>
         </form>
     </header>
 
     <style>
         body {
             padding: 25px;
-            background: url('../images/flappy-bird.jpg');
+            background: url('/images/physics game logo.png') no-repeat center scroll;
             color: black;
             font-size: 25px;
         }
