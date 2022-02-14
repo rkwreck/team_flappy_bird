@@ -1,9 +1,7 @@
 package com.nighthawk.csa;
 import java.util.Scanner;
-import java.applet.*;
-import java.awt.*;
 
-public class PhysicsTrivia extends Applet{
+public class PhysicsTrivia {
     public class Question {
         String prompt;
         String answer;
@@ -15,7 +13,7 @@ public class PhysicsTrivia extends Applet{
     }
     public void doTrivia() {
         String q1 = "Under what condition are you allowed to use the 4 main kinematics equations?\n"
-                + "(a)When time is constant\n(b)When position is constant\n(c)When velocity is constant]\n(d)When acceleration is constant\n";
+                + "(a)When time is constant\n(b)When position is constant\n(c)When velocity is constant\n(d)When acceleration is constant\n";
         String q2 = "If a projectile is launched at an angle and returns back to the same height when it lands, what type of projectile motion is it?\n"
                 + "(a)Type 1\n(b)Type 2\n(c)Type 3\n";
         String q3 = "A 2.0 kg block is initially at rest on a frictionless surface. A force F changes its velocity to 5.0 m/s in 4 seconds. What is the block's acceleration?\n"
@@ -28,7 +26,7 @@ public class PhysicsTrivia extends Applet{
                 + "(a)Elastic: Momentum and Kinetic Energy are conserved, Inelastic: Momentum is conserved but Kinetic Energy is lost\n(b)Elastic: Momentum is conserved but Kinetic Energy is lost, Inelastic: Momentum and Kinetic Energy are conserved";
         String q7 = "What is impulse a change in?\n"
                 + "(a)Energy\n(b)Kinetic Energy\n(c)Potential Energy\n(d)Momentum";
-        String q8 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball is plotted. What is the tennis ball's impulse from 2.0 to 4.0 seconds?"
+        String q8 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball is plotted. What is the tennis ball's impulse from 2.0 to 4.0 seconds?\n"
                 + "(a)5 kg * m/s^2\n(b)10 N*s\n(c)5 N*s\n(d)10 kg*m/s";
         String q9 = "A perfectly horizontal meterstick has a 10 kg red ball at the 20cm mark and a 5 kg blue ball at the 70 cm mark. Calculate the center of mass in the x direction with respect to the 50 cm mark as the origin.\n"
                 + "(a)-13.33 cm\n(b)36.67 cm\n(c)-13.33 m\n(d)36.67 m";
