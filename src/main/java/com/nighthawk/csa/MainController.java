@@ -43,12 +43,12 @@ public class MainController {
 
     @GetMapping("/game1")
     public String game1(Model model) {
-        return "games/game1";
+        return "physics_game";
     }
 
     @GetMapping("/game2")
     public String game2(Model model) {
-        return "games/game2";
+        return "medical_game";
     }
 
     @GetMapping("/game3")
@@ -57,10 +57,10 @@ public class MainController {
     }
 
     @GetMapping("/game4")
-    public String game4(Model model) {return "games/game4";}
+    public String game4(Model model) {return "bio_wordle";}
 
     @GetMapping("/game5")
-    public String game5(Model model) {return "games/game5";}
+    public String game5(Model model) {return "chemistry_game";}
 
     @GetMapping("/draw")
     public String draw(Model model) {
