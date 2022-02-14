@@ -12,19 +12,17 @@ _Last deployed January 14th, 2022._
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Table of Contents 
-| Week | Description | Link | 
-| :--: | :---------: | :--: | 
-| Week 0 | Meet the Team | [Link](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)| 
-| Week 1 | Project Approval | [Link](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval) | 
-| Week 2 | Home Pages | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 3 | FRQ 3 | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 4 | FRQ 4 + Game Planning | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 5 | FRQ 5 + Theme | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week) | 
-| Week 7 | FRQ Showing 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1) | 
-| Week 8 | FRQ Showing 2 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2) | 
-| Week 9 | PBL Part 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
+### History
+* [Week 0 - Meet the Team](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)
+* [Week 1 - Project Approval](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval)
+* [Week 2 - Home Pages](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 3 - FRQ 3](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 4 - FRQ 4](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 5 - FRQ 5 + Theme](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 6 - Midterm Ketchup Week](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week)
+* [Week 7 - FRQ Showing 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1)
+* [Week 8 - FRQ Showing 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2)
+* [Week 9 - PBL Part 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Week 9 Timebox (PBL Part 1) 
