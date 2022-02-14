@@ -233,8 +233,17 @@ public class Wordle {
 
     // StringOps object reference will return value of sequence attribute
 
+
+
+
     public String toString() {
-        return char1.toString();
+
+
+        //String s1 = char1.toString();
+
+        String str = "";
+
+        return str;
     }
 
     // Class tester
