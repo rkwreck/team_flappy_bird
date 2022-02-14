@@ -12,28 +12,26 @@ _Last deployed January 14th, 2022._
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Table of Contents 
-| Week | Description | Link | 
-| :--: | :---------: | :--: | 
-| Week 0 | Meet the Team | [Link](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)| 
-| Week 1 | Project Approval | [Link](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval) | 
-| Week 2 | Home Pages | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 3 | FRQ 3 | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 4 | FRQ 4 + Game Planning | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 5 | FRQ 5 + Theme | [Link](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages) |
-| Week 6 | Midterm Ketchup Week | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week) | 
-| Week 7 | FRQ Showing 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1) | 
-| Week 8 | FRQ Showing 2 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2) | 
-| Week 9 | PBL Part 1 | [Link](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
+### History
+* [Week 0 - Meet the Team](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)
+* [Week 1 - Project Approval](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval)
+* [Week 2 - Home Pages](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 3 - FRQ 3](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 4 - FRQ 4](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 5 - FRQ 5 + Theme](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
+* [Week 6 - Midterm Ketchup Week](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-6-timebox-midterm-ketchup-week)
+* [Week 7 - FRQ Showing 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1)
+* [Week 8 - FRQ Showing 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2)
+* [Week 9 - PBL Part 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Week 9 Timebox (PBL Part 1) 
-| Name | Game | Wiki Page | Code Commit | 
-| :--: | :--: | :-------: | :---------: | 
-| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2722dd844054249c558edcdfef2af38d81a843b) | 
-| Chenxin | Chemistry Sokoban | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/9d6e65f1b764e4f8f24193a19e89216f0a10c463) |  
-| Adi | Plant Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/370559a1897a6362cba2e311c941ca15cbe9c819) | 
-| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/0e4985c6fc33ff6fc876c241a0e67e226a381d8e) | 
+| Name | Game | Wiki Page | Code Commit | Video Link |
+| :--: | :--: | :-------: | :---------: | :--------: | 
+| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2722dd844054249c558edcdfef2af38d81a843b) | [Link](https://www.loom.com/share/14cc96583f1f41db859dc3141cf52441) | 
+| Chenxin | Chemistry Sokoban | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/9d6e65f1b764e4f8f24193a19e89216f0a10c463) |  [Link](https://www.loom.com/share/ce90a91f49b64675bb0dadb6714e2b08) |
+| Adi | Plant Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/370559a1897a6362cba2e311c941ca15cbe9c819) | [Link](https://drive.google.com/file/d/1UD2HPbTOZR5e7_vHxFxW2Aa2I0XUiAE_/view?usp=sharing) | 
+| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/0e4985c6fc33ff6fc876c241a0e67e226a381d8e) | [Link](https://drive.google.com/file/d/1TEdoYqW7FQVM-FgFGwuKP5RuKqhUD6iO/view?usp=sharing)
 
 ## Week 8 Timebox (FRQ Showing 2) 
 | Name | Crossover Partners | Individual Review Ticket w/ Scores & Reflection |

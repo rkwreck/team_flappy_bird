@@ -50,8 +50,8 @@ public class WordleController {
                 String char5 = (String) jo.get("char5");
 
                 //avoid condition of an empty title
-                //if (char1 == null || char1.length() == 0)
-                  //char1 = char1.setchar1();
+               // if (char1 == null || char1.length() == 0)
+                 // char1 = char1.setchar1();
 
 
                 //create new object
@@ -108,34 +108,35 @@ public class WordleController {
                           @RequestParam(name="char2", required=false,  defaultValue="") Wordle char2,
                           @RequestParam(name="char3", required=false,  defaultValue="") Wordle char3,
                           @RequestParam(name="char4", required=false,  defaultValue="") Wordle char4,
-                          @RequestParam(name="char5", required=false,  defaultValue="") Wordle char5,Model model) {
+                          @RequestParam(name="char5", required=false,  defaultValue="") Wordle char5,
+                          Model model) {
         //Set default database randomly
-        char1 = Wordle.wordlemepls();
-        model.addAttribute("char1", char1);
+        //char1 = Wordle.wordlemepls();
+        //model.addAttribute("object", char1);
 
-        char2 = Wordle.wordlemepls();
-        model.addAttribute("char2", char2);
+        //char2 = Wordle.wordlemepls();
+        //model.addAttribute("object", char2);
 
-        char3 = Wordle.wordlemepls();
-        model.addAttribute("char3", char3);
+        //char3 = Wordle.wordlemepls();
+        //model.addAttribute("object", char3);
 
-        char4 = Wordle.wordlemepls();
-        model.addAttribute("char4", char4);
+        //char4 = Wordle.wordlemepls();
+        //model.addAttribute("object", char4);
 
-        char5 = Wordle.wordlemepls();
-        model.addAttribute("char5", char5);
+        //char5 = Wordle.wordlemepls();
+        //model.addAttribute("object", char5);
 
         return "games/biowordle"; //HTML render fibonacci results
     }
 
     // Starting a new sequence
-    @RequestMapping(value = "/api/mvc/stringops/", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/api/games/biowordle", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Object> stringsNew(RequestEntity<Object> request) {
         // extract json from RequestEntity
         JSONObject jo = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
 
         // process string sequence action(s)
-        //stringEvent(jo);
+        stringEvent(jo);
 
         // create JSON object of string sequence resulting database and metadata
         JSONObject body = this.getBody();

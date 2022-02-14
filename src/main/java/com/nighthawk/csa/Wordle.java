@@ -170,7 +170,7 @@ public class Wordle {
     public void compareChar4(String char4) {
 
         // first off, we have "if" conditional.
-        if (char1.equals(ta4)) {
+        if (char4.equals(ta4)) {
             this.char4 = "good job";
         }
 
@@ -190,8 +190,8 @@ public class Wordle {
     public void compareChar5(String char5) {
 
         // first off, we have "if" conditional.
-        if (char1.equals(ta5)) {
-            this.char1 = "good job";
+        if (char5.equals(ta5)) {
+            this.char5 = "good job";
         }
 
         // second, we have "else if" conditional
@@ -233,8 +233,17 @@ public class Wordle {
 
     // StringOps object reference will return value of sequence attribute
 
-    public String toString(Wordle char1) {
-        return toString(char1);
+
+
+
+    public String toString() {
+
+
+        //String s1 = char1.toString();
+
+        String str = "";
+
+        return str;
     }
 
     // Class tester
