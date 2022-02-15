@@ -104,16 +104,13 @@ public class WordleController {
 
     // String initial method
     @GetMapping("/games/biowordle")
-    public String strings(@RequestParam(name="char1", required=false,  defaultValue="") Wordle char1,
-                          @RequestParam(name="char2", required=false,  defaultValue="") Wordle char2,
-                          @RequestParam(name="char3", required=false,  defaultValue="") Wordle char3,
-                          @RequestParam(name="char4", required=false,  defaultValue="") Wordle char4,
-                          @RequestParam(name="char5", required=false,  defaultValue="") Wordle char5,
-                          Model model) {
+    public String strings(@RequestParam(name="char1", required=false, defaultValue="a") String char1, Model model) {
         //Set default database randomly
-        //char1 = Wordle.wordlemepls();
-        //model.addAttribute("object", char1);
+        Wordle word = new Wordle();
 
+
+
+        model.addAttribute("word", word);
         //char2 = Wordle.wordlemepls();
         //model.addAttribute("object", char2);
 
@@ -172,3 +169,18 @@ public class WordleController {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
