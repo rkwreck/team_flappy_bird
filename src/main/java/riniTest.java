@@ -43,33 +43,6 @@ public class riniTest {
         squirrels = new ArrayList<riniTest>(10);
         Index.add(1);
 
-        //Initialize Sample Output
-        ArrayList squirrelOne = new ArrayList<riniTest>(3);
-        Index.add(9);
-
-        ArrayList squirrelTwo = new ArrayList<riniTest>(8);
-        Index.add(0);
-
-        ArrayList squirrelThree = new ArrayList<riniTest>(13);
-        Index.add(7);
-
-        ArrayList squirrelFive = new ArrayList<riniTest>(19);
-        Index.add(6);
-
-        ArrayList squirrelSix = new ArrayList<riniTest>(24);
-        Index.add(5);
-
-        ArrayList squirrelSeven = new ArrayList<riniTest>(25);
-        Index.add(2);
-
-        ArrayList squirrelEight = new ArrayList<riniTest>(28);
-        Index.add(8);
-
-        ArrayList squirrelNine = new ArrayList<riniTest>(32);
-        Index.add(4);
-
-        ArrayList squirrelTen = new ArrayList<riniTest>(34);
-        Index.add(3);
 
         // Insert Number instance into ArrayList Squirrel in least to greatest order by random number, mine required nested loops
         ArrayList Squirrel;
