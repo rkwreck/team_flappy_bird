@@ -5,13 +5,13 @@ import java.util.List;
 
 
 public class Wordle {
-    private String char1 = null;
-    private String char2 = null;
-    private String char3 = null;
-    private String char4 = null;
-    private String char5 = null;
+    private String char1;
+    private String char2;
+    private String char3;
+    private String char4;
+    private String char5;
     private ArrayList<String> wordList;
-    private String target;
+    private String target = "biome";
     private String ta1;
     private String ta2;
     private String ta4;
@@ -106,6 +106,10 @@ public class Wordle {
         //this.addEvent( "Construct '" + title + "' new object" );
 
 
+    }
+
+    public String test(){
+        return "hellow there";
     }
 
     public void compareChar1(String char1) {

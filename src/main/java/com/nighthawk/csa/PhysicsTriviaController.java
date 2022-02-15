@@ -22,7 +22,7 @@ public class PhysicsTriviaController implements WebMvcConfigurer {
 
 
     @GetMapping("/games/physicsTrivia")
-    public String physicsTrivia (@RequestParam(name = "char1", required = false, defaultValue = "World") String answer,
+    public String physicsTrivia (@RequestParam(name = "answer", required = false, defaultValue = "World") String answer,
                             Model model ) {
         // @RequestParam handles required and default values, name and database are class variables, database looking like JSON
         model.addAttribute("answer", answer);

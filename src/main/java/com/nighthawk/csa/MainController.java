@@ -38,7 +38,7 @@ public class MainController {
 
     @GetMapping("/games")
     public String games(Model model) {
-        return "games/games";
+        return "games_home_page";
     }
 
     @GetMapping("/game1")
