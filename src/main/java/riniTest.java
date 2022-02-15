@@ -1,7 +1,7 @@
 package com.nighthawk.csa.starters.squirrel;
 
-        import java.util.ArrayList;
-        import java.util.*;
+import java.util.ArrayList;
+import java.util.*;
 
 // Write a Class Number
 public class riniTest {
@@ -12,7 +12,7 @@ public class riniTest {
     // It initializes a random number between 3 and 36, ie the number of squirrels in class
     public riniTest() {
         // constructor
-        squirrels = Math.random() * ((36-3) + 3); //initialize random number of squirrels
+        squirrels = (int) (Math.random() * ((36-3) + 3)); //initialize random number of squirrels
     }
 
     public riniTest(int num) {  //if initial number of squirrels is given
@@ -24,7 +24,7 @@ public class riniTest {
         return squirrels;
     }
 
-    ArrayList Index = new ArrayList<Int>(); //initialize Index array
+    ArrayList Index = new ArrayList<>(); //initialize Index array
     //Index.add
 
 
@@ -41,7 +41,7 @@ public class riniTest {
         ArrayList squirrels;
 
         // Initialize 10 squirrels of class type Number
-        squirrels = newArrayList<riniTest>(10);
+        squirrels = new ArrayList<riniTest>(10);
 
         // Insert Number instance into ArrayList Squirrel in least to greatest order by random number, mine required nested loops
         ArrayList Squirrel;
@@ -50,8 +50,8 @@ public class riniTest {
 
         // Print a formatted message with number of Squirrels and Index by which they were created, use enhanced for loop
         System.out.println("This is the number of Squirrels and Index by which they were created.");
-        for (int i: squirrels) {
-            System.out.println("Squirrels: " + i);
+        //for (int i: squirrels) {
+            //System.out.println("Squirrels: " + i);
             //for (int j: Index)
 
         }
