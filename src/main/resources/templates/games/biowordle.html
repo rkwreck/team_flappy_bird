@@ -1,35 +1,35 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
 <!-- <head> additions -->
-<th:block layout:fragment="head" >
-    <title> BioWordle! </title>
+<th:block layout:fragment="head" th:remove="tag">
+    <title>Strings Algo</title>
 </th:block>
 
 <!-- <body> page specific -->
-<th:block layout:fragment="body">
+<th:block layout:fragment="body" th:remove="tag">
     <div class="container py-4">
         <header class="pb-3 mb-4 border-bottom border-primary">
             <div class="d-flex align-items-center text-dark text-decoration-none">
-                <span class="fs-4">BioWordle</span>
+                <span class="fs-4">String Ops Lab</span>
             </div>
         </header>
 
         <div class="row mb-4 bg-primary text-dark rounded-3">
 
             <div class="row p-3">
-                <h3 class="text-center" id="title" "></h3>
+                <h3 class="text-center" id="title" ></h3>
                 <hr class="style1">
             </div>
 
-            <div class="col-md-6 p-3">
+            <div class="col-md-6 p-3"> <!----- Start left Column----->
 
                 <h6><strong>String Sequence</strong></h6>
                 <hr class="style1">
-                <h6 id="sequence" </h6>
+                <h6 id="sequence" ></h6>
                 <hr class="style1">
 
                 <div class="row p-3">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-            </div> <!- End String Ops column ->
+            </div> <!----- End String Ops column ----->
 
             <div class="col-md-6 p-3"> <!- Start String Sequence column ->
 
@@ -112,16 +112,29 @@
                     </tbody>
                 </table>
 
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">History of events</th>
+                    </tr>
+                    </thead>
+                    <tbody id="body" >
+                    <tr>
+                        <td th:text="${word.test()}"></td>
+                    </tr>
+                    </tbody>
+                </table>
 
-            </div>  <!- End String Sequence column ->
+            </div>  <!---- End String Sequence column ---->
 
-        </div> <!- End Row ->
+        </div> <!---- End Row ---->
 
-    </div> <!- End Container ->
+    </div> <!--- End Container ---->
     <script>
         function sequence(action) {
             const url = '/api/games/biowordle/';  // url contains api location for stringops
             const body = {  // body contains all data from user input form
+                // ask what these are doing:
                 action: action,
                 title: document.getElementById("new_title").value,
                 new_sequence: document.getElementById("new_sequence").value,
@@ -166,3 +179,10 @@
 </th:block>`
 
 </html>
+
+
+
+
+
+
+

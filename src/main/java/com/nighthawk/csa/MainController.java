@@ -36,19 +36,19 @@ public class MainController {
         return "aboutus/aboutus";
     }
 
-    @GetMapping("/games")
-    public String games(Model model) {
-        return "games/games";
+    @GetMapping("/games_home_page")
+    public String games_home_page(Model model) {
+        return "games/games_home_page";
     }
 
-    @GetMapping("/game1")
-    public String game1(Model model) {
-        return "physics_game";
+    @GetMapping("/physics_game")
+    public String physics_game(Model model) {
+        return "games/physics_game";
     }
 
-    @GetMapping("/game2")
-    public String game2(Model model) {
-        return "medical_game";
+    @GetMapping("/medical_game")
+    public String medical_game(Model model) {
+        return "games/medical_game";
     }
 
     @GetMapping("/game3")
@@ -56,18 +56,18 @@ public class MainController {
         return "games/game3";
     }
 
-    @GetMapping("/game4")
-    public String game4(Model model) {return "bio_wordle";}
+    @GetMapping("/bio_wordle")
+    public String bio_wordle(Model model) {return "games/bio_wordle";}
 
-    @GetMapping("/game5")
-    public String game5(Model model) {return "chemistry_game";}
+    @GetMapping("/chemistry_game")
+    public String chemistry_game(Model model) {return "games/chemistry_game";}
 
     @GetMapping("/draw")
     public String draw(Model model) {
         return "draw";
     }
 
-    @GetMapping("biology-road")
+    /*@GetMapping("biology-road")
     public String bioroad(Model model) {
         return "biologyroad";
     }
@@ -75,7 +75,7 @@ public class MainController {
     @GetMapping("plant-eater")
     public String planteat(Model model) {
         return "planteater";
-    }
+    } */
 
     @GetMapping("flappybird")
     public String flappybird(Model model) {
