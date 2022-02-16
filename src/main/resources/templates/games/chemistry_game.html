@@ -5,16 +5,28 @@
     <div th:replace="fragments/overlaymenu :: commonhead">...</div>
     <title>Our Purpose</title>
 </head>
-<body>
+<style>
+    canvas {
+        border:1px solid #d3d3d3;
+        background-color: #f1f1f1;
+    }
+</style>
+<body onload()="startGame()">
+
+<script>
+    function startGame() {
+
+    }
+</script>
 
 <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
 <header class="showcase">
     <div class="container showcase-inner">
-        <h1 style="font-family: 'Courier New'">Game 5</h1>
-        <p style="font-family: 'Courier New'">Game 5 is a very interesting game.</p>
-        <p style="font-family: 'Courier New'">Educate people on how computer science applies to various topics.</p>
-        <p style="font-family: 'Courier New'">Encourage people to develop their own games and learn computer science.</p>
+        <h1 style="font-family: 'Courier New'">Chemistry Sokoban Game</h1>
+        <p style="font-family: 'Courier New'">Help the scientist put the reactants in their designated place in order to start an experiment</p>
+        <p style="font-family: 'Courier New'">Use arrow keys to move the scientist around</p>
+        <p style="font-family: 'Courier New'">Push reactants onto red tiles </p>
         <a href="#" class="btn">Play Now</a>
         <a href="/further_readings" class="btn">Read More</a>
     </div>

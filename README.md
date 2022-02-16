@@ -1,7 +1,7 @@
 _Last updated February 4th, 2022._
 
 ### Our Purpose:
-Develop minigames to make coding more accessible for people + educate people on how computer science applies to various topics + encourage people to develop their own games and learn computer science.
+Develop minigames to educate people about topics that are taught both in school and out of school + encourage people to develop their own games and learn computer science
 
 ### Website URL: [flappybird.cf](http://flappybird.cf/)
 ### Jekyll URL: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
