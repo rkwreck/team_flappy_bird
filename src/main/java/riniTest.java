@@ -1,4 +1,4 @@
-package com.nighthawk.csa.starters.squirrel;
+/* package com.nighthawk.csa.starters.squirrel;
 
 import java.util.ArrayList;
 import java.util.*;
@@ -10,17 +10,17 @@ public class riniTest {
 
     // Number has a zero Argument constructor
     // It initializes a random number between 3 and 36, ie the number of squirrels in class
-    public riniTest() {
+    //public riniTest() {
         // constructor
-        squirrels = (int) (Math.random() * ((36-3) + 3)); //initialize random number of squirrels
+        //squirrels = (int) (Math.random() * ((36-3) + 3)); //initialize random number of squirrels
     }
 
-    public riniTest(int num) {  //if initial number of squirrels is given
-        squirrels = num;
+    //public riniTest(int num) {  //if initial number of squirrels is given
+        //squirrels = num;
     }
 
     // It contains a getter for the Random Number
-    public int getNumOfSquirrels() {
+    //public int getNumOfSquirrels() {
         return squirrels;
     }
 
@@ -58,3 +58,4 @@ public class riniTest {
     }
 
 }
+*/
