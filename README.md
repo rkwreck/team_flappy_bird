@@ -44,12 +44,12 @@ _Last deployed January 14th, 2022._
 | Prisha | Physics Trivia | Created Wiki page plan for game w/ wireframes + added controller for trivia game | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/0e4985c6fc33ff6fc876c241a0e67e226a381d8e) | [Link](https://drive.google.com/file/d/1TEdoYqW7FQVM-FgFGwuKP5RuKqhUD6iO/view?usp=sharing)
 
 ## Week 8 Timebox (FRQ Showing 2) 
-| Name | Crossover Partners | Individual Review Ticket w/ Scores & Reflection |
-| :--: | :----------------: | :----------------------: | 
-| Rini | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/33) | 
-| Chenxin | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
-| Adi | [@risaiwazaki](https://github.com/risaiwazaki) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) and @macddmac | [Link](https://github.com/ridhimainukurti/p1-Valid/issues/39#issuecomment-1031659860) | 
-| Prisha | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
+| Name | Summary of Work | Crossover Partners | Individual Review Ticket w/ Scores & Reflection | 
+| :--: | :-------------: | | :----------------: | :----------------------: | 
+| Rini | Summary | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/33) | 
+| Chenxin | Summary | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
+| Adi | Summary | [@risaiwazaki](https://github.com/risaiwazaki) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) and @macddmac | [Link](https://github.com/ridhimainukurti/p1-Valid/issues/39#issuecomment-1031659860) | 
+| Prisha | Summary | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
 
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
