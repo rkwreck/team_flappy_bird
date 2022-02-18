@@ -29,11 +29,24 @@
     <style>
         body {
             padding: 25px;
-            background: url('/images/physics game logo.png') no-repeat center scroll;
             color: black;
             font-size: 25px;
         }
     </style>
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.rings.min.js"></script>
+    <script>
+        VANTA.RINGS({
+            el: "#your-element-selector",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
+        })
+    </script>
 
 </body>
 </html>
