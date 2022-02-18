@@ -36,12 +36,12 @@ _Last deployed January 14th, 2022._
 | Prisha | Physics Trivia | Fixed question & answer issues + completed source page + added vanta.js background w/ rings to match subject theme | [Link](https://github.com/rkwreck/team_flappy_bird/commit/2227b55959e9d48e103838347de91eec561f1e39) | [Link](https://drive.google.com/file/d/1R3ZnKTo5Nc1wdFdcCVhlYtb_9zMkY7Br/view?usp=sharing) | 
 
 ## Week 9 Timebox (PBL Part 1) 
-| Name | Game | Wiki Page | Code Commit | Video Link |
-| :--: | :--: | :-------: | :---------: | :--------: | 
-| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2722dd844054249c558edcdfef2af38d81a843b) | [Link](https://www.loom.com/share/14cc96583f1f41db859dc3141cf52441) | 
-| Chenxin | Chemistry Sokoban | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/9d6e65f1b764e4f8f24193a19e89216f0a10c463) |  [Link](https://www.loom.com/share/ce90a91f49b64675bb0dadb6714e2b08) |
-| Adi | Plant Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/370559a1897a6362cba2e311c941ca15cbe9c819) | [Link](https://drive.google.com/file/d/1UD2HPbTOZR5e7_vHxFxW2Aa2I0XUiAE_/view?usp=sharing) | 
-| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/0e4985c6fc33ff6fc876c241a0e67e226a381d8e) | [Link](https://drive.google.com/file/d/1TEdoYqW7FQVM-FgFGwuKP5RuKqhUD6iO/view?usp=sharing)
+| Name | Game | Summary of Work | Wiki Page | Code Commit | Video Link |
+| :--: | :--: | :-------------: | :-------: | :---------: | :--------: | 
+| Rini | Medical Emergencies Trivia | Created Wiki page plan for game w/ wireframes + completed source page |  [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2722dd844054249c558edcdfef2af38d81a843b) | [Link](https://www.loom.com/share/14cc96583f1f41db859dc3141cf52441) | 
+| Chenxin | Chemistry Sokoban | Created Wiki page plan for game w/ wireframes + created chem game assets | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/9d6e65f1b764e4f8f24193a19e89216f0a10c463) |  [Link](https://www.loom.com/share/ce90a91f49b64675bb0dadb6714e2b08) |
+| Adi | Plant Bio Wordle | Created Wiki page plan for game + reorganized directories + created wordle game database | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/370559a1897a6362cba2e311c941ca15cbe9c819) | [Link](https://drive.google.com/file/d/1UD2HPbTOZR5e7_vHxFxW2Aa2I0XUiAE_/view?usp=sharing) | 
+| Prisha | Physics Trivia | Created Wiki page plan for game w/ wireframes + added controller for trivia game | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/0e4985c6fc33ff6fc876c241a0e67e226a381d8e) | [Link](https://drive.google.com/file/d/1TEdoYqW7FQVM-FgFGwuKP5RuKqhUD6iO/view?usp=sharing)
 
 ## Week 8 Timebox (FRQ Showing 2) 
 | Name | Crossover Partners | Individual Review Ticket w/ Scores & Reflection |
