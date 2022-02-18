@@ -52,12 +52,12 @@ _Last deployed January 14th, 2022._
 | Prisha | Completed FRQS + runtime on Repl.it | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
 
 ## Week 7 Timebox (FRQ Showing 1) 
-| Name | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
-| :--: | :-------------------------------------------: | :--------------: | 
-| Rini | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
-| Chenxin | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
-| Adi | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) | [Repl Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
-| Prisha | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
+| Name | Summary | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
+| :--: | :-----: | :-------------------------------------------: | :--------------: | 
+| Rini | Summary | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
+| Chenxin | Summary | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
+| Adi | Summary | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) | [Repl Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
+| Prisha | Summary | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
 ## Week 6 Timebox (Midterm Ketchup Week)
 | Name | Vocab Wiki Page | 
