@@ -23,6 +23,7 @@ _Last deployed January 14th, 2022._
 * [Week 7 - FRQ Showing 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-7-timebox-frq-showing-1)
 * [Week 8 - FRQ Showing 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2)
 * [Week 9 - PBL Part 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
+* [Week 10 - PBL Part 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-10-timebox-pbl-part-2)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
