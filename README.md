@@ -60,10 +60,10 @@ _Last deployed January 14th, 2022._
 | Prisha | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
 ## Week 6 Timebox (Midterm Ketchup Week)
-| Name | Vocab Wiki Page | 
-| :--: | :-------------: |
-| Rini & Chenxin | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-&-Rini-Week-6-Midterm-(Vocab)) | 
-| Adi & Prisha | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-&-Prisha---Week-6-Midterm) | 
+| Name | Summary of Work |  Vocab Wiki Page |
+| :--: | :-------------: | |  :-------------: |
+| Rini & Chenxin | Created wiki page defining the vocabulary terms w/ examples | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-&-Rini-Week-6-Midterm-(Vocab)) | 
+| Adi & Prisha | Created wiki page defining the vocabulary terms w/ example |  [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-&-Prisha---Week-6-Midterm) | 
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
 Runtime for FRQ should be on website.
