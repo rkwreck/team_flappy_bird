@@ -29,10 +29,10 @@ _Last deployed January 14th, 2022._
 ## Week 10 Timebox (PBL Part 2)
 | Name | Game | Summary of Work | Code Commit | Video Link | 
 | :--: | :--: | :-------------: | :---------: | :--------: | 
-| Rini | Medical Emergencies Trivia | Summary | Code Commit | Video Link | 
-| Chenxin | Chemistry Sokoban | Summary | Code Commit | Video Link |
-| Adi | Plant Bio Wordle | Summary | Code Commit | Video Link | 
-| Prisha | Physics Trivia | Summary of Work | Code Commit | Video Link | 
+| Rini | Medical Emergencies Trivia | Completed skeleton code for game frontend + added game direction pages | [Link](https://github.com/rkwreck/team_flappy_bird/commit/18ff482edea83c54515073b1d6610d34145ed6b4) | Video Link | 
+| Chenxin | Chemistry Sokoban | Used Java inheritance to make progress on game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2fd59abcf04f4b10e960961320d823e8d521e31) | [Link](https://www.loom.com/share/dcc3653ca61e4e1c92dff32b4e31fee6) |
+| Adi | Plant Bio Wordle | Set up controller, model, html page for game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/7a95a04dbcf25d8d68448e1154ff116970aa282d) | Unable to create video b/c tehcnical issues  | 
+| Prisha | Physics Trivia | Fixed question & answer issues + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/1f218aa57e122943c1388933f730603075323f47) | Link | 
 
 ## Week 9 Timebox (PBL Part 1) 
 | Name | Game | Wiki Page | Code Commit | Video Link |
