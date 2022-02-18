@@ -53,17 +53,17 @@ _Last deployed January 14th, 2022._
 
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name | Summary | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
-| :--: | :-----: | :-------------------------------------------: | :--------------: | 
+| :--: | :-----: | :-------------------------------------------: | :-------------------: | 
 | Rini | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
 | Chenxin | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
 | Adi | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) | [Repl Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
 | Prisha | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
-## Week 6 Timebox (Midterm Ketchup Week)
-| Name | Summary of Work |  Vocab Wiki Page |
-| :--: | :-------------: | |  :-------------: |
+## Week 6 Timebox (Midterm Ketchup Week) 
+| Name | Summary of Work | Vocab Wiki Page | 
+| :--: | :-------------: | :-------------: | 
 | Rini & Chenxin | Created wiki page defining the vocabulary terms w/ examples | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-&-Rini-Week-6-Midterm-(Vocab)) | 
-| Adi & Prisha | Created wiki page defining the vocabulary terms w/ example |  [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-&-Prisha---Week-6-Midterm) | 
+| Adi & Prishas | Created wiki page defining the vocabulary terms w/ examples | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-&-Prisha---Week-6-Midterm)
 
 ## Week 5 Timebox (FRQ 5 + Theme) 
 Runtime for FRQ should be on website.
