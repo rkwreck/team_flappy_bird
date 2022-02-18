@@ -45,11 +45,11 @@ _Last deployed January 14th, 2022._
 
 ## Week 8 Timebox (FRQ Showing 2) 
 | Name | Summary of Work | Crossover Partners | Individual Review Ticket w/ Scores & Reflection | 
-| :--: | :-------------: | | :----------------: | :----------------------: | 
-| Rini | Summary | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/33) | 
-| Chenxin | Summary | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
-| Adi | Summary | [@risaiwazaki](https://github.com/risaiwazaki) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) and @macddmac | [Link](https://github.com/ridhimainukurti/p1-Valid/issues/39#issuecomment-1031659860) | 
-| Prisha | Summary | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
+| :--: | :-------------: | :----------------: | :---------------------------------------------: | 
+| Rini | Completed FRQS + runtime on Repl.it | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/33) | 
+| Chenxin | Completed FRQS + runtime on Repl.it | [@PrishaMaiti](https://github.com/PrishaMaiti) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird)  | [Link](https://github.com/rkwreck/team_flappy_bird/issues/36) |
+| Adi | Completed FRQS + runtime on Repl.it | [@risaiwazaki](https://github.com/risaiwazaki) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) and @macddmac | [Link](https://github.com/ridhimainukurti/p1-Valid/issues/39#issuecomment-1031659860) | 
+| Prisha | Completed FRQS + runtime on Repl.it | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) | [Link](https://github.com/rkwreck/team_flappy_bird/issues/34) | 
 
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
