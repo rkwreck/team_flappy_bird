@@ -33,7 +33,7 @@ _Last deployed January 14th, 2022._
 | Rini | Medical Emergencies Trivia | Completed skeleton code for game frontend + added game direction pages | [Link](https://github.com/rkwreck/team_flappy_bird/commit/18ff482edea83c54515073b1d6610d34145ed6b4) | [Link](https://www.loom.com/share/88a09620ee9041089d87624fa23cc0a9) | 
 | Chenxin | Chemistry Sokoban | Used Java inheritance to make progress on game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2fd59abcf04f4b10e960961320d823e8d521e31) | [Link](https://www.loom.com/share/dcc3653ca61e4e1c92dff32b4e31fee6) |
 | Adi | Plant Bio Wordle | Set up controller, model, html page for game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/7a95a04dbcf25d8d68448e1154ff116970aa282d) | Unable to create video b/c tehcnical issues  | 
-| Prisha | Physics Trivia | Fixed question & answer issues + completed source page + added vanta.js background w/ rings to match subject theme | [Link](https://github.com/rkwreck/team_flappy_bird/commit/2227b55959e9d48e103838347de91eec561f1e39) | Link | 
+| Prisha | Physics Trivia | Fixed question & answer issues + completed source page + added vanta.js background w/ rings to match subject theme | [Link](https://github.com/rkwreck/team_flappy_bird/commit/2227b55959e9d48e103838347de91eec561f1e39) | [Link](https://drive.google.com/file/d/1R3ZnKTo5Nc1wdFdcCVhlYtb_9zMkY7Br/view?usp=sharing) | 
 
 ## Week 9 Timebox (PBL Part 1) 
 | Name | Game | Wiki Page | Code Commit | Video Link |
