@@ -121,7 +121,9 @@ Image previews (tangibles) of individual home pages on [this wiki page](https://
 | Chenxin | Deployment Manager | Deploy Website + establish policy and frequency for updates + ensure site is not broken and always alive for reviews. | [@chenxin-chex](https://github.com/chenxin-chex) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/chenxin-chex) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=chenxin-chex) | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | 
 | Adi | Technical Officer | Works with teacher, classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics + facilitates learning of Technical Concepts within Scrum Team. | [@adhithi!](https://github.com/adhithin) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/adhithin) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=adhithin) | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Prisha | Primary Designer | Organize Thymeleaf enabled templates + ensure usage of Bootstrap (minimize CSS customization per page) + establish plan for overrides on each of the User Pages + polish frontend | [@PrishaMaiti](https://github.com/PrishaMaiti) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/PrishaMaiti)| [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=PrishaMaiti) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) |  
-   
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Chenxin's Shark Puppy (Mascot): 
 ![image](https://user-images.githubusercontent.com/89210546/154727057-b67dc3af-7ccb-4cc7-afb1-85db673af535.png)
 
