@@ -123,7 +123,7 @@ public class WordleController {
         //char5 = Wordle.wordlemepls();
         //model.addAttribute("object", char5);
 
-        return "games/biowordle"; //HTML render fibonacci results
+        return "games/bio_wordle"; //HTML render fibonacci results
     }
 
     // Starting a new sequence
