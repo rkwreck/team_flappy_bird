@@ -1,6 +1,7 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE html>
-<html lang="en">
+<!-- This page is illustrative and contains ideas about HTML layouts -->
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,6 +19,7 @@
     <th:block layout:fragment="head" th:remove="tag">Head details are added by ThymeLeaf layout consumer</th:block>
 
 </head>
+
 <body>
 <th:block th:replace="fragments/nav :: header" th:remove="tag">Standard header and Navigation</th:block>
 

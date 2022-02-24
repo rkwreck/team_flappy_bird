@@ -53,7 +53,7 @@ public class MainController {
 
     @GetMapping("/game3")
     public String game3(Model model) {
-        return "games/game3";
+        return "bio_game";
     }
 
     @GetMapping("/bio_wordle")
