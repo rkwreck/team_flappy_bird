@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<div th:replace="/fragments/head :: header"></div>
 <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
 <script th:inline="javascript">
@@ -63,7 +64,6 @@
 
         <!--- lead to journals/possibly embeds + frqs -->
         <button type="button" class="btn" onclick="window.location.href='https://rkwreck.github.io/team_flappy_bird/';">READ.me</button>
-        <a href="/frq_directory" class="btn" >FRQs</a>
 
         <!--- buttons to switch between masked & unmasked images -->
         <input type="button"  class="btn" onclick="changeMasked();" value="Masked Images">
