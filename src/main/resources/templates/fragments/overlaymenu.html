@@ -6,28 +6,30 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link th:href="@{/styles/style.css}" rel="stylesheet" />
   <link th:href="@{/styles/menu.css}" rel="stylesheet" />
+
+  <style>
+    .swimmy-bird {
+      background: url("/images/swimmy_bird_background.png") no-repeat center scroll;
+      color: white;
+    }
+  </style>
+
+  <script>
+    function closeOverlayMenu() {
+      let chkBtn = document.getElementById('OverlayMenuClickBtn');
+      if(chkBtn.checked == true) {
+        chkBtn.checked = false;
+      }
+    }
+
+    function toggleSecondTheme() {
+      var element = document.body;
+      element.classList.toggle("swimmy-bird");
+    }
+  </script>
 </head>
 
-<style>
-  .swimmy-bird {
-  background: url("/images/swimmy_bird_background.png") no-repeat center scroll;
-  color: white;
-}
-</style>
 
-<script>
-  function closeOverlayMenu() {
-    let chkBtn = document.getElementById('OverlayMenuClickBtn');
-    if(chkBtn.checked == true) {
-      chkBtn.checked = false;
-    }
-  }
-
-  function toggleSecondTheme() {
-    var element = document.body;
-    element.classList.toggle("swimmy-bird");
-  }
-</script>
 
 <body>
 

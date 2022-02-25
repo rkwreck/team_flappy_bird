@@ -69,7 +69,7 @@ body {
   }
 }
 
-.btn {
+button.btn {
   display: inline-block;
   color: skyblue;
   font-family: 'Roboto Light';
@@ -82,6 +82,12 @@ body {
 
   .hover {
     opacity: 0.7;
+  }
+  .left-btn {
+    float: left;
+  }
+  .right-btn {
+    float: right;
   }
 }
 
