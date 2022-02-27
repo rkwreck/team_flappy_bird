@@ -1,29 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <link th:href="@{/styles/reset.css}" rel="stylesheet" />
-    <title>Learn & Discover: Sources</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Physics Trivia')">
 
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
-
-<header class="showcase">
-    <div class="container showcase-inner">
-        <h1>Learn More</h1>
-        <p>Our purpose is to educate you on various topics.</p>
-        <p>Games were just the start.</p>
-        <p>Learn more about:</p>
-        <a href="/physics_sources" class="btn" >Physics</a>
-        <a href="/medical_sources" class="btn" >Medical Emergencies</a>
-        <a href="/plant_bio_sources" class="btn" >Plant Biology</a>
-       <!--- <a href="/plant_medicine_sources" class="btn" >Plant Medicine</a> -->
-        <a href="/chemistry_sources" class="btn" >Chemistry</a>
-    </div>
-</header>
+    <body>
+    <section th:fragment="content">
 
 
-</body>
+        <div class="showcase">
+            <h1>Learn More</h1>
+            <h2>Here is a directory of all our sources to help prepare you for our games!</h2>
+            <a href="/physics_sources" class="btn1 btn-outline-primary btn-sm" >Physics</a><br><br><br>
+            <a href="/medical_sources" class="btn1 btn-outline-primary btn-sm" >Medical Emergencies</a><br><br><br>
+            <a href="/plant_bio_sources" class="btn1 btn-outline-primary btn-sm" >Plant Biology</a><br><br><br>
+           <!--- <a href="/plant_medicine_sources" class="btn" >Plant Medicine</a> -->
+            <a href="/chemistry_sources" class="btn1 btn-outline-primary btn-sm" >Chemistry</a>
+        </div>
+    </section>
+
+
+    </body>
 </html>
