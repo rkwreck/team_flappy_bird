@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Medical Emergencies Further Sources</title>
-</head>
-<body>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Medical Trivia Sources')">
+    <head>
+    </head>
 
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
-<header class="showcase">
-    <div class="container showcase-inner">
-        <h1>Recognizing Medical Emergencies</h1>
-        <!--- insert links to websites here. -->
-        <a href="https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps" class="btn">CPR Steps</a>
-        <a href="https://medlineplus.gov/fainting.html" class="btn">Fainting</a>
-        <a href="https://www.mclaren.org/main/warning-signs-of-a-heart-attack" class="btn">Heart Attacks & Strokes</a>
-        <a href="https://www.mayoclinic.org/diseases-conditions/sudden-cardiac-arrest/symptoms-causes/syc-20350634" class="btn">Sudden Cardiac Arrest</a>
-        <a href="https://medlineplus.gov/ency/article/001432.htm" class="btn">Vertigo-Associated Disorders</a>
-        <a href="/further_readings" class="btn">Go Back</a>
-    </div>
-</header>
+    <body>
+        <section th:fragment="content">
+
+            <div class="showcase">
+                <h1>Medical Sources</h1>
+                <!--- insert links to websites here. -->
+                <a href="https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps" class="btn1 btn-outline-primary btn-sm">CPR Steps</a><br><br><br>
+                <a href="https://medlineplus.gov/fainting.html" class="btn1 btn-outline-primary btn-sm">Fainting</a><br><br><br>
+                <a href="https://www.mclaren.org/main/warning-signs-of-a-heart-attack" class="btn1 btn-outline-primary btn-sm">Heart Attacks & Strokes</a><br><br><br>
+                <a href="https://www.mayoclinic.org/diseases-conditions/sudden-cardiac-arrest/symptoms-causes/syc-20350634" class="btn1 btn-outline-primary btn-sm">Sudden Cardiac Arrest</a><br><br><br>
+                <a href="https://medlineplus.gov/ency/article/001432.htm" class="btn1 btn-outline-primary btn-sm">Vertigo-Associated Disorders</a><br><br><br>
+                <a href="/further_readings" class="btn1 btn-outline-primary btn-sm">Go Back</a>
+            </div>
+        </section>
+    </body>
+</html>
