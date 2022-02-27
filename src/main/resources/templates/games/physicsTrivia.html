@@ -1,52 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Physics Trivia')">
+
 <head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title style="font-family: Impact">Physics Trivia</title>
 </head>
 
+
+
 <body>
+<section th:fragment="content">
+    <script th:inline="javascript">
+        {
+            let currTriviaIdx = 0;
+            let totalTriviaCount = [[${AllTrivia.size()}]];
+            let AllTrivia = [[${AllTrivia}]]; // "AllTrivia" is now a JavaScript object / JSON
+            let userAnswers = [];
 
-    <header class="showcase">
-        <div class="container showcase-inner">
-        <h1 style="color: dodgerblue; background-color: yellow; text-align: center">10 Questions. Ready... Set... Go!</h1>
-        </div>
-        <div id="quiz"></div>
-        <div id="results"></div>
-        <div style="max-width: 18rem;">
-            <label for="answer" style="margin-top: 30px; text-align: right">Enter answers here!</label>
-            <input name="answer" id="answer" maxlength="1" style="text-align: right">
-            <p id="answerPrint" th:text="${answer}"></p>
-        </div>
-        <form>
-            <label for="enterAnswer" style="text-align: right">Answer by entering any of these options: a, b, c, d</label><br>
-            <input type="text" id="enterAnswer" name="enterAnswer" style="margin-bottom: 15px; text-align: right"><br>
-            <button id="submit" class="btn" style="text-align: center">Submit Answers!</button>
-        </form>
-    </header>
+            function getCurrentTriviaIndex() {
+                return(currTriviaIdx);
+            }
 
-    <style>
-        body {
-            padding: 25px;
-            color: black;
-            font-size: 25px;
+            function getTriviaPrompt(idx) {
+                return AllTrivia[idx].prompt; // returns string
+            }
+
+            function setTriviaPrompt() {
+                let element = document.getElementById('triviaPrompt');
+                element.innerHTML = getTriviaPrompt(getCurrentTriviaIndex());
+
+                let element2 = document.getElementById('QCountPrompt');
+                element2.innerHTML = "Question " + (getCurrentTriviaIndex()+1) + " of " + totalTriviaCount;
+
+                setTriviaOpts();
+            }
+
+            function getTriviaOpts(idx) {
+                return AllTrivia[idx].opts; // returns array
+            }
+
+            function setTriviaOpts() {
+                let opts = getTriviaOpts(getCurrentTriviaIndex());
+                let element;
+                element = document.getElementById('optA');
+                element.innerHTML = opts[0];
+                element = document.getElementById('optB');
+                element.innerHTML = opts[1];
+                element = document.getElementById('optC');
+                element.innerHTML = opts[2];
+                element = document.getElementById('optD');
+                element.innerHTML = opts[3];
+            }
+
+            function saveAnswerAndMoveToNextTrivia() {
+                let currAnswer = getAnswerRadioCheckedValue();
+
+                if(currTriviaIdx == totalTriviaCount) {
+                    return;
+                }
+
+                if(currAnswer == null) {
+                    // if no options chosen, then alert & return
+                    alert("Please select an answer");
+                    return;
+                }
+
+                userAnswers[currTriviaIdx] = currAnswer;
+                if(currTriviaIdx == totalTriviaCount-1) {
+                    showScore();
+                    showTriviaEnd();
+                    currTriviaIdx++; // set it to bad value
+                } else {
+                    currTriviaIdx++;
+                    setTriviaPrompt();
+                }
+
+                resetAnswerRadioCheckedValue();
+
+            }
+
+            function showScore() {
+                // validate all answers and show score
+                let score = 0;
+                for(let i=0; i<totalTriviaCount; i++) {
+                    if(userAnswers[i] == AllTrivia[i].correctAnswer) {
+                        score++;
+                    }
+                }
+                // stop any more submit by user
+                document.getElementById('btnFromSubmit').hidden = true;
+                alert("Your score is " + score);
+            }
+
+            function showTriviaEnd() {
+                document.getElementById('triviaPrompt').innerHTML = "Game ended!";
+                document.getElementById('QCountPrompt').innerHTML = "Refresh this page to play again.";
+                document.getElementById('AllOptsSection').hidden = true;
+            }
+
+            function getAnswerRadioCheckedValue() {
+                let ele = document.getElementsByName('userAnswer');
+                for(let i = 0; i < ele.length; i++) {
+                    if(ele[i].checked)
+                        return(ele[i].value);
+                }
+                return null;
+            }
+
+            function resetAnswerRadioCheckedValue() {
+                let ele = document.getElementsByName('userAnswer');
+                for(let i = 0; i < ele.length; i++) {
+                    if(ele[i].checked)
+                        ele[i].checked = false;
+                }
+            }
+
+            $(document).ready(function() {
+                setTriviaPrompt();
+            });
+
         }
-    </style>
-    <script src="three.r119.min.js"></script>
-    <script src="vanta.rings.min.js"></script>
-    <script>
-        VANTA.RINGS({
-            el: "#your-element-selector",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00
-        })
     </script>
 
+    <div class="showcase">
+        <br>
+        <br>
+        <h1>Physics Trivia</h1>
+        <h2>10 Questions. Ready... Set... Go!</h2>
+        <h3>( Questions will be shown one at a time )</h3>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-12 mb-4">
+                <div class="card">
+                    <section class="border py-3">
+                    <div class="card-body">
+                        <h2 class="card-title" id="QCountPrompt">Question XX of YY</h2>
+                        <p class="card-text" id="triviaPrompt">
+                            Dummy Prompt
+                        </p>
+                        <form action="javascript:saveAnswerAndMoveToNextTrivia()" id="AllOptsSection">
+                            <div class="form-check">
+                                <input class="form-check-input with-gap float-none" type="radio" id="answer1" value="a" th:name="userAnswer">
+                                <label class="form-check-label" for="answer1" id="optA">Answer1</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input with-gap float-none" type="radio" id="answer2" value="b" th:name="userAnswer">
+                                <label class="form-check-label" for="answer2" id="optB">Answer2</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input with-gap float-none" type="radio" id="answer3" value="c" th:name="userAnswer">
+                                <label class="form-check-label" for="answer3" id="optC">Answer3</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input with-gap float-none" type="radio" id="answer4" value="d" th:name="userAnswer">
+                                <label class="form-check-label" for="answer4" id="optD">Answer4</label>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn1 btn-primary" id="btnFromSubmit">Submit</button>
+                        </form>
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
 </body>
 </html>

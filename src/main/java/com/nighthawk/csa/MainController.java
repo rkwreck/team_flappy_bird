@@ -36,7 +36,7 @@ public class MainController {
         return "aboutus/aboutus";
     }
 
-    @GetMapping("/games_home_page")
+    @GetMapping("/gamesHomepage")
     public String games_home_page(Model model) {
         return "games/games_home_page";
     }
@@ -162,12 +162,14 @@ public class MainController {
 
     @GetMapping("/physicsTrivia")
     public String physicsTrivia(Model model) {
-        return "physicsTrivia";
+        PhysicsTriviaController triviaController = new PhysicsTriviaController();
+        model.addAttribute("AllTrivia", triviaController.AllTrivia);
+        return "games/physicsTrivia";
     }
 
     @GetMapping("/medicalTrivia")
     public String medicalTrivia(Model model) {
-        return "medicalTrivia";
+        return "games/medicalTrivia";
     }
 
     @GetMapping("/further_readings")

@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Flappy Arcade School')">
 <head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Our Purpose</title>
 </head>
+
+
 <body>
+<section th:fragment="content">
 
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
-
-<header class="showcase">
-    <div class="container showcase-inner">
-        <h1 style="font-family: 'Courier New'">Our Purpose</h1>
-        <p style="font-family: 'Courier New'">Develop mini-games to make coding more accessible to people.</p>
-        <p style="font-family: 'Courier New'">Educate people on how computer science applies to various topics.</p>
-        <p style="font-family: 'Courier New'">Encourage people to develop their own games and learn computer science.</p>
-        <!--- <a href="#" class="btn">Read More</a> -->
-        <a href="../games_home_page" class="btn">Play Now</a>
+    <div class="showcase">
+        <br>
+        <br>
+        <h1>Our Purpose</h1>
+        <h2>Develop mini-games to make coding more accessible to people.</h2>
+        <h2>Educate people on how computer science applies to various topics.</h2>
+        <h2>Encourage people to develop their own games and learn computer science.</h2>
+        <a href="games_home_page" class="btn1 btn-outline-primary btn-sm">
+            Click here
+        </a>
 
     </div>
-</header>
+</section>
 
 
 </body>

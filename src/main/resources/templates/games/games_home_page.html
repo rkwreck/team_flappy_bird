@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Games')">
 <head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Games</title>
 </head>
-<body>
 
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+
+<body>
+<section th:fragment="content">
 
 <style>
     .wrapper {
@@ -38,31 +37,79 @@
 <header class="showcase">
     <div class="container showcase-inner">
         <h1>Games</h1>
-        <p>Click to play!</p>
+        <h2>Click to play!</h2>
+        <br>
 
-        <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img class="img-box1" id="game1" src="/images/physics_game_logo.png"/>
+                        <div class="card-body">
+                            <h2 class="card-title">Physics Trivia</h2>
+                            <p class="card-text">
+                                A trivia game about mechanics
+                            </p>
 
-            <div class="box">
-                <img src="/images/physics_game_logo.png"/>
-                <a href="physics_game" class="btn">Physics Trivia</a>
+                            <a href="physics_game" class="btn1 btn-outline-primary btn-sm">
+                                Click here
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img class="img-box1" id="game2" src="/images/medicine game logo.png"/>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Medical Health Trivia</h2>
+                            <p class="card-text">
+                                A trivia game about recognizing medical emergencies
+                            </p>
+
+                            <a href="medical_game" class="btn1 btn-outline-primary btn-sm">
+                                Click here
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img class="img-box1" id="game3" src="/images/java_logo.png"/>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Bio Wordle</h2>
+                            <p class="card-text">
+                                Wordle but with a biology-themed word list
+                            </p>
+
+                            <a href="#" class="btn1 btn-outline-primary btn-sm">
+                                Coming Soon!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img class="img-box1" id="game4" src="/images/beaker4.png"/>
+
+                        <div class="card-body">
+                            <h2 class="card-title">Chemistry Sokoban</h2>
+                            <p class="card-text">
+                                Play a chemistry-themed sokoban!
+                            </p>
+
+                            <a href="physics_game" class="btn1 btn-outline-primary btn-sm">
+                                Click here
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="box">
-                <img src="/images/medicine game logo.png"/>
-                <a href="medical_game" class="btn">Health Trivia</a>
-            </div>
-
-            <div class="box">
-                <img src="/images/java_logo.png"/>
-                <a href="bio_game" class="btn">Bio Wordle</a>
-            </div>
-
-            <div class="box">
-                <img src="/images/java_logo.png"/>
-                <a href="chemistry_game" class="btn">Chemistry Sokoban</a>
-            </div>
-
         </div>
 
     </div>
 </header>
+</section>
+</body>
+</html>

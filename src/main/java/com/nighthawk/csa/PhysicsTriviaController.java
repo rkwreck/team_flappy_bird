@@ -13,81 +13,47 @@ import java.util.Random;
 // or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
 @Controller
 public class PhysicsTriviaController implements WebMvcConfigurer {
+    // member vars
+    ArrayList<Trivia> AllTrivia = new ArrayList<Trivia>();
+    int currQNum = 1; // we will calculate the final score after all questions are answered by user
 
-    // Autowired enables Control to connect HTML and POJO Object to Database easily for CRUD
+    public class Trivia {
+        public String prompt;
+        public String[] opts; // in order, the answer options are known as a b c d
+        public String correctAnswer; // allowed values: a b c d
+        public String userAnswer;
 
-    public String answer;
+        public Trivia(String prompt, String[] opts, String correctAnswer) {
+            this.prompt = prompt;
+            this.opts = new String[4];
+            this.opts = opts;
+            this.correctAnswer = correctAnswer;
+        }
+    }
 
+    PhysicsTriviaController() {
+        AllTrivia.add(
+                new Trivia("Under what condition are you allowed to use the 4 main kinematics equations?",
+                        new String[]{"When time is constant", "When position is constant", "When velocity is constant", "When acceleration is constant"},
+                        "d"));
 
+        AllTrivia.add(
+                new Trivia("If a projectile is launched at an angle and returns back to the same height when it lands, what type of projectile motion is it?",
+                        new String[]{"Type 1", "Type 2", "Type 3", "Type 4"},
+                        "b"));
+    }
 
-
-    @GetMapping("/games/physicsTrivia")
-    public String physicsTrivia (@RequestParam(name = "answer", required = false, defaultValue = "World") String answer,
+    @GetMapping("checkPhysicsTriviaAnswer")
+    public String checkPhysicsTriviaAnswer (@RequestParam(name = "userAnswer", required = true, defaultValue = "a") String answer,
                             Model model ) {
-        // @RequestParam handles required and default values, name and database are class variables, database looking like JSON
+        // @RequestParam handles required and default values
         model.addAttribute("answer", answer);
         // MODEL is passed to html
-        String q1 = "Under what condition are you allowed to use the 4 main kinematics equations?\n"
-                + "(a)When time is constant\n(b)When position is constant\n(c)When velocity is constant\n(d)When acceleration is constant\n";
-        String q2 = "If a projectile is launched at an angle and returns back to the same height when it lands, what type of projectile motion is it?\n"
-                + "(a)Type 1\n(b)Type 2\n(c)Type 3\n";
-        String q3 = "A 2.0 kg block is initially at rest on a frictionless surface. A force F changes its velocity to 5.0 m/s in 4 seconds. What is the block's acceleration?\n"
-                + "(a)1.25 m/s^2\n(b)1.25 m/s\n(c)1.5 m/s\n(d)1.5 m/s^2";
-        String q4 = "Which of these provides a conservative force then a nonconservative force? (Order matters!)\n" +
-                "(a)Gravitational Force, Spring Force\n(b)Air Resistance, Frictional Force\n(c)Spring Force, Frictional Force\n(d)Air Resistance, Gravitational Force";
-        String q5 = "What is the difference between an elastic and inelastic collision?\n"
-                + "(a)Elastic: Momentum and Kinetic Energy are conserved, Inelastic: Momentum is conserved but Kinetic Energy is lost\n(b)Elastic: Momentum is conserved but Kinetic Energy is lost, Inelastic: Momentum and Kinetic Energy are conserved";
-        String q6 = "What is impulse a change in?\n"
-                + "(a)Energy\n(b)Kinetic Energy\n(c)Potential Energy\n(d)Momentum";
-        String q7 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball is plotted. What is the tennis ball's impulse from 2.0 to 4.0 seconds?\n"
-                + "(a)5 kg * m/s^2\n(b)10 N*s\n(c)5 N*s\n(d)10 kg*m/s";
-        String q8 = "A perfectly horizontal meterstick has a 10 kg red ball at the 20cm mark and a 5 kg blue ball at the 70 cm mark. Calculate the center of mass in the x direction with respect to the 50 cm mark as the origin.\n"
-                + "(a)-13.33 cm\n(b)36.67 cm\n(c)-13.33 m\n(d)36.67 m";
-        String q9 = "Lambda is for linear mass density, sigma is for surface area density so rho is for ___.\n" +
-                "(a)Momentum Density\n(b)Volume Density\n(c)3D Density\n(d)Impulse Density";
-        String q10 = "Which of these objects will win in a race if they all are released from rest at the same time and travel the same distance? Make sure to consider moment of inertia!\n"
-                + "(a)Hoop\n(b)Sphere\n(c)Cylinder\n(d)Large Hoop";
-        ArrayList<String> physicsQ = new ArrayList<String>();
 
-        physicsQ.add(q1);
-        physicsQ.add(q2);
-        physicsQ.add(q3);
-        physicsQ.add(q4);
-        physicsQ.add(q5);
-        physicsQ.add(q6);
-        physicsQ.add(q7);
-        physicsQ.add(q8);
-        physicsQ.add(q9);
-        physicsQ.add(q10);
 
-        ArrayList<String> physicsA = new ArrayList<String>();
-        physicsA.add("d");
-        physicsA.add("b");
-        physicsA.add("b");
-        physicsA.add("c");
-        physicsA.add("a");
-        physicsA.add("d");
-        physicsA.add("c");
-        physicsA.add("a");
-        physicsA.add("b");
-        physicsA.add("b");
 
-        // when you write your answer, make sure to write in the letter that's correct, not the actual answer itself
-
-       for (int i=0; i<10; i++) {
-           String target = physicsA.get(i);
-           if (answer == target){
-               answer = "good job";
-               this.answer = answer;
-               return "good job";
-           }
-           else {
-               answer = "incorect";
-               this.answer = answer;
-               return "incorrect";
-           }
-       }
-        return "games/physicsTrivia";
+       //return "games/physicsTrivia";
+        return "";
     }
 
 

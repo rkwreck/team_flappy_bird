@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Flappy Arcade School')">
 <head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <link th:href="@{/styles/reset.css}" rel="stylesheet" />
-    <title>About Us</title>
 </head>
 
-<body>
-<div th:replace="/fragments/head :: header"></div>
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
 
 <script th:inline="javascript">
 
-    function changeMasked()
+    function changeToMasked()
     {
         document.getElementById("rini").src="images/rini_masked.png";
         document.getElementById("chenxin").src="images/chenxin_masked.png";
@@ -21,7 +15,7 @@
         document.getElementById("adi").src="images/adi_masked.png";
     }
 
-    function changeUnMasked()
+    function changeToUnMasked()
     {
         document.getElementById("rini").src="images/rini_unmasked.png";
         document.getElementById("chenxin").src="images/chenxin_unmasked.jpg";
@@ -31,77 +25,68 @@
 
 </script>
 
-<style>
-    .wrapper {
+<body>
+<section th:fragment="content">
+    <div th:replace="/fragments/head :: header"></div>
+    <div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+    <br>
+    <br>
+    <h1>Meet the Team: About Us</h1>
+    <h2>Meet Team Flappy Bird, the creators behind this website.</h2>
 
-        display: grid;
-        grid-template-columns: 200px 200px 200px 200px;
-        grid-template-rows: 160px;
-        grid-gap: 10px;
-        color: steelblue;
-    }
-    .box {
-        background-color: lightskyblue;
-        color: #fff;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 100%;
-        max-height: 160px;
-    }
-    img {
-        max-width: 80%;
-        max-height: 80%;
-    }
-    .description {
-        padding: 10px;
-    }
-</style>
+    <!--- lead to journals/possibly embeds + frqs -->
+    <button type="button" class="btn1 btn-outline-primary btn-sm" onclick="window.location.href='https://rkwreck.github.io/team_flappy_bird/';">READ.me</button>
 
-<header class="showcase">
-    <div class="container showcase-inner">
-        <h1>Meet the Team: About Us</h1>
-        <p>Meet Team Flappy Bird, the creators behind this website.</p>
-
-        <!--- lead to journals/possibly embeds + frqs -->
-        <button type="button" class="btn" onclick="window.location.href='https://rkwreck.github.io/team_flappy_bird/';">READ.me</button>
-
-        <!--- buttons to switch between masked & unmasked images -->
-        <input type="button"  class="btn" onclick="changeMasked();" value="Masked Images">
-        <input type="button"  class="btn" onclick="changeUnMasked();" value="UnMasked Images">
-        <div class="wrapper">
+    <!--- buttons to switch between masked & unmasked images -->
+    <input type="button"  class="btn1 btn-outline-primary btn-sm" onclick="changeToMasked();" value="Masked Images">
+    <input type="button"  class="btn1 btn-outline-primary btn-sm" onclick="changeToUnMasked();" value="UnMasked Images">
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
 
             <!--- prisha's pictures & link to individual home page -->
-            <div class="box">
-                <img id="prisha" src="/images/prisha_unmasked.jpg"/>
-                <a href="/greetPrisha">
-                    <p style="color: dodgerblue">Prisha</p>
+            <div class="col-sm-3">
+                <div class="card">
+                <img class="img-box" id="prisha" src="/images/prisha_unmasked.jpg"/>
+                <a href="/greetPrisha" class="btn1 btn-outline-primary btn-sm">
+                    Prisha
                 </a>
+                </div>
             </div>
 
             <!--- rini's pictures & link to individual home page -->
-            <div class="box">
-                <img id="rini" src="/images/rini_unmasked.png"/>
-                <a href="/greetRini">
-                    <p style="color: dodgerblue">Rini</p>
+            <div class="col-sm-3">
+                <div class="card">
+                <img class="img-box" id="rini" src="/images/rini_unmasked.png"/>
+                <a href="/greetRini" class="btn1 btn-outline-primary btn-sm">
+                    Rini
                 </a>
+                </div>
             </div>
 
             <!--- chenxin's pictures & link to individual home page -->
-            <div class="box">
-                <img id="chenxin" src="/images/chenxin_unmasked.jpg"/>
-                <a href="/greetChenxin">
-                    <p style="color: dodgerblue">Chenxin</p>
+            <div class="col-sm-3">
+                <div class="card">
+                <img class="img-box" id="chenxin" src="/images/chenxin_unmasked.jpg"/>
+                <a href="/greetChenxin" class="btn1 btn-outline-primary btn-sm">
+                    Chenxin
                 </a>
+                </div>
             </div>
 
             <!--- adi's pictures & link to individual home page -->
-            <div class="box">
-                <img id="adi" src="/images/adi_unmasked.png"/>
-                <a href="/greetAdi">
-                    <p style="color: dodgerblue">Adi</p>
+            <div class="col-sm-3">
+                <div class="card">
+                <img class="img-box" id="adi" src="/images/adi_unmasked.png"/>
+                <a href="/greetAdi" class="btn1 btn-outline-primary btn-sm">
+                    Adi
                 </a>
+                </div>
             </div>
 
         </div>
     </div>
-</header>
+    </div>
+</section>
+</body>

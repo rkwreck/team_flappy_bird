@@ -7,12 +7,6 @@
   <link th:href="@{/styles/style.css}" rel="stylesheet" />
   <link th:href="@{/styles/menu.css}" rel="stylesheet" />
 
-  <style>
-    .swimmy-bird {
-      background: url("/images/swimmy_bird_background.png") no-repeat center scroll;
-      color: white;
-    }
-  </style>
 
   <script>
     function closeOverlayMenu() {
@@ -22,9 +16,17 @@
       }
     }
 
-    function toggleSecondTheme() {
+    function toggleCurrentTheme() {
       var element = document.body;
       element.classList.toggle("swimmy-bird");
+    }
+
+    function getCurrentThemeName() {
+      if(element.classList.contains("swimmy-bird")) {
+        return "Swimmy Bird";
+      } else {
+        return "Flappy Bird";
+      }
     }
   </script>
 </head>
@@ -36,7 +38,9 @@
 <div th:fragment="overlaymenu">
   <div class="menu-wrap">
     <input type="checkbox" class="toggler" id="OverlayMenuClickBtn">
-    <div class="hamburger"><div></div></div>
+    <div class="hamburger">
+      <div></div>
+    </div>
     <div class="menu">
       <div>
         <div>
@@ -44,10 +48,10 @@
             <!-- <li><button onclick="document.getElementById('OverlayMenuClickBtn').checked = false;">Home</button></li> -->
             <li><a href="/" onclick="closeOverlayMenu();">Home</a></li>
             <li><a href="games_home_page" onclick="closeOverlayMenu();">Games</a></li>
-            <li><a href="further_readings">Learn</a></li>
-            <li><a href="aboutus">About Us</a></li>
-            <li><a href="ourPurpose">Our Purpose</a></li>
-            <li><a class="btn" onclick="toggleSecondTheme();">Swimmy Bird</a></li>
+            <li><a href="further_readings" onclick="closeOverlayMenu();">Learn</a></li>
+            <li><a href="aboutus" onclick="closeOverlayMenu();">About Us</a></li>
+            <li><a href="ourPurpose" onclick="closeOverlayMenu();">Our Purpose</a></li>
+            <li><a onclick="closeOverlayMenu(); toggleCurrentTheme();">Enable Other Theme</a></li>
           </ul>
         </div>
       </div>
