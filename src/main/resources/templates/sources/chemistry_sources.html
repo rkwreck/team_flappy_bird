@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Chemistry Further Sources</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Chemistry Sokoban Sources')">
 
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
-
-<header class="showcase">
-    <div class="container showcase-inner">
-        <h1>CHEMISTRY</h1>
-        <!--- insert links to websites here. make a button, have it link to a website. at least 5 websites should be sourced. -->
-        <a href="https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome/types-of-chemical-reactions/a/single-replacement-reactions" class="btn">Single Replacement Reactions</a>
-        <a href="https://youtu.be/cdvV8O90HJM" class="btn">Precipitation Reactions</a>
-        <a href="https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome/types-of-chemical-reactions/a/double-replacement-reactions" class="btn">Double Replacement Reactions</a>
-        <a href="https://www.britannica.com/science/acid-base-reaction" class="btn">Acid Base reactions</a>
-        <a href="https://www.promega.com/resources/guides/lab-equipment-and-supplies/buffers-for-biochemical-reactions/" class="btn">Buffer Reactions</a>
-        <a href="/further_readings" class="btn">Choose a Different Topic</a>
-    </div>
-</header>
+    <body>
+    <section th:fragment="content">
 
 
-</body>
+        <div class="showcase">
+            <h1>Chemistry Sources</h1>
+            <!--- insert links to websites here. make a button, have it link to a website. at least 5 websites should be sourced. -->
+            <a href="https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome/types-of-chemical-reactions/a/single-replacement-reactions" class="btn1 btn-outline-primary btn-sm">Single Replacement Reactions</a><br><br><br>
+            <a href="https://youtu.be/cdvV8O90HJM" class="btn1 btn-outline-primary btn-sm">Precipitation Reactions</a><br><br><br>
+            <a href="https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome/types-of-chemical-reactions/a/double-replacement-reactions" class="btn1 btn-outline-primary btn-sm">Double Replacement Reactions</a><br><br><br>
+            <a href="https://www.britannica.com/science/acid-base-reaction" class="btn1 btn-outline-primary btn-sm">Acid Base reactions</a><br><br><br>
+            <a href="https://www.promega.com/resources/guides/lab-equipment-and-supplies/buffers-for-biochemical-reactions/" class="btn1 btn-outline-primary btn-sm">Buffer Reactions</a><br><br><br>
+            <a href="/further_readings" class="btn1 btn-outline-primary btn-sm">Choose a Different Topic</a>
+        </div>
+    </section>
+
+
+    </body>
 </html>
