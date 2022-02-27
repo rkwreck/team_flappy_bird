@@ -83,17 +83,6 @@ public class MedicalTriviaController implements WebMvcConfigurer {
                         "c"));
     }
 
-    @GetMapping("checkPhysicsTriviaAnswer")
-    public String checkPhysicsTriviaAnswer (@RequestParam(name = "userAnswer", required = true, defaultValue = "a") String answer,
-                                            Model model ) {
-        // @RequestParam handles required and default values
-        model.addAttribute("answer", answer);
-        // MODEL is passed to html
 
-
-
-        //return "games/medicalTrivia";
-        return "";
-    }
 
 }

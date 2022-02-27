@@ -168,6 +168,8 @@ public class MainController {
 
     @GetMapping("/medicalTrivia")
     public String medicalTrivia(Model model) {
+        MedicalTriviaController triviaController = new MedicalTriviaController();
+        model.addAttribute("AllTrivia", triviaController.AllTrivia);
         return "games/medicalTrivia";
     }
 
