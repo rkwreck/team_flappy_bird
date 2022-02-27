@@ -48,7 +48,7 @@ public class MainController {
 
     @GetMapping("/medical_game")
     public String medical_game(Model model) {
-        return "games/medical_game";
+        return "medical trivia game/medical_game";
     }
 
     @GetMapping("/game3")
@@ -81,7 +81,6 @@ public class MainController {
     public String flappybird(Model model) {
         return "flappybird";
     }
-
 
 
     @GetMapping("/greetAdi")
@@ -195,10 +194,6 @@ public class MainController {
         return "sources/plant_bio_sources";
     }
 
-    @GetMapping("/plant_medicine_sources")
-    public String plantMedicineSources(Model model) {
-        return "sources/plant_medicine_sources";
-    }
 
     @GetMapping("/frq_directory")
     public String frqDirectory(Model model) {
