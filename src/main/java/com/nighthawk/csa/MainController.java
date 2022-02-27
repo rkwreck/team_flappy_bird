@@ -48,7 +48,7 @@ public class MainController {
 
     @GetMapping("/medical_game")
     public String medical_game(Model model) {
-        return "medical trivia game/medical_game";
+        return "games/medical_game";
     }
 
     @GetMapping("/game3")
@@ -166,7 +166,7 @@ public class MainController {
 
     @GetMapping("/medicalTrivia")
     public String medicalTrivia(Model model) {
-        return "medicalTrivia";
+        return "games/medicalTrivia";
     }
 
     @GetMapping("/further_readings")
