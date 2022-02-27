@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+    <link th:href="@{/styles/reset.css}" rel="stylesheet" />
+    <title>Medical Trivia</title>
+</head>
+<body>
+
+<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+
+
+<header class="showcase">
+    <div class="container showcase-inner">
+        <h1>Recognizing Medical Emergencies</h1>
+        <p>How can you recognize medical emergencies? Play this game to learn symptoms of emergencies and how to prevent them!</p>
+        <p>There are 10 questions. After entering your answer, you'll be told if it's right or wrong. A right answer earns you 100 coins!</p>
+        <a href="/medicalTrivia" class="btn" >Play Now</a>
+        <a href="/medical_sources" class="btn" >Read More</a>
+        <a href="/games_home_page" class="btn" >Choose a Different Game</a>
+    </div>
+</header>
+
+
+</body>
+</html>
