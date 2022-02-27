@@ -24,19 +24,19 @@ public class PhysicsTrivia {
                 + "(a)Elastic: Momentum and Kinetic Energy are conserved, Inelastic: Momentum is conserved but Kinetic Energy is lost\n(b)Elastic: Momentum is conserved but Kinetic Energy is lost, Inelastic: Momentum and Kinetic Energy are conserved";
         String q6 = "What is impulse a change in?\n"
                 + "(a)Energy\n(b)Kinetic Energy\n(c)Potential Energy\n(d)Momentum";
-        String q7 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball is plotted. What is the tennis ball's impulse from 2.0 to 4.0 seconds?\n"
+        String q7 ="A graph of Force in Newtons vs. Time in seconds of a tennis ball follows the function F = 0.5t. What is the tennis ball's impulse from 2.0 to 4.0 seconds?\n"
                 + "(a)5 kg * m/s^2\n(b)10 N*s\n(c)5 N*s\n(d)10 kg*m/s";
         String q8 = "A perfectly horizontal meterstick has a 10 kg red ball at the 20cm mark and a 5 kg blue ball at the 70 cm mark. Calculate the center of mass in the x direction with respect to the 50 cm mark as the origin.\n"
                 + "(a)-13.33 cm\n(b)36.67 cm\n(c)-13.33 m\n(d)36.67 m";
         String q9 = "Lambda is for linear mass density, sigma is for surface area density so rho is for ___.\n" +
                 "(a)Momentum Density\n(b)Volume Density\n(c)3D Density\n(d)Impulse Density";
-        String q10 = "Which of these objects will win in a race if they all are released from rest at the same time and travel the same distance? Make sure to consider moment of inertia!\n"
-                + "(a)Hoop\n(b)Sphere\n(c)Cylinder\n(d)Large Hoop";
+        String q10 = "Which of these objects will win in a race if they all are released from rest at the same time and travel the same distance? Hint: make sure to consider moment of inertia!\n"
+                + "(a)Small Hoop\n(b)Sphere\n(c)Cylinder\n(d)Large Hoop";
 
         Question [] questions = {
                 new Question(q1, "d"),
                 new Question(q2, "b"),
-                new Question(q3, "b"),
+                new Question(q3, "a"),
                 new Question(q4,"c"),
                 new Question(q5, "a"),
                 new Question(q6, "d"),
