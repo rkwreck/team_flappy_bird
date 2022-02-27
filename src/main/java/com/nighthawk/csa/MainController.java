@@ -28,7 +28,7 @@ public class MainController {
 
     @GetMapping("/ourPurpose")
     public String ourPurpose(Model model) {
-        return "ourPurpose";
+        return "aboutus/ourPurpose";
     }
 
     @GetMapping("/aboutus")
