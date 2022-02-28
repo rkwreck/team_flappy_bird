@@ -71,8 +71,8 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name | Summary | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
 | :--: | :-----: | :-------------------------------------------: | :-------------------: | 
-| Rini | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
-| Chenxin | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
+| Rini | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini:-FRQ-Learnings-aka-FRQ-Showing) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
+| Chenxin | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
 | Adi | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) | [Repl Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
 | Prisha | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
@@ -116,6 +116,8 @@ Runtime for FRQ should be on website.
 
 ## Week 2 Timebox (Home Pages) 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
+
+Summary of work: Created home page + about page + mandatory skeleton pages 
 | Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
 | Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/1684feed6073eb081d28b10e4949d499bbc2c267) + Tangibles| [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
