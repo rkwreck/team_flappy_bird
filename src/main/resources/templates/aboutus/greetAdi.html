@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-       lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='About Prisha')">
 <head>
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Games</title>
 </head>
+
+
 <body>
-<div th:replace="/fragments/head :: header"></div>
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+<section th:fragment="content">
+
+    <div class="showcase">
+
+        <body>
 
 
+        <div class="container showcase-inner">
+            <h1>Adi</h1>
+    <h2>Hello! My name is Adi.</h2>
 
-<header class="showcase">
-    <div class="container showcase-inner">
-    <br>
-
-    <h1>Adi</h1>
-    <p th:text="'Hello! My name is Adi.'"></p>
-
-    <p>I am a senior taking AP Computer Science A. I thrive in computer science by eating dark chocolate raspberry squares and drinking starbucks :)</p>
-    <p>Age: 17</p>
-    <p>Role in Team: Technical Officer</p>
-    <a href="https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6" class="btn">My Journal</a>
-    <a href="#" class="btn" >FRQs</a>
+    <h2>I am a senior taking AP Computer Science A. I thrive in computer science by eating dark chocolate raspberry squares and drinking starbucks :)</h2>
+    <h2>Age: 17</h2>
+    <h2>Role in Team: Technical Officer</h2>
+    <a href="https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6" class="btn1 btn-outline-primary btn-sm">My Journal</a>
+    <a href="#" class="btn1 btn-outline-primary btn-sm" >FRQs</a>
 
 
         <!---database button-->
     <div class="row justify-content-md-center">
-        <a th:href="@{/friends/}" class="btn">Add Friends</a>
+        <a href="/friends" class="btn1 btn-outline-primary btn-sm">Add Friends</a>
     </div>
 
     <div class="row justify-content-md-center">
-        <a th:href="@{/draw/}" class="btn">Draw A Square!</a>
+        <a href="/draw" class="btn1 btn-outline-primary btn-sm">Draw A Square!</a>
     </div>
 
     <table class="table table-bordered">
@@ -79,4 +78,8 @@
         </tr>
     </table>
 </div>
-</header>
+        </body>
+    </div>
+</section>
+</body>
+</html>

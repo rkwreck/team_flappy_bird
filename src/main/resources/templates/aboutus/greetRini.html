@@ -1,66 +1,62 @@
 <!DOCTYPE html>
-<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-       lang="en">
-<head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Games</title>
-</head>
-
-<style>
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-</style>
-
-<body>
-<div th:replace="/fragments/head :: header"></div>
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
-
-<header class="showcase">
-    <div class="container showcase-inner">
-        <!--- name, bio, and journal -->
-        <h1>Rini</h1>
-        <p th:text="'Hello! My name is Rini.'"></p>
-        <br>
-        <p>I am a sophmore taking AP Computer Science A. Some fun facts about me are that I love ice cream, and my favorite subject is science! :D</p>
-        <p>Age: 16</p>
-        <p>Role in Team: Scrum Master & Github Admin</p>
-        <a href="https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing" class="btn" >My Journal</a>
-        <a href="https://replit.com/@Rini/FRQs-CSA#Main.java" class="btn" >FRQs</a>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='About Prisha')" xmlns="http://www.w3.org/1999/html">
+    <head>
+    </head>
 
 
-        <!---database button-->
-        <div class="row justify-content-md-center">
-            <a th:href="@{/friends/}" class="btn">Add Friends</a>
-        </div>
+    <body>
+        <section th:fragment="content">
 
-        <div class="row justify-content-md-center">
-            <a th:href="@{/draw/}" class="btn">Draw A Square!</a>
-        </div>
+            <div class="showcase">
 
-        <!--- song api -->
-         <form action="/greetRini" method="GET" id="songapi">
-            <div class="container">
-                <h1 style="text-align: center; ">Song info</h1>
-                <label for="songapi">Input artist's last name:</label>
-                <input name="sym" id="sym">
-                <button>Search</button>
+                <body>
+                    <div class="container showcase-inner">
+                        <h1>Rini</h1>
+                        <br>
+                    <h2>Hello! My name is Rini.</h2>
+                    <br>
+                    <h2>I am a sophmore taking AP Computer Science A. Some fun facts about me are that I love ice cream, and my favorite subject is science! :D</h2>
+                    <h2>Age: 16</h2>
+                    <h2>Role in Team: Scrum Master & Github Admin</h2>
+                    <a href="https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing" class="btn1 btn-outline-primary btn-sm" >My Journal</a>
+                    <a href="https://replit.com/@Rini/FRQs-CSA#Main.java" class="btn1 btn-outline-primary btn-sm" >FRQs</a>
+
+
+                    <!---database button-->
+                    <div class="row justify-content-md-center">
+                        <a th:href="@{/friends/}" class="btn1 btn-outline-primary btn-sm">Add Friends</a>
+                    </div>
+
+                    <div class="row justify-content-md-center">
+                        <a th:href="@{/draw/}" class="btn1 btn-outline-primary btn-sm">Draw A Square!</a>
+                    </div>
+
+                    <!--- song api -->
+                     <form action="/greetRini" method="GET" id="songapi">
+                        <div class="container">
+                            <h1 style="text-align: center; ">Song info</h1>
+                            <label for="songapi">Input artist's last name:</label>
+                            <input name="sym" id="sym">
+                            <button>Search</button>
+                        </div>
+                    </form>
+                    <br>
+                    <table class="table">
+                        <tr>
+                            <th>Artist names</th>
+                            <th>Song Title</th>
+                            <th>Link to lyrics</th>
+                        </tr>
+                        <tr th:each="song : ${map.response.hits}">
+                            <td th:text="${song.result.artist_names}"></td>
+                            <td th:text="${song.result.title}"></td>
+                            <td th:text="${song.result.url}"></td>
+                        </tr>
+                    </table>
+                </div>
+                </body>
             </div>
-        </form>
-        <br>
-        <table class="table">
-            <tr>
-                <th>Artist names</th>
-                <th>Song Title</th>
-                <th>Link to lyrics</th>
-            </tr>
-            <tr th:each="song : ${map.response.hits}">
-                <td th:text="${song.result.artist_names}"></td>
-                <td th:text="${song.result.title}"></td>
-                <td th:text="${song.result.url}"></td>
-            </tr>
-        </table>
-    </div>
-</header>
+            </section>
+    </body>
+</html>
