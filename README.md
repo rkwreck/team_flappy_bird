@@ -16,8 +16,6 @@ _Last deployed February 28th, 2022._
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Timebox (Meet the Scrum Team) 
 | Name | Role | Profile | Tasks/Issues | Commits | Journal | 
 | :--: | :--: | :-----: | :----------: | :-----: | :-----: | 
