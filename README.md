@@ -1,5 +1,6 @@
 _Last updated February 28th, 2022._
 # Flappy Arcade School: [Website Link](http://flappybird.cf/)
+### Video tour of the website [here](https://www.loom.com/share/14b6b34035ea49eb816684ca1600d48d).
 
 ![image](https://user-images.githubusercontent.com/89210546/155962405-e907ea2c-cff1-491d-9e95-fc70edd6c97a.png)
 ![image](https://user-images.githubusercontent.com/89210546/155962644-56dbda15-12a0-4891-8597-2260efc8de1c.png)
