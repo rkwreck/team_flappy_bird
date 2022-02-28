@@ -1,46 +1,38 @@
 <!DOCTYPE html>
-<html  xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-       lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='About Prisha')">
 <head>
-    <meta charset="UTF-8">
-    <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-    <title>Games</title>
 </head>
 
-<style>
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-
-</style>
 
 <body>
+<section th:fragment="content">
 
-<div th:replace="fragments/overlaymenu :: overlaymenu">...</div>
+    <div class="showcase">
+
+    <body>
 
 
-<header class="showcase">
     <div class="container showcase-inner">
         <h1>Prisha</h1>
         <br>
-        <p>I am a junior taking AP Computer Science A. I want to make the most out of my life and have fun coding!</p>
-        <p>Age: 16</p>
-        <p> Role in Team: Primary Designer</p>
-        <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn" style="margin-bottom: 10px">My Journal</a>
-        <a href="https://replit.com/@PrishaMaiti/PrishasTests#Main.java" class="btn" >FRQs</a>
+        <h2>I am a junior taking AP Computer Science A. I want to make the most out of my life and have fun coding!</h2>
+        <h2>Age: 16</h2>
+        <h2> Role in Team: Primary Designer</h2>
+        <a href="https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing" class="btn1 btn-outline-primary btn-sm" style="margin-bottom: 10px">My Journal</a>
+        <a href="https://replit.com/@PrishaMaiti/PrishasTests#Main.java" class="btn1 btn-outline-primary btn-sm" >FRQs</a>
 
         <!---database button-->
         <div class="row justify-content-md-center">
-            <a th:href="@{/friends/}" class="btn" style="margin-bottom: 15px; font-family: 'Roboto'">Add Friends</a>
+            <a th:href="@{/friends/}" class="btn1 btn-outline-primary btn-sm">Add Friends</a>
         </div>
 
         <div class="row justify-content-md-center">
-            <a th:href="@{/draw/}" class="btn" style="font-family: 'Roboto'">Draw A Square!</a>
+            <a th:href="@{/draw/}" class="btn1 btn-outline-primary btn-sm">Draw A Square!</a>
         </div>
 
         <div class="row justify-content-md-center">
-            <a href="/coinGame" class="btn" style="font-family: 'Roboto'">Coin Game</a>
+            <a href="/coinGame" class="btn11">Coin Game</a>
         </div>
 
         <div>
@@ -69,7 +61,16 @@
             </tr> -->
         </table>
     </div>
-</header>
+    </body>
+    </div>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    </style>
+</section>
 </body>
 </html>
 
