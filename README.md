@@ -45,6 +45,7 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 * [Week 8 - FRQ Showing 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2)
 * [Week 9 - PBL Part 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 * [Week 10 - PBL Part 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-10-timebox-pbl-part-2)
+* [Week 11 - PBL Final]()
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -53,13 +54,10 @@ Summary of work: This week, we focused on completing our games and website. We f
 
 | Name | Game/PBL MVC | Wiki Plans | Final Program Code Commits | Videos | 
 | :--: | :----------: | :--------: | :------------------------: | :----: | 
-| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | Link | [Runtime](https://www.loom.com/share/b9ccb2befb75487596695f26a901b1da) | 
-| Chenxin | Chemistry Snake | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | Link | [Runtime/Plan](https://www.loom.com/share/ce90a91f49b64675bb0dadb6714e2b08) | 
-| Adi | Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | Link | Runtime (had technological issues)| 
-| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | Link | [Runtime](https://drive.google.com/file/d/1R6rOlu8beyvAywYTEREnRqIVa8cBihvt/view) | 
-
-
-
+| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/fbe9780911a804a70e34ffb0a6f9a691c5c130a3) | [Runtime](https://www.loom.com/share/b9ccb2befb75487596695f26a901b1da) | 
+| Chenxin | Chemistry Snake | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/2558b32985c0b191001ed29c4711e18d9fff8127) | [Runtime/Plan](https://www.loom.com/share/ce90a91f49b64675bb0dadb6714e2b08) | 
+| Adi | Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/c73cf60278beff3e454346297e330cd99705778f) | Runtime (had technological issues)| 
+| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/8975d8fb7dc4c1633e74db5319220eb423d5d98a) | [Runtime](https://drive.google.com/file/d/1R6rOlu8beyvAywYTEREnRqIVa8cBihvt/view) | 
 
 ## Week 10 Timebox (PBL Part 2)
 | Name | Game | Summary of Work | Code Commit | Video Link | 
