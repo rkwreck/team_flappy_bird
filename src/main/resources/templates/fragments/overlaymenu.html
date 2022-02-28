@@ -9,6 +9,23 @@
 
 
   <script>
+    const search = document.getElementById('search');
+    const google = 'https://www.google.com/search?q=site%3A+';
+    const site = 'https://flappybird.cf';
+
+    function submitted(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        const url = google
+                + site
+                + '+'
+                + search.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+    }
+    search.addEventListener('keypress', submitted);
+
     function closeOverlayMenu() {
       let chkBtn = document.getElementById('OverlayMenuClickBtn');
       if(chkBtn.checked == true) {
@@ -53,6 +70,9 @@
             <li><a href="ourPurpose" onclick="closeOverlayMenu();">Our Purpose</a></li>
             <li><a onclick="closeOverlayMenu(); toggleCurrentTheme();">Enable Other Theme</a></li>
           </ul>
+        </div>
+        <div class="px-3">
+          <input id="search" type="search" placeholder="Search" aria-label="Search">
         </div>
       </div>
     </div>
