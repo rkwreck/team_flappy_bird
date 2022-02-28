@@ -168,7 +168,8 @@ button.btn {
 
 btn11 {
   @extend .btn1;
-
+  @extend .btn-outline-primary !optional;
+  @extend .btn-sm !optional;
 }
 
 
