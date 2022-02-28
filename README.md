@@ -9,12 +9,15 @@ _Last updated February 28th, 2022._
 ### Our Purpose:
 Not everyone has the same education opportunities and our goal is to change that, all through a retro-styled, Flappy-Bird themed website. We developed minigames to educate poeple about topics that are taught both in school and out of school. We also linked numerous articles about each topic to encourage further learning. We currently have games about chemistry, physics, plant biology, and medical emergencies. In addition, we hope that our audience realizes how effective simple games can be and get encouraged to learn computer science to create their own games. 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
+### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
+
 ### Jekyll URL [Deployed READ.ME]: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
 _Last deployed February 28th, 2022._
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
-### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 ## Timebox (Meet the Scrum Team) 
 | Name | Role | Profile | Tasks/Issues | Commits | Journal | 
