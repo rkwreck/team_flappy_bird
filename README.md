@@ -1,18 +1,39 @@
-_Last updated February 4th, 2022._
+_Last updated February 28th, 2022._
+# Flappy Arcade School: [Website Link](http://flappybird.cf/)
+### Video tour of the website [here](https://www.loom.com/share/14b6b34035ea49eb816684ca1600d48d).
+
+![image](https://user-images.githubusercontent.com/89210546/155962405-e907ea2c-cff1-491d-9e95-fc70edd6c97a.png)
+![image](https://user-images.githubusercontent.com/89210546/155962644-56dbda15-12a0-4891-8597-2260efc8de1c.png)
+![image](https://user-images.githubusercontent.com/89210546/155962660-9bfefe47-8b34-4c61-8b7b-cf3b6026e470.png)
+
 
 ### Our Purpose:
-Develop minigames to educate people about topics that are taught both in school and out of school + encourage people to develop their own games and learn computer science
-
-### Website URL: [flappybird.cf](http://flappybird.cf/)
-### Jekyll URL: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
-_Last deployed January 14th, 2022._
+Not everyone has the same education opportunities and our goal is to change that, all through a retro-styled, Flappy-Bird themed website. We developed minigames to educate poeple about topics that are taught both in school and out of school. We also linked numerous articles about each topic to encourage further learning. We currently have games about chemistry, physics, plant biology, and medical emergencies. In addition, we hope that our audience realizes how effective simple games can be and get encouraged to learn computer science to create their own games. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
+
+### Jekyll URL [Deployed READ.ME]: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
+_Last deployed February 26th, 2022._
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### History
+
+## Timebox (Meet the Scrum Team) 
+| Name | Role | Profile | Tasks/Issues | Commits | Journal | 
+| :--: | :--: | :-----: | :----------: | :-----: | :-----: | 
+| Rini | Scrum Master & Github Admin | [@rkwreck](https://github.com/rkwreck) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/rkwreck) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=rkwreck) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing)| 
+| Chenxin | Deployment Manager | [@chenxin-chex](https://github.com/chenxin-chex) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/chenxin-chex) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=chenxin-chex) | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | 
+| Adi | Technical Officer | [@adhithi!](https://github.com/adhithin) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/adhithin) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=adhithin) | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Prisha | Primary Designer | [@PrishaMaiti](https://github.com/PrishaMaiti) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/PrishaMaiti)| [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=PrishaMaiti) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | 
+
+Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### HISTORY
 * [Week 0 - Meet the Team](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)
 * [Week 1 - Project Approval](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval)
 * [Week 2 - Home Pages](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
@@ -24,8 +45,19 @@ _Last deployed January 14th, 2022._
 * [Week 8 - FRQ Showing 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-8-timebox-frq-showing-2)
 * [Week 9 - PBL Part 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 * [Week 10 - PBL Part 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-10-timebox-pbl-part-2)
+* [Week 11 - PBL Final](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#weeks-11-12-timebox-pbl-final--runtimes)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Weeks 11-12 Timebox (PBL Final + Runtimes) 
+Summary of work: This week, we focused on completing our games and website. We finalized all of our work, revamped our frontend, and made sure all GitHub organization was up-to-date. 
+
+| Name | Game/PBL MVC | Wiki Plans | Final Program Code Commits | Videos | 
+| :--: | :----------: | :--------: | :------------------------: | :----: | 
+| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/fbe9780911a804a70e34ffb0a6f9a691c5c130a3) | [Runtime](https://www.loom.com/share/b9ccb2befb75487596695f26a901b1da) | 
+| Chenxin | Chemistry Snake | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/2558b32985c0b191001ed29c4711e18d9fff8127) | [Runtime](https://www.loom.com/share/686fe9c8759049a59ec511911864eedf) | 
+| Adi | Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/c73cf60278beff3e454346297e330cd99705778f) | Runtime (had technological issues)| 
+| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/8975d8fb7dc4c1633e74db5319220eb423d5d98a) | [Runtime](https://drive.google.com/file/d/1R6rOlu8beyvAywYTEREnRqIVa8cBihvt/view) | 
 
 ## Week 10 Timebox (PBL Part 2)
 | Name | Game | Summary of Work | Code Commit | Video Link | 
@@ -54,8 +86,8 @@ _Last deployed January 14th, 2022._
 ## Week 7 Timebox (FRQ Showing 1) 
 | Name | Summary | Highlighted Talk Points + Learnings From FRQs | FRQs Code (with menu) | 
 | :--: | :-----: | :-------------------------------------------: | :-------------------: | 
-| Rini | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini---FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
-| Chenxin | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
+| Rini | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Rini:-FRQ-Learnings-aka-FRQ-Showing) | [Repl Link](https://replit.com/@Rini/FRQWork#Main.java)| 
+| Chenxin | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-FRQ-Showing) | [Repl Link](https://replit.com/@chenxinNi/FRQWork#Main.java)
 | Adi | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-FRQ-Showing-1) | [Repl Link](https://replit.com/@AdhithiNarayana/javaCodingGuide#eight/Plot.java) | 
 | Prisha | Created Wiki page to describe learnings from FRQS + began adding FRQS to Repl.it | [Wiki Page](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-FRQ-Showing-1-(Week-7)) | [Repl Link](https://replit.com/@PrishaMaiti/PrishasTests#Main.java) | 
 
@@ -99,6 +131,8 @@ Runtime for FRQ should be on website.
 
 ## Week 2 Timebox (Home Pages) 
 Image previews (tangibles) of individual home pages on [this wiki page](https://github.com/rkwreck/team_flappy_bird/wiki/Individual-Home-Pages-Preview-(Tangibles)).
+
+Summary of work: Created home page + about page + mandatory skeleton pages 
 | Name | Home Page |  Journal (FRQ Work) |
 | :--: | :-------: | :------: |
 | Rini | [Commits Link](https://github.com/rkwreck/team_flappy_bird/commit/1684feed6073eb081d28b10e4949d499bbc2c267) + Tangibles| [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing) |
