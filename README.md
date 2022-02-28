@@ -1,18 +1,37 @@
-_Last updated February 4th, 2022._
+_Last updated February 28th, 2022._
+# Flappy Arcade School: [Website Link](http://flappybird.cf/)
+
+![image](https://user-images.githubusercontent.com/89210546/155962405-e907ea2c-cff1-491d-9e95-fc70edd6c97a.png)
+![image](https://user-images.githubusercontent.com/89210546/155962644-56dbda15-12a0-4891-8597-2260efc8de1c.png)
+![image](https://user-images.githubusercontent.com/89210546/155962660-9bfefe47-8b34-4c61-8b7b-cf3b6026e470.png)
+
 
 ### Our Purpose:
-Develop minigames to educate people about topics that are taught both in school and out of school + encourage people to develop their own games and learn computer science
+Not everyone has the same education opportunities and our goal is to change that, all through a retro-styled, Flappy-Bird themed website. We developed minigames to educate poeple about topics that are taught both in school and out of school. We also linked numerous articles about each topic to encourage further learning. We currently have games about chemistry, physics, plant biology, and medical emergencies. In addition, we hope that our audience realizes how effective simple games can be and get encouraged to learn computer science to create their own games. 
 
-### Website URL: [flappybird.cf](http://flappybird.cf/)
-### Jekyll URL: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
-_Last deployed January 14th, 2022._
+### Jekyll URL [Deployed READ.ME]: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
+_Last deployed February 28th, 2022._
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### History
+
+## Timebox (Meet the Scrum Team) 
+| Name | Role | Profile | Tasks/Issues | Commits | Journal | 
+| :--: | :--: | :-----: | :----------: | :-----: | :-----: | 
+| Rini | Scrum Master & Github Admin | [@rkwreck](https://github.com/rkwreck) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/rkwreck) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=rkwreck) | [Journal](https://docs.google.com/document/d/1MGJnbg-C82_RHkVBFWTm0NsNgXVti9ACZfjGJobwdt8/edit?usp=sharing)| 
+| Chenxin | Deployment Manager | [@chenxin-chex](https://github.com/chenxin-chex) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/chenxin-chex) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=chenxin-chex) | [Journal](https://docs.google.com/document/d/1Yva-kQ3c_p_qO1O4K9rHbdkfy4ubx91boqDq0Vm5avo/edit?usp=sharing) | 
+| Adi | Technical Officer | [@adhithi!](https://github.com/adhithin) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/adhithin) | [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=adhithin) | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Prisha | Primary Designer | [@PrishaMaiti](https://github.com/PrishaMaiti) | [Issues](https://github.com/rkwreck/team_flappy_bird/issues/assigned/PrishaMaiti)| [Commits](https://github.com/rkwreck/team_flappy_bird/commits?author=PrishaMaiti) | [Journal](https://docs.google.com/document/d/1UMpUJh6ypdTm1OwjPtjGThXWPG4ovmtr2x3-fMQVwFc/edit?usp=sharing) | 
+
+Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### HISTORY
 * [Week 0 - Meet the Team](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)
 * [Week 1 - Project Approval](https://github.com/rkwreck/team_flappy_bird#week-1-timebox-project-approval)
 * [Week 2 - Home Pages](https://github.com/rkwreck/team_flappy_bird#week-2-timebox-home-pages)
