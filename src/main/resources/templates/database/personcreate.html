@@ -1,13 +1,11 @@
 <!-- This page is illustrative and contains ideas about HTML formatting -->
 <!DOCTYPE HTML>
 <!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
-<html xmlns:layout="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
+<html lang="en">
 
 <!-- <head> -->
 <div layout:fragment="head" th:remove="tag">
-    <title>Person Form</title>
+    <title>Score Form</title>
 </div>
 
 <!-- <body> -->
@@ -16,13 +14,13 @@
     <div class="container">
 
         <div class="row justify-content-md-center">
-            <h2>Welcome, Enter the new Persons details</h2>
+            <h2>Welcome, enter the details</h2>
         </div>
 
         <div class="row justify-content-md-center">
             <div class="col8">
                 <div class="jumbotron">
-                    <h3>Create Person</h3>
+                    <h3>Create Score</h3>
                     <!-- ThymeLeaf allows person abject of the Class Person to be acted upon by the form
                          This is known as a “bean-backed form” or "form-backing bean".
                             th:object - the backend form object (bean object)
@@ -54,6 +52,16 @@
                             <label for="dob">Birth Date:</label>
                             <input type="date" th:field="*{dob}" id="dob">
                             <small th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">Birth Date Error</small>
+                        </div>
+                        <div class="form-group mb-2 mr-sm-2">
+                            <label for="game">Game:</label>
+                            <input type="game" th:field="*{game}" id="game">
+                            <small th:if="${#fields.hasErrors('game')}" th:errors="*{game}">Game Error</small>
+                        </div>
+                        <div class="form-group mb-2 mr-sm-2">
+                            <label for="score">Score:</label>
+                            <input type="score" th:field="*{score}" id="score">
+                            <small th:if="${#fields.hasErrors('score')}" th:errors="*{score}">Score Error</small>
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
