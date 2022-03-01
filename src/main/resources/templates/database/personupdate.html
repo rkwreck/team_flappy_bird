@@ -4,9 +4,12 @@
 <html  lang="en">
 
 <!-- <head> -->
-<div layout:fragment="head" th:remove="tag">
+
+<header> <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+</header>
+
   <title>Person Update</title>
-</div>
+
 
 <!-- <body> -->
 <div layout:fragment="body" th:remove="tag">

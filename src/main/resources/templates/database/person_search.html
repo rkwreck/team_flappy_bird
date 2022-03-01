@@ -3,12 +3,13 @@
 inspiration from https://www.youtube.com/watch?v=QKcVjdLEX_s
 -->
 <html lang="en">
+<header> <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+</header>
 
-<div layout:fragment="head" th:remove="tag">
   <title>SQL Person Search</title>
-</div>
 
-<div layout:fragment="body" th:remove="tag">
+
+<div>
   <div class="container py-4 bg-primary">
     <!-- heading -->
     <header class="pb-3 mb-4 border-bottom">
