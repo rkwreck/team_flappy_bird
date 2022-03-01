@@ -51,7 +51,8 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 
 ## Weeks 11-12 Timebox (PBL Final + Runtimes) 
 Summary of work: This week, we focused on completing our games and website. We finalized all of our work, revamped our frontend, and made sure all GitHub organization was up-to-date. 
-**Team Final Review Ticket: [Link](https://github.com/rkwreck/team_flappy_bird/issues/42)**
+
+⭐**Team Final Review Ticket: [Link](https://github.com/rkwreck/team_flappy_bird/issues/42)**⭐
 
 | Name | Game/PBL MVC | Wiki Plans | Final Program Code Commits | Videos | 
 | :--: | :----------: | :--------: | :------------------------: | :----: | 
