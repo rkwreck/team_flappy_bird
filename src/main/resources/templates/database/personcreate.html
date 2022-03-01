@@ -5,6 +5,7 @@
 
 <!-- <head> -->
 <header> <div th:replace="fragments/overlaymenu :: commonhead">...</div>
+
 </header>
 <!-- <body> -->
 <div >
@@ -61,6 +62,8 @@
                             <input type="score" th:field="*{score}" id="score">
                             <small th:if="${#fields.hasErrors('score')}" th:errors="*{score}">Score Error</small>
                         </div>
+
+                        <p> Click the blue button when you're done entering your score: </p>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
 
