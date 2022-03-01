@@ -10,10 +10,10 @@
 * Other theme is Swimmy bird, more aquatic
 
 ## Website Main Features
-#### Bootstrap used for website's frontend. Depiction of layout.html:
+#### Bootstrap used for website's frontend. Depiction of [layout.html](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/layout.html):
 ![image](https://user-images.githubusercontent.com/55467785/155940596-79df4deb-d690-403f-be1c-cfda2c5b2e91.png)
 #### Database in progress (Adi's extension)
-#### Async operation using API's in About Us pages. Depiction of Rini's home page, that has a song API:
+#### Async operation using API's in About Us pages. Depiction of [Rini's home page](https://github.com/rkwreck/team_flappy_bird/blob/master/src/main/resources/templates/aboutus/greetRini.html), that has a song API:
 ![image](https://user-images.githubusercontent.com/55467785/156216996-47f93913-af3d-4f90-9cb8-25d0f15130c1.png)
 
 
