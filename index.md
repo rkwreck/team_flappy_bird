@@ -12,7 +12,10 @@
 ## Website Main Features
 #### Bootstrap used for website's frontend. Depiction of layout.html:
 ![image](https://user-images.githubusercontent.com/55467785/155940596-79df4deb-d690-403f-be1c-cfda2c5b2e91.png)
-#### Database and Async Operation in progress (Adi's extension)
+#### Database in progress (Adi's extension)
+#### Async operation using API's in About Us pages. Depiction of Rini's home page, that has a song API:
+![image](https://user-images.githubusercontent.com/55467785/156216996-47f93913-af3d-4f90-9cb8-25d0f15130c1.png)
+
 
 | Week | Wiki Pages | FRQ Work | 
 | :--: | :--------: | :------: |
