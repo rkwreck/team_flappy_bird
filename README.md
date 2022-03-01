@@ -12,9 +12,12 @@ Not everyone has the same education opportunities and our goal is to change that
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
+
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+
 ### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
-### Jekyll URL [Deployed READ.ME]: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
+
+### Jekyll URL [Deployed READ.ME]:** [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
 _Last deployed February 26th, 2022._
 
 ### ⭐ **Team Final Review Ticket: [Link](https://github.com/rkwreck/team_flappy_bird/issues/42)** ⭐
