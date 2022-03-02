@@ -1,11 +1,12 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Scoreboard')">
+<head>
+</head>
 
-<!-- <head> -->
-<header> <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-</header>
+
+<body>
+<section th:fragment="content">
 <!-- <body> -->
 <div >
     <!-- Page specific body additions -->
@@ -70,5 +71,7 @@
 
     </div>
 </div>
+</section>
+</body>
 
 </html>
