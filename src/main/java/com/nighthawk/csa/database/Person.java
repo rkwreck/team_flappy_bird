@@ -44,11 +44,22 @@ public class Person {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dob;
 
+    @NonNull
+    @Size(min = 1, max = 100, message = "The name of your game")
+    private String game;
+
+    @NonNull
+    @Size(min = 0, max = 3, message = "Score, from 0 to 20.")
+    private String score;
+
+
     /* Initializer used when setting database from an API */
-    public Person(String email, String name, Date dob) {
+    public Person(String email, String name, Date dob, String game, String score) {
         this.email = email;
         this.name = name;
         this.dob = dob;
+        this.game = game;
+        this.score = score;
     }
 
     /* A custom getter to return age from dob calculation */

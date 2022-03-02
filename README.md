@@ -8,15 +8,19 @@ _Last updated February 28th, 2022._
 
 
 ### Our Purpose:
-Not everyone has the same education opportunities and our goal is to change that, all through a retro-styled, Flappy-Bird themed website. We developed minigames to educate poeple about topics that are taught both in school and out of school. We also linked numerous articles about each topic to encourage further learning. We currently have games about chemistry, physics, plant biology, and medical emergencies. In addition, we hope that our audience realizes how effective simple games can be and get encouraged to learn computer science to create their own games. 
+Not everyone has the same education opportunities and our goal is to change that, all through a retro-styled, Flappy-Bird themed website. We developed minigames to educate people about topics that are taught both in school and out of school. We also linked numerous articles about each topic to encourage further learning. We currently have games about chemistry, physics, plant biology, and medical emergencies. In addition, we hope that our audience realizes how effective simple games can be and get encouraged to learn computer science to create their own games. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
+
 ### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+
 ### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
 
-### Jekyll URL [Deployed READ.ME]: [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
+### Jekyll URL [Deployed READ.ME]:** [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
 _Last deployed February 26th, 2022._
+
+### ⭐ **Team Final Review Ticket: [Link](https://github.com/rkwreck/team_flappy_bird/issues/42)** ⭐
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -52,19 +56,19 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 ## Weeks 11-12 Timebox (PBL Final + Runtimes) 
 Summary of work: This week, we focused on completing our games and website. We finalized all of our work, revamped our frontend, and made sure all GitHub organization was up-to-date. 
 
-| Name | Game/PBL MVC | Wiki Plans | Final Program Code Commits | Videos | 
-| :--: | :----------: | :--------: | :------------------------: | :----: | 
-| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/fbe9780911a804a70e34ffb0a6f9a691c5c130a3) | [Runtime](https://www.loom.com/share/b9ccb2befb75487596695f26a901b1da) | 
-| Chenxin | Chemistry Snake | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/2558b32985c0b191001ed29c4711e18d9fff8127) | [Runtime](https://www.loom.com/share/686fe9c8759049a59ec511911864eedf) | 
-| Adi | Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/c73cf60278beff3e454346297e330cd99705778f) | Runtime (had technological issues)| 
-| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/8975d8fb7dc4c1633e74db5319220eb423d5d98a) | [Runtime](https://drive.google.com/file/d/1R6rOlu8beyvAywYTEREnRqIVa8cBihvt/view) | 
+| Name | Game/PBL MVC | Wiki Plans | Final Program Code Commits | Videos | Final Review Ticket| Crossover Partner + their ticket w/ our comments | 
+| :--: | :----------: | :--------: | :------------------------: | :----: | :-----------: | :---------------: | 
+| Rini | Medical Emergencies Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Rini-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/fbe9780911a804a70e34ffb0a6f9a691c5c130a3) | [Runtime](https://www.loom.com/share/b9ccb2befb75487596695f26a901b1da) | [Ticket](https://github.com/rkwreck/team_flappy_bird/issues/39) | [@ridhimainukurti](https://github.com/ridhimainukurti) of [p1-valid](https://github.com/ridhimainukurti/p1-Valid) + [Ticket](https://github.com/ridhimainukurti/p1-Valid/issues/51) | 
+| Chenxin | Chemistry Snake | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Chenxin-Final-PBL-Project-Plan) | [Game Commit](https://github.com/rkwreck/team_flappy_bird/commit/2558b32985c0b191001ed29c4711e18d9fff8127) | [Runtime](https://www.loom.com/share/686fe9c8759049a59ec511911864eedf) | [Ticket](https://github.com/rkwreck/team_flappy_bird/issues/40) | [@adhithi!](https://github.com/adhithin) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) + [Ticket](https://github.com/rkwreck/team_flappy_bird/issues/41) | 
+| Adi | Bio Wordle | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Adi-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/c73cf60278beff3e454346297e330cd99705778f) | Runtime (had technological issues)| [Ticket](https://github.com/rkwreck/team_flappy_bird/issues/41) | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) + [Ticket](https://github.com/rkwreck/team_flappy_bird/issues/40) | 
+| Prisha | Physics Trivia | [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Prisha-Final-PBL-Project-Plan) | [Link](https://github.com/rkwreck/team_flappy_bird/commit/8975d8fb7dc4c1633e74db5319220eb423d5d98a) | [Runtime](https://drive.google.com/file/d/1R6rOlu8beyvAywYTEREnRqIVa8cBihvt/view) | [Ticket](https://github.com/rkwreck/team_flappy_bird/issues/38) | [@Archkitten](https://github.com/Archkitten) of [AP-CSA-T2](https://github.com/nolanplatt/AP-CSA-T2) + [Ticket](https://github.com/nolanplatt/AP-CSA-T2/issues/57)
 
 ## Week 10 Timebox (PBL Part 2)
 | Name | Game | Summary of Work | Code Commit | Video Link | 
 | :--: | :--: | :-------------: | :---------: | :--------: | 
 | Rini | Medical Emergencies Trivia | Completed skeleton code for game frontend + added game direction pages | [Link](https://github.com/rkwreck/team_flappy_bird/commit/18ff482edea83c54515073b1d6610d34145ed6b4) | [Link](https://www.loom.com/share/88a09620ee9041089d87624fa23cc0a9) | 
-| Chenxin | Chemistry Sokoban | Used Java inheritance to make progress on game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2fd59abcf04f4b10e960961320d823e8d521e31) | [Link](https://www.loom.com/share/dcc3653ca61e4e1c92dff32b4e31fee6) |
-| Adi | Plant Bio Wordle | Set up controller, model, html page for game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/7a95a04dbcf25d8d68448e1154ff116970aa282d) | Unable to create video b/c tehcnical issues  | 
+| Chenxin | Chemistry Sokoban | Used Java inheritance to make progress on game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/a2fd59abcf04f4b10e960961320d823e8d521e31) | [Link](https://www.loom.com/share/dcc3653ca61e4e1c92dff32b4e31fee6) | 
+| Adi | Plant Bio Wordle | Set up controller, model, html page for game + completed source page | [Link](https://github.com/rkwreck/team_flappy_bird/commit/7a95a04dbcf25d8d68448e1154ff116970aa282d) | Unable to create video b/c tehcnical issues | [@chenxin-chex](https://github.com/chenxin-chex) of [flappy-bird](https://github.com/rkwreck/team_flappy_bird) |   
 | Prisha | Physics Trivia | Fixed question & answer issues + completed source page + added vanta.js background w/ rings to match subject theme | [Link](https://github.com/rkwreck/team_flappy_bird/commit/2227b55959e9d48e103838347de91eec561f1e39) | [Link](https://drive.google.com/file/d/1R3ZnKTo5Nc1wdFdcCVhlYtb_9zMkY7Br/view?usp=sharing) | 
 
 ## Week 9 Timebox (PBL Part 1) 
