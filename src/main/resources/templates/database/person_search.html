@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- Preparing search using asynchronous "fetch" (no page reload, no wait)
-inspiration from https://www.youtube.com/watch?v=QKcVjdLEX_s
--->
-<html lang="en">
-<header> <div th:replace="fragments/overlaymenu :: commonhead">...</div>
-</header>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:include="/layout :: page(title='Scoreboard')">
+<head>
+</head>
 
-  <title>SQL Person Search</title>
+
+<body>
+<section th:fragment="content">
 
 
 <div>
@@ -87,3 +87,6 @@ inspiration from https://www.youtube.com/watch?v=QKcVjdLEX_s
     }
   </script>
 </div>
+</section>
+</body>
+</html>
