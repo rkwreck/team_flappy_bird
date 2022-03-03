@@ -30,6 +30,8 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 
 ### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
 
+### Team Final Reflection: [Link](https://github.com/rkwreck/team_flappy_bird/wiki/Final-Reflections---TEAM)
+
 ### Jekyll URL [Deployed READ.ME]:** [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
 _Last deployed February 26th, 2022._
 
