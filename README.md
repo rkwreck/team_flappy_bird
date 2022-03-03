@@ -11,18 +11,6 @@ _Last updated February 28th, 2022._
 Not everyone has the same education opportunities and our goal is to change that, all through a retro-styled, Flappy-Bird themed website. We developed minigames to educate people about topics that are taught both in school and out of school. We also linked numerous articles about each topic to encourage further learning. We currently have games about chemistry, physics, plant biology, and medical emergencies. In addition, we hope that our audience realizes how effective simple games can be and get encouraged to learn computer science to create their own games. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
-
-### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
-
-### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
-
-### Jekyll URL [Deployed READ.ME]:** [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
-_Last deployed February 26th, 2022._
-
-### ⭐ **Team Final Review Ticket: [Link](https://github.com/rkwreck/team_flappy_bird/issues/42)** ⭐
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Timebox (Meet the Scrum Team) 
 | Name | Role | Profile | Tasks/Issues | Commits | Journal | 
@@ -36,6 +24,16 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Team Scrum Board: [Link](https://github.com/rkwreck/team_flappy_bird/projects/1)
+
+### Contributors: [Link to Insight Graphs](https://github.com/rkwreck/team_flappy_bird/graphs/contributors)
+
+### Wiki Pages for more detailed documentation: [Link](https://github.com/rkwreck/team_flappy_bird/wiki)
+
+### Jekyll URL [Deployed READ.ME]:** [jekyll site](https://rkwreck.github.io/team_flappy_bird/)
+_Last deployed February 26th, 2022._
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### HISTORY
 * [Week 0 - Meet the Team](https://github.com/rkwreck/team_flappy_bird#week-0-timebox-meet-the-scrum-team)
@@ -50,11 +48,32 @@ Role descriptions [here](https://github.com/rkwreck/team_flappy_bird#week-0-time
 * [Week 9 - PBL Part 1](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-9-timebox-pbl-part-1)
 * [Week 10 - PBL Part 2](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#week-10-timebox-pbl-part-2)
 * [Week 11 - PBL Final](https://github.com/rkwreck/team_flappy_bird/blob/master/README.md#weeks-11-12-timebox-pbl-final--runtimes)
+* N@TM Pictures
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## NA@TM Visuals & Tangibles
+Other people interacting w/ our project:
+
+![image](https://user-images.githubusercontent.com/89210546/156499929-3e2abfbf-daa6-4bfc-8e6a-81058758144f.png)
+
+![image](https://user-images.githubusercontent.com/89210546/156499933-4e380cc6-faab-4553-b180-31f81de0374a.png)
+
+Group selfie:
+
+![image](https://user-images.githubusercontent.com/89210546/156500294-24a74e97-654f-4bed-af47-315aa9dd4e67.png)
+
+Cool things we liked from other classrooms:
+
+![image](https://user-images.githubusercontent.com/89210546/156500382-3019b37c-0d71-4b87-a8f7-be87e6b6f28e.png)
+
+![image](https://user-images.githubusercontent.com/89210546/156500392-1b6faf7e-2ad7-43af-8385-8e845382ea53.png)
+
+
 ## Weeks 11-12 Timebox (PBL Final + Runtimes) 
 Summary of work: This week, we focused on completing our games and website. We finalized all of our work, revamped our frontend, and made sure all GitHub organization was up-to-date. 
+
+### ⭐ **Team Final Review Ticket: [Link](https://github.com/rkwreck/team_flappy_bird/issues/42)** ⭐
 
 | Name | Game/PBL MVC | Wiki Plans | Final Program Code Commits | Videos | Final Review Ticket| Crossover Partner + their ticket w/ our comments | 
 | :--: | :----------: | :--------: | :------------------------: | :----: | :-----------: | :---------------: | 
